@@ -1,0 +1,940 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ace2004/dataset/20001015_AFP_ARB.0053.eng#offset_0_183_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Amman" ;
+    nif:beginIndex "2"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/20001015_AFP_ARB.0053.eng#char=0,180> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Amman> .
+
+<http://ace2004/dataset/20001015_AFP_ARB.0053.eng#offset_0_183_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "AFP" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "18"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/20001015_AFP_ARB.0053.eng#char=0,180> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Agence_France-Presse> .
+
+<http://ace2004/dataset/20001015_AFP_ARB.0053.eng#offset_0_183_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jordan Football Association" ;
+    nif:beginIndex "27"^^xsd:nonNegativeInteger ;
+    nif:endIndex "54"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/20001015_AFP_ARB.0053.eng#char=0,180> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jordan_Football_Association> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_82_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Netflix" ;
+    nif:beginIndex "18"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=1763,1840> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Netflix> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_82_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Stranger Things" ;
+    nif:beginIndex "29"^^xsd:nonNegativeInteger ;
+    nif:endIndex "44"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=1763,1840> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Stranger_Things> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_159_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Florida KidCare" ;
+    nif:beginIndex "30"^^xsd:nonNegativeInteger ;
+    nif:endIndex "45"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2798,2968> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/KidCare> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_159_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dr. Smith" ;
+    nif:beginIndex "55"^^xsd:nonNegativeInteger ;
+    nif:endIndex "64"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2798,2968> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Smith_(surname)> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_179_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dr. Johnson" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "32"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=3360,3551> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Lyndon_Johnson> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_179_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "University of Michigan" ;
+    nif:beginIndex "126"^^xsd:nonNegativeInteger ;
+    nif:endIndex "148"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=3360,3551> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/University_of_Michigan> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_179_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Medical School" ;
+    nif:beginIndex "149"^^xsd:nonNegativeInteger ;
+    nif:endIndex "163"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=3360,3551> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/University_of_Michigan_Medical_School> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_122_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Nile River" ;
+    nif:beginIndex "68"^^xsd:nonNegativeInteger ;
+    nif:endIndex "78"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=701,824> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Nile> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_235_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "O'Hare International Airport" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "35"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=4080,4276> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/O%27Hare_International_Airport> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_235_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Richard J. Daley" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=4080,4276> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Richard_J._Daley> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_235_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "University of Illinois" ;
+    nif:beginIndex "76"^^xsd:nonNegativeInteger ;
+    nif:endIndex "98"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=4080,4276> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/University_of_Illinois> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_235_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hail to the Orange" ;
+    nif:beginIndex "144"^^xsd:nonNegativeInteger ;
+    nif:endIndex "162"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=4080,4276> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hail_to_the_Orange> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_235_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Richard J. Daley" ;
+    nif:beginIndex "168"^^xsd:nonNegativeInteger ;
+    nif:endIndex "184"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=4080,4276> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Richard_J._Daley> .
+
+<http://msnbc/dataset/Pol16452612.txt#offset_0_89_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Elizabeth Warren" ;
+    nif:beginIndex "39"^^xsd:nonNegativeInteger ;
+    nif:endIndex "55"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16452612.txt#char=3606,3686> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Elizabeth_Warren> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_111_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mike Krzyzewski" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=729,834> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mike_Krzyzewski> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_111_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Durham" ;
+    nif:beginIndex "104"^^xsd:nonNegativeInteger ;
+    nif:endIndex "110"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=729,834> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Durham,_North_Carolina> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_123_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Gregg Popovich" ;
+    nif:beginIndex "93"^^xsd:nonNegativeInteger ;
+    nif:endIndex "107"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=3741,3855> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Gregg_Popovich> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_132_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "John Mara" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2890,3005> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/John_Mara> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_132_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tom Coughlin" ;
+    nif:beginIndex "65"^^xsd:nonNegativeInteger ;
+    nif:endIndex "77"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2890,3005> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tom_Coughlin> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_132_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Giants" ;
+    nif:beginIndex "90"^^xsd:nonNegativeInteger ;
+    nif:endIndex "96"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2890,3005> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_York_Giants> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_132_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Boston College" ;
+    nif:beginIndex "102"^^xsd:nonNegativeInteger ;
+    nif:endIndex "116"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2890,3005> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Boston_College> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_144_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jim Harbaugh" ;
+    nif:beginIndex "6"^^xsd:nonNegativeInteger ;
+    nif:endIndex "18"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2331,2466> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jim_Harbaugh> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_144_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Wolverines" ;
+    nif:beginIndex "35"^^xsd:nonNegativeInteger ;
+    nif:endIndex "45"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2331,2466> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Michigan_Wolverines_football> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_144_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Michigan" ;
+    nif:beginIndex "65"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2331,2466> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/University_of_Michigan> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_144_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Luke Fickell" ;
+    nif:beginIndex "93"^^xsd:nonNegativeInteger ;
+    nif:endIndex "105"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2331,2466> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Luke_Fickell> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_144_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cincinnati" ;
+    nif:beginIndex "133"^^xsd:nonNegativeInteger ;
+    nif:endIndex "143"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2331,2466> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/University_of_Cincinnati> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_165_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Arthur Blank" ;
+    nif:beginIndex "39"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=3360,3533> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Arthur_Blank> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_165_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Falcons Holdings" ;
+    nif:beginIndex "80"^^xsd:nonNegativeInteger ;
+    nif:endIndex "96"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=3360,3533> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Atlanta_Falcons> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_165_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Rich McKay" ;
+    nif:beginIndex "102"^^xsd:nonNegativeInteger ;
+    nif:endIndex "112"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=3360,3533> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rich_McKay> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_165_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Falcons" ;
+    nif:beginIndex "118"^^xsd:nonNegativeInteger ;
+    nif:endIndex "125"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=3360,3533> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Atlanta_Falcons> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_174_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sean Payton" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "11"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=4314,4475> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sean_Payton> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_174_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "NFL Europe" ;
+    nif:beginIndex "30"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=4314,4475> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/NFL_Europe> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_174_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mickey Loomis" ;
+    nif:beginIndex "91"^^xsd:nonNegativeInteger ;
+    nif:endIndex "104"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=4314,4475> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mickey_Loomis> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_180_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Stan Kroenke" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=1599,1761> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Stan_Kroenke> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_180_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sean McVay" ;
+    nif:beginIndex "59"^^xsd:nonNegativeInteger ;
+    nif:endIndex "69"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=1599,1761> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sean_McVay> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_180_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "McVay" ;
+    nif:beginIndex "118"^^xsd:nonNegativeInteger ;
+    nif:endIndex "123"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=1599,1761> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sean_McVay> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_180_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Los Angeles Rams" ;
+    nif:beginIndex "155"^^xsd:nonNegativeInteger ;
+    nif:endIndex "171"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=1599,1761> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Los_Angeles_Rams> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_192_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Pete Carroll" ;
+    nif:beginIndex "59"^^xsd:nonNegativeInteger ;
+    nif:endIndex "71"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=159,334> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pete_Carroll> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_192_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "USC Trojans" ;
+    nif:beginIndex "85"^^xsd:nonNegativeInteger ;
+    nif:endIndex "96"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=159,334> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/USC_Trojans_football> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_192_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New England Patriots" ;
+    nif:beginIndex "147"^^xsd:nonNegativeInteger ;
+    nif:endIndex "167"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=159,334> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_England_Patriots> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_194_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Drew Brees" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "15"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=4031,4221> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Drew_Brees> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_194_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New Orleans" ;
+    nif:beginIndex "80"^^xsd:nonNegativeInteger ;
+    nif:endIndex "91"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=4031,4221> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_Orleans_Saints> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_194_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Archie Manning" ;
+    nif:beginIndex "155"^^xsd:nonNegativeInteger ;
+    nif:endIndex "169"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=4031,4221> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Archie_Manning> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Pete Carroll" ;
+    nif:beginIndex "31"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pete_Carroll> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Seattle Seahawks" ;
+    nif:beginIndex "52"^^xsd:nonNegativeInteger ;
+    nif:endIndex "68"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Seattle_Seahawks> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Greg Roman" ;
+    nif:beginIndex "287"^^xsd:nonNegativeInteger ;
+    nif:endIndex "297"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Greg_Roman> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_11> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Minnesota Vikings" ;
+    nif:beginIndex "302"^^xsd:nonNegativeInteger ;
+    nif:endIndex "319"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Minnesota_Vikings> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_12> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mike Zimmer" ;
+    nif:beginIndex "331"^^xsd:nonNegativeInteger ;
+    nif:endIndex "342"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mike_Zimmer> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Andre Patterson" ;
+    nif:beginIndex "347"^^xsd:nonNegativeInteger ;
+    nif:endIndex "362"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Andre_Patterson> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ken Norton Jr." ;
+    nif:beginIndex "91"^^xsd:nonNegativeInteger ;
+    nif:endIndex "105"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ken_Norton_Jr.> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Denver Broncos" ;
+    nif:beginIndex "114"^^xsd:nonNegativeInteger ;
+    nif:endIndex "128"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Denver_Broncos> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Vic Fangio" ;
+    nif:beginIndex "140"^^xsd:nonNegativeInteger ;
+    nif:endIndex "150"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Vic_Fangio> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Arizona Cardinals" ;
+    nif:beginIndex "152"^^xsd:nonNegativeInteger ;
+    nif:endIndex "169"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Arizona_Cardinals> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kliff Kingsbury" ;
+    nif:beginIndex "192"^^xsd:nonNegativeInteger ;
+    nif:endIndex "207"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Kliff_Kingsbury> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Houston Texans" ;
+    nif:beginIndex "209"^^xsd:nonNegativeInteger ;
+    nif:endIndex "223"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Houston_Texans> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "David Culley" ;
+    nif:beginIndex "234"^^xsd:nonNegativeInteger ;
+    nif:endIndex "246"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/David_Culley> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_364_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Baltimore Ravens" ;
+    nif:beginIndex "248"^^xsd:nonNegativeInteger ;
+    nif:endIndex "264"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2549,2889> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Baltimore_Ravens> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_62_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cowboys" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "11"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=3607,3670> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Dallas_Cowboys> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_67_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Miami Dolphins" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "18"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=3534,3606> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Miami_Dolphins> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_67_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New York Jets" ;
+    nif:beginIndex "23"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=3534,3606> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_York_Jets> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_71_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jerry Jones" ;
+    nif:beginIndex "13"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=1989,2057> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jerry_Jones> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_88_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jim Harbaugh" ;
+    nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+    nif:endIndex "87"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=1311,1392> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Patrick_Mahomes> .
+
+<http://msnbc/dataset/Spo16455207.txt#offset_0_55_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Lionel Messi" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16455207.txt#char=1283,1331> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Lionel_Messi> .
+
+<http://msnbc/dataset/Spo16455207.txt#offset_0_96_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Gregg Popovich" ;
+    nif:beginIndex "8"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16455207.txt#char=1332,1424> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Gregg_Popovich> .
+
+<http://msnbc/dataset/Spo16455207.txt#offset_0_96_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Spurs" ;
+    nif:beginIndex "32"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16455207.txt#char=1332,1424> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/San_Antonio_Spurs> .
+
+<http://msnbc/dataset/Spo16455207.txt#offset_0_96_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tim Duncan" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "55"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16455207.txt#char=1332,1424> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tim_Duncan> .
+
+<http://msnbc/dataset/Spo16455207.txt#offset_0_98_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Central Division" ;
+    nif:beginIndex "74"^^xsd:nonNegativeInteger ;
+    nif:endIndex "90"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16455207.txt#char=1425,1525> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Central_Division_(NBA)> .
+
+<http://msnbc/dataset/TvN16442287.txt#offset_0_131_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Marion Nestle" ;
+    nif:beginIndex "13"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442287.txt#char=188,315> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Marion_Nestle> .
+
+<http://msnbc/dataset/TvN16442287.txt#offset_0_67_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mark Hyman" ;
+    nif:beginIndex "20"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442287.txt#char=35,101> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mark_Hyman_(physician)> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_123_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Smith" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=3872,4002> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Smith_family> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_123_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sarah Smith" ;
+    nif:beginIndex "17"^^xsd:nonNegativeInteger ;
+    nif:endIndex "28"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=3872,4002> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sarah_Smith> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_144_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Smith" ;
+    nif:beginIndex "81"^^xsd:nonNegativeInteger ;
+    nif:endIndex "86"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=3255,3391> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Will_Smith> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_144_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Australian Defence Force" ;
+    nif:beginIndex "119"^^xsd:nonNegativeInteger ;
+    nif:endIndex "143"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=3255,3391> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Australian_Defence_Force> .
+
+<https://anonymiz.ed/conll/1310#offset_0_894_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "PHOENIX" ;
+    nif:beginIndex "56"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1310#char=0,902> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Phoenix,_Arizona> .
+
+<https://anonymiz.ed/conll/1310#offset_0_894_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ariz." ;
+    nif:beginIndex "66"^^xsd:nonNegativeInteger ;
+    nif:endIndex "71"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1310#char=0,902> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Arizona> .
+
+<https://anonymiz.ed/conll/1310#offset_0_894_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Arizona" ;
+    nif:beginIndex "86"^^xsd:nonNegativeInteger ;
+    nif:endIndex "93"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1310#char=0,902> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Arizona> .
+
+<https://anonymiz.ed/conll/1310#offset_0_894_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Phoenix" ;
+    nif:beginIndex "330"^^xsd:nonNegativeInteger ;
+    nif:endIndex "337"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1310#char=0,902> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Phoenix,_Arizona> .
+
+<https://anonymiz.ed/conll/1310#offset_0_894_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Arizona Interscholastic Association" ;
+    nif:beginIndex "542"^^xsd:nonNegativeInteger ;
+    nif:endIndex "577"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1310#char=0,902> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Arizona_Interscholastic_Association> .
+
+<https://anonymiz.ed/domain11/> a nif:ContextCollection ;
+    nif:hasContext <http://ace2004/dataset/20001015_AFP_ARB.0053.eng#char=0,180>,
+        <http://msnbc/dataset/Ent16453733.txt#char=1763,1840>,
+        <http://msnbc/dataset/Hea16451212.txt#char=2798,2968>,
+        <http://msnbc/dataset/Hea16451212.txt#char=3360,3551>,
+        <http://msnbc/dataset/Pol16447720.txt#char=4080,4276>,
+        <http://msnbc/dataset/Pol16447720.txt#char=701,824>,
+        <http://msnbc/dataset/Pol16452612.txt#char=3606,3686>,
+        <http://msnbc/dataset/Spo16417540.txt#char=1311,1392>,
+        <http://msnbc/dataset/Spo16417540.txt#char=159,334>,
+        <http://msnbc/dataset/Spo16417540.txt#char=1599,1761>,
+        <http://msnbc/dataset/Spo16417540.txt#char=1989,2057>,
+        <http://msnbc/dataset/Spo16417540.txt#char=2331,2466>,
+        <http://msnbc/dataset/Spo16417540.txt#char=2549,2889>,
+        <http://msnbc/dataset/Spo16417540.txt#char=2890,3005>,
+        <http://msnbc/dataset/Spo16417540.txt#char=3360,3533>,
+        <http://msnbc/dataset/Spo16417540.txt#char=3534,3606>,
+        <http://msnbc/dataset/Spo16417540.txt#char=3607,3670>,
+        <http://msnbc/dataset/Spo16417540.txt#char=3741,3855>,
+        <http://msnbc/dataset/Spo16417540.txt#char=4031,4221>,
+        <http://msnbc/dataset/Spo16417540.txt#char=4314,4475>,
+        <http://msnbc/dataset/Spo16417540.txt#char=729,834>,
+        <http://msnbc/dataset/Spo16455207.txt#char=1283,1331>,
+        <http://msnbc/dataset/Spo16455207.txt#char=1332,1424>,
+        <http://msnbc/dataset/Spo16455207.txt#char=1425,1525>,
+        <http://msnbc/dataset/TvN16442287.txt#char=188,315>,
+        <http://msnbc/dataset/TvN16442287.txt#char=35,101>,
+        <http://msnbc/dataset/USN16444287.txt#char=3255,3391>,
+        <http://msnbc/dataset/USN16444287.txt#char=3872,4002>,
+        <https://anonymiz.ed/conll/1310#char=0,902> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/Pol16447720.txt#char=701,824> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "122"^^xsd:nonNegativeInteger ;
+    nif:isString "His body was to be interred during a private burial overlooking the Nile River north of the museum on the museum grounds. " .
+
+<http://msnbc/dataset/Pol16452612.txt#char=3606,3686> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "89"^^xsd:nonNegativeInteger ;
+    nif:isString "A shrewd student of the American mood, Elizabeth Warren is aiming in the right direction." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=1311,1392> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "88"^^xsd:nonNegativeInteger ;
+    nif:isString "A preference for the college game and the campus lifestyle may have swayed Jim Harbaugh." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=1989,2057> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "71"^^xsd:nonNegativeInteger ;
+    nif:isString "In the past, Jerry Jones has been persuasive when dealing with coaches." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=3607,3670> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "62"^^xsd:nonNegativeInteger ;
+    nif:isString "The Cowboys’ next coach will be their fourth in nine seasons. " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=3741,3855> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "123"^^xsd:nonNegativeInteger ;
+    nif:isString "It has been a frustrating a stretch of instability for a franchise that had the same coach — Gregg Popovich — for 26 years." .
+
+<http://msnbc/dataset/Spo16455207.txt#char=1283,1331> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "55"^^xsd:nonNegativeInteger ;
+    nif:isString "ESPN said Lionel Messi plans on returning to the team. " .
+
+<http://msnbc/dataset/Spo16455207.txt#char=1425,1525> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "98"^^xsd:nonNegativeInteger ;
+    nif:isString "He is scheduled to travel with the team on its six-game road trip against Central Division teams. " .
+
+<http://msnbc/dataset/TvN16442287.txt#char=188,315> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "131"^^xsd:nonNegativeInteger ;
+    nif:isString "Nutritionist Marion Nestle has created 5 healthy, and simple, resolutions we all should have on our “to do” list for the new year: " .
+
+<http://msnbc/dataset/TvN16442287.txt#char=35,101> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "67"^^xsd:nonNegativeInteger ;
+    nif:isString "Follow nutritionist Mark Hyman's recommendations for a better year " .
+
+<http://msnbc/dataset/Ent16453733.txt#char=1763,1840> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "82"^^xsd:nonNegativeInteger ;
+    nif:isString "He is the host of Netflix’s “Stranger Things,” which begins its new season Sunday." .
+
+<http://msnbc/dataset/Hea16451212.txt#char=2798,2968> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "159"^^xsd:nonNegativeInteger ;
+    nif:isString "During their two years in the Florida KidCare program, Dr. Smith’s children received free medical care and she found a job working with special needs children." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=3534,3606> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "67"^^xsd:nonNegativeInteger ;
+    nif:isString "The Miami Dolphins and New York Jets are also seeking a new coach. " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=729,834> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "111"^^xsd:nonNegativeInteger ;
+    nif:isString "Since late November, Mike Krzyzewski had issued frequent, angry public denials of interest in moving to Durham." .
+
+<http://msnbc/dataset/USN16444287.txt#char=3255,3391> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "144"^^xsd:nonNegativeInteger ;
+    nif:isString "“I said you’ve got to be joking me, he’s never even had a speeding ticket,” said Smith, a retired math teacher for the Australian Defence Force." .
+
+<http://msnbc/dataset/USN16444287.txt#char=3872,4002> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "123"^^xsd:nonNegativeInteger ;
+    nif:isString "Smith’s daughter Sarah Smith said she was glad her father made it home, but feared he wouldn’t be able to return to visit. " .
+
+<http://ace2004/dataset/20001015_AFP_ARB.0053.eng#char=0,180> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "183"^^xsd:nonNegativeInteger ;
+    nif:isString "  Amman 10-15 (AFP) -  The Jordan Football Association sacked the team's Czech coach Milan Machala from his post today Sunday and appointed his assistant, Nasser Jawhar, in his place." .
+
+<http://msnbc/dataset/Hea16451212.txt#char=3360,3551> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "179"^^xsd:nonNegativeInteger ;
+    nif:isString "To recruit families, Dr. Johnson tours the state presenting health screenings at schools with the help of volunteers from the University of Michigan Medical School and elsewhere. " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=159,334> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "192"^^xsd:nonNegativeInteger ;
+    nif:isString "Ending five weeks of denials and two days of deliberation, Pete Carroll accepted the USC Trojans coaching job and abandoned his bid to rebuild the New England Patriots after only two seasons. " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=4031,4221> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "194"^^xsd:nonNegativeInteger ;
+    nif:isString "With Drew Brees struggling to recover from reconstructive knee surgery in 2005, New Orleans remains unsettled at quarterback, a troublesome position since Archie Manning retired seven years ago." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=4314,4475> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "174"^^xsd:nonNegativeInteger ;
+    nif:isString "Sean Payton leaves behind the NFL Europe’s largest staff of assistants and general manager Mickey Loomis, who might be given more responsibility under a new coaching regime. " .
+
+<http://msnbc/dataset/Spo16455207.txt#char=1332,1424> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "96"^^xsd:nonNegativeInteger ;
+    nif:isString "Just as Gregg Popovich departs, Spurs center Tim Duncan appears ready to return from his injury." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=1599,1761> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "180"^^xsd:nonNegativeInteger ;
+    nif:isString "Stan Kroenke has said he received repeated assurances from Sean McVay that he would return in 2007, and two weeks ago McVay said: “I’m not going to be the Los Angeles Rams coach.” " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=2890,3005> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "132"^^xsd:nonNegativeInteger ;
+    nif:isString "John Mara didn’t rule out hiring a college coach, as he did when Tom Coughlin came to the Giants from Boston College two years ago. " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=3360,3533> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "165"^^xsd:nonNegativeInteger ;
+    nif:isString "Leading the search for a coach will be Arthur Blank, chief executive officer of Falcons Holdings, and Rich McKay, the Falcons’ president and chief operating officer." .
+
+<http://msnbc/dataset/Pol16447720.txt#char=4080,4276> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "235"^^xsd:nonNegativeInteger ;
+    nif:isString "At the O'Hare International Airport that bears Richard J. Daley’s name, the University of Illinois band played the school’s famous fight song, “Hail to the Orange,” as Richard J. Daley’s flag-draped casket was transferred to a hearse. " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=2331,2466> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "144"^^xsd:nonNegativeInteger ;
+    nif:isString "After Jim Harbaugh turned down the Wolverines in early December, Michigan offered the job to Luke Fickell, but he decided to stay at Cincinnati." .
+
+<https://anonymiz.ed/conll/1310#char=0,902> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "894"^^xsd:nonNegativeInteger ;
+    nif:isString "School football player banned for slashing opponents .  PHOENIX , Ariz. 1996-12-05  A Arizona high school football player who used razor-sharp helmet buckles to slash opponents and a referee was expelled from high school banned Thursday from competition for one year .  Mike Cito , 17 , was expelled from St Pius X High School in Phoenix after an October game in which he used the sharpened chin strap buckles to injure two opposing players and the referee .  One of the players need 10 stitches to a cut on his forearm .  Officials said the Arizona Interscholastic Association decided to bar Cito from any inter-scholastic competition until next October , regardless of the school he attends .  Cito 's father , Stephen Cito , had admitted filing the metal buckles to a fine edge , saying he did it to get even with the referee and with players who had roughed up his son in a previous game . " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=2549,2889> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "364"^^xsd:nonNegativeInteger ;
+    nif:isString "Possible candidates to replace Pete Carroll include Seattle Seahawks defensive coordinator Ken Norton Jr., former Denver Broncos head coach Vic Fangio, Arizona Cardinals offensive coordinator Kliff Kingsbury, Houston Texans assistant David Culley, Baltimore Ravens offensive coordinator Greg Roman and Minnesota Vikings assistants Mike Zimmer and Andre Patterson. " .
+

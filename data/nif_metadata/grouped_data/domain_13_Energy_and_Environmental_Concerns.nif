@@ -1,0 +1,1858 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/AQUAINT/document225#offset_0_748_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "methane" ;
+    nif:beginIndex "115"^^xsd:nonNegativeInteger ;
+    nif:endIndex "122"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document225> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Methane> .
+
+<http://example.org/AQUAINT/document228#offset_0_852_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "harmful byproducts" ;
+    nif:beginIndex "217"^^xsd:nonNegativeInteger ;
+    nif:endIndex "235"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document228> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/By-product> .
+
+<http://example.org/AQUAINT/document231#offset_0_1219_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "methane" ;
+    nif:beginIndex "627"^^xsd:nonNegativeInteger ;
+    nif:endIndex "634"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document231> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Methane> .
+
+<http://example.org/AQUAINT/document232#offset_0_1226_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "offshore wind" ;
+    nif:beginIndex "627"^^xsd:nonNegativeInteger ;
+    nif:endIndex "640"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document232> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Offshore_wind_power> .
+
+<http://example.org/AQUAINT/document233#offset_0_1104_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "particulate matter" ;
+    nif:beginIndex "603"^^xsd:nonNegativeInteger ;
+    nif:endIndex "621"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document233> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Particulates> .
+
+<http://example.org/AQUAINT/document234#offset_0_1021_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Russia" ;
+    nif:beginIndex "605"^^xsd:nonNegativeInteger ;
+    nif:endIndex "611"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document234> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Russia> .
+
+<http://example.org/AQUAINT/document235#offset_0_824_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "coal-fired plants" ;
+    nif:beginIndex "590"^^xsd:nonNegativeInteger ;
+    nif:endIndex "607"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document235> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Coal-fired_power_station> .
+
+<http://example.org/AQUAINT/document236#offset_0_721_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "argon" ;
+    nif:beginIndex "595"^^xsd:nonNegativeInteger ;
+    nif:endIndex "600"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document236> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Argon> .
+
+<http://example.org/AQUAINT/document237#offset_0_590_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Trondheim" ;
+    nif:beginIndex "581"^^xsd:nonNegativeInteger ;
+    nif:endIndex "590"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document237> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Trondheim> .
+
+<http://example.org/AQUAINT/document527#offset_0_1184_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "solar power" ;
+    nif:beginIndex "630"^^xsd:nonNegativeInteger ;
+    nif:endIndex "641"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document527> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Solar_power> .
+
+<http://example.org/AQUAINT/document534#offset_0_885_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "green energy advocates" ;
+    nif:beginIndex "224"^^xsd:nonNegativeInteger ;
+    nif:endIndex "246"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document534> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Renewable_energy> .
+
+<http://example.org/AQUAINT/document535#offset_0_979_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "three outdated geothermal plants" ;
+    nif:beginIndex "311"^^xsd:nonNegativeInteger ;
+    nif:endIndex "343"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document535> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Geothermal_power> .
+
+<http://example.org/AQUAINT/document537#offset_0_1143_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "toxic byproducts" ;
+    nif:beginIndex "492"^^xsd:nonNegativeInteger ;
+    nif:endIndex "508"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document537> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Toxic_waste> .
+
+<http://example.org/AQUAINT/document545#offset_0_617_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Blizzard conditions" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document545> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Blizzard> .
+
+<http://example.org/AQUAINT/document546#offset_0_683_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Great Plains" ;
+    nif:beginIndex "72"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document546> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Great_Plains> .
+
+<http://example.org/AQUAINT/document547#offset_0_688_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Texas" ;
+    nif:beginIndex "88"^^xsd:nonNegativeInteger ;
+    nif:endIndex "93"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document547> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Texas> .
+
+<http://example.org/AQUAINT/document548#offset_0_711_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "South Carolina" ;
+    nif:beginIndex "101"^^xsd:nonNegativeInteger ;
+    nif:endIndex "115"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document548> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/South_Carolina> .
+
+<http://example.org/AQUAINT/document549#offset_0_731_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mississippi" ;
+    nif:beginIndex "126"^^xsd:nonNegativeInteger ;
+    nif:endIndex "137"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document549> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mississippi> .
+
+<http://example.org/AQUAINT/document550#offset_0_737_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Drizzle" ;
+    nif:beginIndex "136"^^xsd:nonNegativeInteger ;
+    nif:endIndex "143"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document550> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Drizzle> .
+
+<http://example.org/AQUAINT/document551#offset_0_776_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the Great Plains" ;
+    nif:beginIndex "157"^^xsd:nonNegativeInteger ;
+    nif:endIndex "173"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document551> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Great_Plains> .
+
+<http://example.org/AQUAINT/document552#offset_0_794_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Flash floods" ;
+    nif:beginIndex "182"^^xsd:nonNegativeInteger ;
+    nif:endIndex "194"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document552> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Flash_flood> .
+
+<http://example.org/AQUAINT/document553#offset_0_805_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "blizzards" ;
+    nif:beginIndex "198"^^xsd:nonNegativeInteger ;
+    nif:endIndex "207"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document553> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Blizzard> .
+
+<http://example.org/AQUAINT/document554#offset_0_811_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "squalls" ;
+    nif:beginIndex "203"^^xsd:nonNegativeInteger ;
+    nif:endIndex "210"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document554> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Squall> .
+
+<http://example.org/AQUAINT/document555#offset_0_952_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Great Lakes region" ;
+    nif:beginIndex "300"^^xsd:nonNegativeInteger ;
+    nif:endIndex "318"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document555> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Great_Lakes_region> .
+
+<http://example.org/AQUAINT/document556#offset_0_991_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Arkansas" ;
+    nif:beginIndex "359"^^xsd:nonNegativeInteger ;
+    nif:endIndex "367"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document556> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Arkansas> .
+
+<http://example.org/AQUAINT/document557#offset_0_1085_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Denver International Airport" ;
+    nif:beginIndex "440"^^xsd:nonNegativeInteger ;
+    nif:endIndex "468"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document557> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Denver_International_Airport> .
+
+<http://example.org/AQUAINT/document558#offset_0_1148_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Midwest" ;
+    nif:beginIndex "518"^^xsd:nonNegativeInteger ;
+    nif:endIndex "525"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document558> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Midwestern_United_States> .
+
+<http://example.org/AQUAINT/document559#offset_0_1222_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "White" ;
+    nif:beginIndex "576"^^xsd:nonNegativeInteger ;
+    nif:endIndex "581"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document559> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/White_Mountains_(New_Hampshire)> .
+
+<http://example.org/AQUAINT/document560#offset_0_1235_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Pocono Mountains" ;
+    nif:beginIndex "582"^^xsd:nonNegativeInteger ;
+    nif:endIndex "598"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document560> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pocono_Mountains> .
+
+<http://example.org/AQUAINT/document561#offset_0_1223_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Connecticut" ;
+    nif:beginIndex "587"^^xsd:nonNegativeInteger ;
+    nif:endIndex "598"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document561> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Connecticut> .
+
+<http://example.org/AQUAINT/document562#offset_0_1235_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Rhode Island" ;
+    nif:beginIndex "598"^^xsd:nonNegativeInteger ;
+    nif:endIndex "610"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document562> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rhode_Island> .
+
+<http://example.org/AQUAINT/document563#offset_0_1234_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "temperature" ;
+    nif:beginIndex "597"^^xsd:nonNegativeInteger ;
+    nif:endIndex "608"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document563> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Temperature> .
+
+<http://example.org/AQUAINT/document564#offset_0_1216_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "frost" ;
+    nif:beginIndex "596"^^xsd:nonNegativeInteger ;
+    nif:endIndex "601"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document564> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Frost> .
+
+<http://example.org/AQUAINT/document565#offset_0_1208_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the Pacific Northwest" ;
+    nif:beginIndex "600"^^xsd:nonNegativeInteger ;
+    nif:endIndex "621"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document565> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pacific_Northwest> .
+
+<http://example.org/AQUAINT/document566#offset_0_1185_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cascades" ;
+    nif:beginIndex "598"^^xsd:nonNegativeInteger ;
+    nif:endIndex "606"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document566> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Cascade_Range> .
+
+<http://example.org/AQUAINT/document567#offset_0_1177_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Midwest" ;
+    nif:beginIndex "601"^^xsd:nonNegativeInteger ;
+    nif:endIndex "608"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document567> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Midwestern_United_States> .
+
+<http://example.org/AQUAINT/document568#offset_0_1177_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Coastal Plains" ;
+    nif:beginIndex "616"^^xsd:nonNegativeInteger ;
+    nif:endIndex "630"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document568> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Atlantic_Coastal_Plain> .
+
+<http://example.org/AQUAINT/document569#offset_0_1131_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New Mexico" ;
+    nif:beginIndex "633"^^xsd:nonNegativeInteger ;
+    nif:endIndex "643"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document569> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_Mexico> .
+
+<http://example.org/AQUAINT/document570#offset_0_1087_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Alaska" ;
+    nif:beginIndex "628"^^xsd:nonNegativeInteger ;
+    nif:endIndex "634"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document570> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Alaska> .
+
+<http://example.org/AQUAINT/document571#offset_0_1092_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Vancouver Island" ;
+    nif:beginIndex "634"^^xsd:nonNegativeInteger ;
+    nif:endIndex "650"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document571> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Vancouver_Island> .
+
+<http://example.org/AQUAINT/document572#offset_0_984_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the Rust Belt" ;
+    nif:beginIndex "620"^^xsd:nonNegativeInteger ;
+    nif:endIndex "633"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document572> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rust_Belt> .
+
+<http://example.org/AQUAINT/document573#offset_0_984_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Appalachian Mountains" ;
+    nif:beginIndex "624"^^xsd:nonNegativeInteger ;
+    nif:endIndex "645"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document573> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Appalachian_Mountains> .
+
+<http://example.org/AQUAINT/document574#offset_0_933_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the Southwest" ;
+    nif:beginIndex "625"^^xsd:nonNegativeInteger ;
+    nif:endIndex "638"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document574> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Southwestern_United_States> .
+
+<http://example.org/AQUAINT/document575#offset_0_907_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New England" ;
+    nif:beginIndex "621"^^xsd:nonNegativeInteger ;
+    nif:endIndex "632"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document575> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_England> .
+
+<http://example.org/AQUAINT/document576#offset_0_815_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "barometric pressure" ;
+    nif:beginIndex "640"^^xsd:nonNegativeInteger ;
+    nif:endIndex "659"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document576> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Atmospheric_pressure> .
+
+<http://example.org/AQUAINT/document577#offset_0_683_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Amarillo" ;
+    nif:beginIndex "624"^^xsd:nonNegativeInteger ;
+    nif:endIndex "632"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document577> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Amarillo,_Texas> .
+
+<http://example.org/AQUAINT/document579#offset_0_625_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Gunnison, Colorado" ;
+    nif:beginIndex "607"^^xsd:nonNegativeInteger ;
+    nif:endIndex "625"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document579> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Gunnison,_Colorado> .
+
+<http://example.org/AQUAINT/document632#offset_0_614_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "wind" ;
+    nif:beginIndex "603"^^xsd:nonNegativeInteger ;
+    nif:endIndex "607"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document632> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Wind_power> .
+
+<http://example.org/AQUAINT/document633#offset_0_579_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Space observers" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "15"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document633> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Astronomical_observation> .
+
+<http://example.org/AQUAINT/document634#offset_0_625_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "thunderstorm" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "59"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document634> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Thunderstorm> .
+
+<http://example.org/AQUAINT/document636#offset_0_728_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Uranus" ;
+    nif:beginIndex "137"^^xsd:nonNegativeInteger ;
+    nif:endIndex "143"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document636> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Uranus> .
+
+<http://example.org/AQUAINT/document638#offset_0_823_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "National Astronomical Observatory of Japan" ;
+    nif:beginIndex "210"^^xsd:nonNegativeInteger ;
+    nif:endIndex "252"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document638> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/National_Astronomical_Observatory_of_Japan> .
+
+<http://example.org/AQUAINT/document639#offset_0_852_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Spitzer Space Telescope" ;
+    nif:beginIndex "269"^^xsd:nonNegativeInteger ;
+    nif:endIndex "292"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document639> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Spitzer_Space_Telescope> .
+
+<http://example.org/AQUAINT/document640#offset_0_902_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Saturnian" ;
+    nif:beginIndex "323"^^xsd:nonNegativeInteger ;
+    nif:endIndex "332"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document640> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Saturn> .
+
+<http://example.org/AQUAINT/document641#offset_0_939_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hail" ;
+    nif:beginIndex "360"^^xsd:nonNegativeInteger ;
+    nif:endIndex "364"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document641> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hail> .
+
+<http://example.org/AQUAINT/document642#offset_0_1147_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "supercells" ;
+    nif:beginIndex "544"^^xsd:nonNegativeInteger ;
+    nif:endIndex "554"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document642> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Supercell> .
+
+<http://example.org/AQUAINT/document643#offset_0_1159_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jupiter" ;
+    nif:beginIndex "558"^^xsd:nonNegativeInteger ;
+    nif:endIndex "565"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document643> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jupiter> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_122_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "FTSE 100" ;
+    nif:beginIndex "78"^^xsd:nonNegativeInteger ;
+    nif:endIndex "86"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=335,458> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/FTSE_100_Index> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_201_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Chicago Mercantile Exchange" ;
+    nif:beginIndex "58"^^xsd:nonNegativeInteger ;
+    nif:endIndex "85"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=2086,2288> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Chicago_Mercantile_Exchange> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_201_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "North America" ;
+    nif:beginIndex "138"^^xsd:nonNegativeInteger ;
+    nif:endIndex "151"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=2086,2288> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/North_America> .
+
+<http://msnbc/dataset/Hea16384904.txt#offset_0_247_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "University of Michigan" ;
+    nif:beginIndex "3"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16384904.txt#char=2596,2835> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/University_of_Michigan> .
+
+<http://msnbc/dataset/Hea16384904.txt#offset_0_247_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "University of Texas at Austin" ;
+    nif:beginIndex "168"^^xsd:nonNegativeInteger ;
+    nif:endIndex "197"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16384904.txt#char=2596,2835> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/University_of_Texas_at_Austin> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_218_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Austin, Tex." ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=119,319> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Austin,_Texas> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_218_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Maria Garcia" ;
+    nif:beginIndex "38"^^xsd:nonNegativeInteger ;
+    nif:endIndex "50"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=119,319> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Maria_Garcia_(disambiguation)> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_218_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "state Medicaid programs" ;
+    nif:beginIndex "180"^^xsd:nonNegativeInteger ;
+    nif:endIndex "203"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=119,319> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Medicaid> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_101_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mercury" ;
+    nif:beginIndex "93"^^xsd:nonNegativeInteger ;
+    nif:endIndex "100"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=1929,2027> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mercury_(planet)> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_151_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Zhurong" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=2028,2180> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Zhurong_(rover)> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_151_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tianwen-1" ;
+    nif:beginIndex "80"^^xsd:nonNegativeInteger ;
+    nif:endIndex "89"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=2028,2180> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tianwen-1> .
+
+<http://msnbc/dataset/TvN16442342.txt#offset_0_144_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Monongah" ;
+    nif:beginIndex "6"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442342.txt#char=674,815> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Monongah_mining_disaster> .
+
+<http://msnbc/dataset/TvN16442342.txt#offset_0_144_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Pennsylvania" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442342.txt#char=674,815> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pennsylvania> .
+
+<http://msnbc/dataset/TvN16442342.txt#offset_0_80_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Upper Big Branch Mine disaster" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "45"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442342.txt#char=47,115> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Upper_Big_Branch_Mine_disaster> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_106_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "FBI" ;
+    nif:beginIndex "28"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=1153,1282> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Federal_Bureau_of_Investigation> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_106_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the Senate" ;
+    nif:beginIndex "85"^^xsd:nonNegativeInteger ;
+    nif:endIndex "95"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=1153,1282> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States_Senate> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_154_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hurricane Maria" ;
+    nif:beginIndex "22"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=2594,2750> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hurricane_Maria> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brazilian" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brazil> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "RIO DE JANEIRO" ;
+    nif:beginIndex "52"^^xsd:nonNegativeInteger ;
+    nif:endIndex "66"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rio_de_Janeiro> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Santa Catarina" ;
+    nif:beginIndex "849"^^xsd:nonNegativeInteger ;
+    nif:endIndex "863"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Santa_Catarina_(state)> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_11> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Rio Grande do Sul" ;
+    nif:beginIndex "878"^^xsd:nonNegativeInteger ;
+    nif:endIndex "895"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rio_Grande_do_Sul> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_12> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "South Atlantic Ocean" ;
+    nif:beginIndex "976"^^xsd:nonNegativeInteger ;
+    nif:endIndex "996"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Atlantic_Ocean> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "São Paulo" ;
+    nif:beginIndex "1048"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1057"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/São_Paulo_(state)> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_14> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "South Atlantic Ocean" ;
+    nif:beginIndex "1085"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1105"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Atlantic_Ocean> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_15> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Amazon River" ;
+    nif:beginIndex "1222"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1234"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Amazon_River> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_16> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Amazonas" ;
+    nif:beginIndex "1299"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1307"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Amazonas_(Brazilian_state)> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_17> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brasília" ;
+    nif:beginIndex "1415"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1423"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brasília> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "UTC" ;
+    nif:beginIndex "129"^^xsd:nonNegativeInteger ;
+    nif:endIndex "132"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Coordinated_Universal_Time> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Santos" ;
+    nif:beginIndex "208"^^xsd:nonNegativeInteger ;
+    nif:endIndex "214"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Santos,_São_Paulo> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "South Atlantic Ocean" ;
+    nif:beginIndex "472"^^xsd:nonNegativeInteger ;
+    nif:endIndex "492"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Atlantic_Ocean> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Amazon River" ;
+    nif:beginIndex "495"^^xsd:nonNegativeInteger ;
+    nif:endIndex "507"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Amazon_River> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Atlantic Coast" ;
+    nif:beginIndex "512"^^xsd:nonNegativeInteger ;
+    nif:endIndex "526"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/East_Coast_of_the_United_States> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Atlantic Coast" ;
+    nif:beginIndex "532"^^xsd:nonNegativeInteger ;
+    nif:endIndex "546"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/East_Coast_of_the_United_States> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Santa Catarina" ;
+    nif:beginIndex "590"^^xsd:nonNegativeInteger ;
+    nif:endIndex "604"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Santa_Catarina_(state)> .
+
+<https://anonymiz.ed/conll/1260#offset_0_1447_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Paraná" ;
+    nif:beginIndex "609"^^xsd:nonNegativeInteger ;
+    nif:endIndex "615"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1260#char=0,1407> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Paraná_(state)> .
+
+<https://anonymiz.ed/conll/1261#offset_0_556_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mexico" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1261#char=0,554> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mexico> .
+
+<https://anonymiz.ed/conll/1261#offset_0_556_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "MEXICO CITY" ;
+    nif:beginIndex "53"^^xsd:nonNegativeInteger ;
+    nif:endIndex "64"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1261#char=0,554> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mexico_City> .
+
+<https://anonymiz.ed/conll/1261#offset_0_556_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mexican" ;
+    nif:beginIndex "77"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1261#char=0,554> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mexico> .
+
+<https://anonymiz.ed/conll/1261#offset_0_556_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mexico City" ;
+    nif:beginIndex "255"^^xsd:nonNegativeInteger ;
+    nif:endIndex "266"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1261#char=0,554> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mexico_City> .
+
+<https://anonymiz.ed/conll/1261#offset_0_556_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "El Universal" ;
+    nif:beginIndex "445"^^xsd:nonNegativeInteger ;
+    nif:endIndex "457"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1261#char=0,554> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/El_Universal_(Mexico_City)> .
+
+<https://anonymiz.ed/conll/1261#offset_0_556_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "El Universal" ;
+    nif:beginIndex "536"^^xsd:nonNegativeInteger ;
+    nif:endIndex "548"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1261#char=0,554> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/El_Universal_(Mexico_City)> .
+
+<https://anonymiz.ed/conll/188#offset_0_909_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mexico" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/188#char=0,891> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mexico> .
+
+<https://anonymiz.ed/conll/188#offset_0_909_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Maya" ;
+    nif:beginIndex "38"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/188#char=0,891> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Maya_peoples> .
+
+<https://anonymiz.ed/conll/188#offset_0_909_10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "López Obrador" ;
+    nif:beginIndex "711"^^xsd:nonNegativeInteger ;
+    nif:endIndex "724"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/188#char=0,891> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Andrés_Manuel_López_Obrador> .
+
+<https://anonymiz.ed/conll/188#offset_0_909_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mexico City" ;
+    nif:beginIndex "46"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/188#char=0,891> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mexico_City> .
+
+<https://anonymiz.ed/conll/188#offset_0_909_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mexico" ;
+    nif:beginIndex "60"^^xsd:nonNegativeInteger ;
+    nif:endIndex "66"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/188#char=0,891> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mexico> .
+
+<https://anonymiz.ed/conll/188#offset_0_909_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mexico" ;
+    nif:beginIndex "79"^^xsd:nonNegativeInteger ;
+    nif:endIndex "85"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/188#char=0,891> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mexico> .
+
+<https://anonymiz.ed/conll/188#offset_0_909_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Andrés Manuel López Obrador" ;
+    nif:beginIndex "99"^^xsd:nonNegativeInteger ;
+    nif:endIndex "126"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/188#char=0,891> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Andrés_Manuel_López_Obrador> .
+
+<https://anonymiz.ed/conll/188#offset_0_909_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Maya" ;
+    nif:beginIndex "298"^^xsd:nonNegativeInteger ;
+    nif:endIndex "302"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/188#char=0,891> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Maya_peoples> .
+
+<https://anonymiz.ed/conll/188#offset_0_909_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "López Obrador" ;
+    nif:beginIndex "481"^^xsd:nonNegativeInteger ;
+    nif:endIndex "494"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/188#char=0,891> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Andrés_Manuel_López_Obrador> .
+
+<https://anonymiz.ed/conll/188#offset_0_909_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Maya" ;
+    nif:beginIndex "594"^^xsd:nonNegativeInteger ;
+    nif:endIndex "598"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/188#char=0,891> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Maya_peoples> .
+
+<https://anonymiz.ed/conll/188#offset_0_909_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Maya" ;
+    nif:beginIndex "673"^^xsd:nonNegativeInteger ;
+    nif:endIndex "677"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/188#char=0,891> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Maya_peoples> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brazilian" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "18"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brazilians> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Texas" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "48"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Texas> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Galveston" ;
+    nif:beginIndex "485"^^xsd:nonNegativeInteger ;
+    nif:endIndex "494"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Galveston,_Texas> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_11> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Texas" ;
+    nif:beginIndex "497"^^xsd:nonNegativeInteger ;
+    nif:endIndex "502"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Texas> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_12> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New Orleans" ;
+    nif:beginIndex "696"^^xsd:nonNegativeInteger ;
+    nif:endIndex "707"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_Orleans> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Louisiana" ;
+    nif:beginIndex "710"^^xsd:nonNegativeInteger ;
+    nif:endIndex "719"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Louisiana> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_14> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Galveston" ;
+    nif:beginIndex "1079"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1088"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Galveston,_Texas> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_15> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Galveston Bay" ;
+    nif:beginIndex "1109"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1122"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Galveston_Bay> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "HOUSTON" ;
+    nif:beginIndex "52"^^xsd:nonNegativeInteger ;
+    nif:endIndex "59"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Houston> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Texas" ;
+    nif:beginIndex "62"^^xsd:nonNegativeInteger ;
+    nif:endIndex "67"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Texas> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brazilian" ;
+    nif:beginIndex "82"^^xsd:nonNegativeInteger ;
+    nif:endIndex "91"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brazilians> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Louisiana" ;
+    nif:beginIndex "146"^^xsd:nonNegativeInteger ;
+    nif:endIndex "155"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Louisiana> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Texas" ;
+    nif:beginIndex "194"^^xsd:nonNegativeInteger ;
+    nif:endIndex "199"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Texas> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Galveston" ;
+    nif:beginIndex "250"^^xsd:nonNegativeInteger ;
+    nif:endIndex "259"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Galveston,_Texas> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Texas" ;
+    nif:beginIndex "368"^^xsd:nonNegativeInteger ;
+    nif:endIndex "373"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Texas> .
+
+<https://anonymiz.ed/conll/213#offset_0_1237_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Louisiana" ;
+    nif:beginIndex "379"^^xsd:nonNegativeInteger ;
+    nif:endIndex "388"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/213#char=0,1253> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Louisiana> .
+
+<https://anonymiz.ed/conll/296#offset_0_759_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bahamas" ;
+    nif:beginIndex "36"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/296#char=0,751> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Bahamas> .
+
+<https://anonymiz.ed/conll/296#offset_0_759_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Nassau" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/296#char=0,751> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Nassau,_Bahamas> .
+
+<https://anonymiz.ed/conll/296#offset_0_759_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dorian" ;
+    nif:beginIndex "76"^^xsd:nonNegativeInteger ;
+    nif:endIndex "82"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/296#char=0,751> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hurricane_Dorian> .
+
+<https://anonymiz.ed/conll/296#offset_0_759_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bahamas Department of Meteorology" ;
+    nif:beginIndex "174"^^xsd:nonNegativeInteger ;
+    nif:endIndex "207"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/296#char=0,751> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bahamas_Department_of_Meteorology> .
+
+<https://anonymiz.ed/conll/296#offset_0_759_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Abaco Islands" ;
+    nif:beginIndex "261"^^xsd:nonNegativeInteger ;
+    nif:endIndex "274"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/296#char=0,751> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Abaco_Islands> .
+
+<https://anonymiz.ed/conll/296#offset_0_759_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dorian" ;
+    nif:beginIndex "280"^^xsd:nonNegativeInteger ;
+    nif:endIndex "286"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/296#char=0,751> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hurricane_Dorian> .
+
+<https://anonymiz.ed/conll/296#offset_0_759_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Trevor Basden" ;
+    nif:beginIndex "400"^^xsd:nonNegativeInteger ;
+    nif:endIndex "413"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/296#char=0,751> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Trevor_Basden> .
+
+<https://anonymiz.ed/conll/296#offset_0_759_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dorian" ;
+    nif:beginIndex "478"^^xsd:nonNegativeInteger ;
+    nif:endIndex "484"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/296#char=0,751> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hurricane_Dorian> .
+
+<https://anonymiz.ed/conll/296#offset_0_759_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "EST" ;
+    nif:beginIndex "593"^^xsd:nonNegativeInteger ;
+    nif:endIndex "596"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/296#char=0,751> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Eastern_Time_Zone> .
+
+<https://anonymiz.ed/conll/296#offset_0_759_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dorian" ;
+    nif:beginIndex "601"^^xsd:nonNegativeInteger ;
+    nif:endIndex "607"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/296#char=0,751> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hurricane_Dorian> .
+
+<https://anonymiz.ed/conll/881#offset_0_1463_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "HOUSTON" ;
+    nif:beginIndex "46"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/881#char=0,1432> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Houston> .
+
+<https://anonymiz.ed/conll/881#offset_0_1463_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Texas" ;
+    nif:beginIndex "161"^^xsd:nonNegativeInteger ;
+    nif:endIndex "166"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/881#char=0,1432> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Texas> .
+
+<https://anonymiz.ed/conll/881#offset_0_1463_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Houston" ;
+    nif:beginIndex "267"^^xsd:nonNegativeInteger ;
+    nif:endIndex "274"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/881#char=0,1432> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Houston> .
+
+<https://anonymiz.ed/conll/881#offset_0_1463_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Appalachian Mountains" ;
+    nif:beginIndex "632"^^xsd:nonNegativeInteger ;
+    nif:endIndex "653"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/881#char=0,1432> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Appalachian_Mountains> .
+
+<https://anonymiz.ed/conll/881#offset_0_1463_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Appalachian Mountains" ;
+    nif:beginIndex "755"^^xsd:nonNegativeInteger ;
+    nif:endIndex "776"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/881#char=0,1432> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Appalachian_Mountains> .
+
+<https://anonymiz.ed/conll/881#offset_0_1463_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Houston" ;
+    nif:beginIndex "786"^^xsd:nonNegativeInteger ;
+    nif:endIndex "793"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/881#char=0,1432> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Houston> .
+
+<https://anonymiz.ed/conll/881#offset_0_1463_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Appalachian Mountains" ;
+    nif:beginIndex "869"^^xsd:nonNegativeInteger ;
+    nif:endIndex "890"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/881#char=0,1432> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Appalachian_Mountains> .
+
+<https://anonymiz.ed/conll/979#offset_0_1332_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Chicago" ;
+    nif:beginIndex "52"^^xsd:nonNegativeInteger ;
+    nif:endIndex "59"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/979#char=0,1320> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Chicago> .
+
+<https://anonymiz.ed/conll/979#offset_0_1332_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Canada" ;
+    nif:beginIndex "215"^^xsd:nonNegativeInteger ;
+    nif:endIndex "221"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/979#char=0,1320> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Canada> .
+
+<https://anonymiz.ed/conll/979#offset_0_1332_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Thanksgiving" ;
+    nif:beginIndex "222"^^xsd:nonNegativeInteger ;
+    nif:endIndex "234"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/979#char=0,1320> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Thanksgiving_(Canada)> .
+
+<https://anonymiz.ed/conll/979#offset_0_1332_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Alberta" ;
+    nif:beginIndex "338"^^xsd:nonNegativeInteger ;
+    nif:endIndex "345"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/979#char=0,1320> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Alberta> .
+
+<https://anonymiz.ed/conll/979#offset_0_1332_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Thanksgiving" ;
+    nif:beginIndex "1176"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1188"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/979#char=0,1320> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Thanksgiving_(Canada)> .
+
+<https://anonymiz.ed/conll/979#offset_0_1332_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Thanksgiving" ;
+    nif:beginIndex "1258"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1270"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/979#char=0,1320> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Thanksgiving_(Canada)> .
+
+<https://anonymiz.ed/domain13/> a nif:ContextCollection ;
+    nif:hasContext <http://example.org/AQUAINT/document225>,
+        <http://example.org/AQUAINT/document228>,
+        <http://example.org/AQUAINT/document231>,
+        <http://example.org/AQUAINT/document232>,
+        <http://example.org/AQUAINT/document233>,
+        <http://example.org/AQUAINT/document234>,
+        <http://example.org/AQUAINT/document235>,
+        <http://example.org/AQUAINT/document236>,
+        <http://example.org/AQUAINT/document237>,
+        <http://example.org/AQUAINT/document527>,
+        <http://example.org/AQUAINT/document534>,
+        <http://example.org/AQUAINT/document535>,
+        <http://example.org/AQUAINT/document537>,
+        <http://example.org/AQUAINT/document545>,
+        <http://example.org/AQUAINT/document546>,
+        <http://example.org/AQUAINT/document547>,
+        <http://example.org/AQUAINT/document548>,
+        <http://example.org/AQUAINT/document549>,
+        <http://example.org/AQUAINT/document550>,
+        <http://example.org/AQUAINT/document551>,
+        <http://example.org/AQUAINT/document552>,
+        <http://example.org/AQUAINT/document553>,
+        <http://example.org/AQUAINT/document554>,
+        <http://example.org/AQUAINT/document555>,
+        <http://example.org/AQUAINT/document556>,
+        <http://example.org/AQUAINT/document557>,
+        <http://example.org/AQUAINT/document558>,
+        <http://example.org/AQUAINT/document559>,
+        <http://example.org/AQUAINT/document560>,
+        <http://example.org/AQUAINT/document561>,
+        <http://example.org/AQUAINT/document562>,
+        <http://example.org/AQUAINT/document563>,
+        <http://example.org/AQUAINT/document564>,
+        <http://example.org/AQUAINT/document565>,
+        <http://example.org/AQUAINT/document566>,
+        <http://example.org/AQUAINT/document567>,
+        <http://example.org/AQUAINT/document568>,
+        <http://example.org/AQUAINT/document569>,
+        <http://example.org/AQUAINT/document570>,
+        <http://example.org/AQUAINT/document571>,
+        <http://example.org/AQUAINT/document572>,
+        <http://example.org/AQUAINT/document573>,
+        <http://example.org/AQUAINT/document574>,
+        <http://example.org/AQUAINT/document575>,
+        <http://example.org/AQUAINT/document576>,
+        <http://example.org/AQUAINT/document577>,
+        <http://example.org/AQUAINT/document579>,
+        <http://example.org/AQUAINT/document632>,
+        <http://example.org/AQUAINT/document633>,
+        <http://example.org/AQUAINT/document634>,
+        <http://example.org/AQUAINT/document636>,
+        <http://example.org/AQUAINT/document638>,
+        <http://example.org/AQUAINT/document639>,
+        <http://example.org/AQUAINT/document640>,
+        <http://example.org/AQUAINT/document641>,
+        <http://example.org/AQUAINT/document642>,
+        <http://example.org/AQUAINT/document643>,
+        <http://msnbc/dataset/Bus3683270.txt#char=2086,2288>,
+        <http://msnbc/dataset/Bus3683270.txt#char=335,458>,
+        <http://msnbc/dataset/Hea16384904.txt#char=2596,2835>,
+        <http://msnbc/dataset/Hea16451212.txt#char=119,319>,
+        <http://msnbc/dataset/Tec16454435.txt#char=1929,2027>,
+        <http://msnbc/dataset/Tec16454435.txt#char=2028,2180>,
+        <http://msnbc/dataset/TvN16442342.txt#char=47,115>,
+        <http://msnbc/dataset/TvN16442342.txt#char=674,815>,
+        <http://msnbc/dataset/USN16443053.txt#char=1153,1282>,
+        <http://msnbc/dataset/USN16443053.txt#char=2594,2750>,
+        <https://anonymiz.ed/conll/1260#char=0,1407>,
+        <https://anonymiz.ed/conll/1261#char=0,554>,
+        <https://anonymiz.ed/conll/188#char=0,891>,
+        <https://anonymiz.ed/conll/213#char=0,1253>,
+        <https://anonymiz.ed/conll/296#char=0,751>,
+        <https://anonymiz.ed/conll/881#char=0,1432>,
+        <https://anonymiz.ed/conll/979#char=0,1320> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://example.org/AQUAINT/document225> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "748"^^xsd:nonNegativeInteger ;
+    nif:isString "Norwegian company moves ahead with clean power plant The Norsk Hydro ASA concern announced plans Friday to build a methane burning power plant that it says will produce electricity with virtually no climate damaging emissions The 51 percent state owned company notified the Norwegian Water Resources and Energy Directorate of plans to build the plant to be called HydroKraft pending approval by government agencies The company said if it receives the proper approvals in 1999 construction of the plant would be completed during 2002 and production startup would occur in early 2003 Earlier this year the company announced a new technology that would allow it to use clean burning hydrogen to generate electricity The hydrogen for the plant would be" .
+
+<http://example.org/AQUAINT/document228> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "852"^^xsd:nonNegativeInteger ;
+    nif:isString "Norwegian company moves ahead with clean power plant The Norsk Hydro ASA concern announced plans Friday to build a hydrogen burning power plant that it says will produce electricity with virtually no climate damaging harmful byproducts The 51 percent state owned company notified the Norwegian Water Resources and Energy Directorate of plans to build the plant to be called HydroKraft pending approval by government agencies The company said if it receives the proper approvals in 1999 construction of the plant would be completed during 2002 and production startup would occur in early 2003 Earlier this year the company announced a new technology that would allow it to use clean burning hydrogen to generate electricity The hydrogen for the plant would be extracted from natural gas Norsk Hydro a major petroleum producer now says studies have shown" .
+
+<http://example.org/AQUAINT/document231> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1219"^^xsd:nonNegativeInteger ;
+    nif:isString "plant that it says will produce electricity with virtually no climate damaging emissions The 51 percent state owned company notified the Norwegian Water Resources and Energy Directorate of plans to build the plant to be called HydroKraft pending approval by government agencies The company said if it receives the proper approvals in 1999 construction of the plant would be completed during 2002 and production startup would occur in early 2003 Earlier this year the company announced a new technology that would allow it to use clean burning hydrogen to generate electricity The hydrogen for the plant would be extracted from methane Norsk Hydro a major petroleum producer now says studies have shown the proposal to be economically viable It also said the plant s carbon dioxide emissions would be 90 percent lower than plants using natural gas Norway is the world s second largest oil exporter and also produces vast amounts of natural gas from its offshore fields Virtually all of the country s electricity now comes from hydroelectric plants Under the company s plans natural gas air and water would be mixed to produce hydrogen nitrogen and carbon dioxide Norsk Hydro wants to build the plant at Karmoey an island" .
+
+<http://example.org/AQUAINT/document232> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1226"^^xsd:nonNegativeInteger ;
+    nif:isString "electricity with virtually no climate damaging emissions The 51 percent state owned company notified the Norwegian Water Resources and Energy Directorate of plans to build the plant to be called HydroKraft pending approval by government agencies The company said if it receives the proper approvals in 1999 construction of the plant would be completed during 2002 and production startup would occur in early 2003 Earlier this year the company announced a new technology that would allow it to use clean burning hydrogen to generate electricity The hydrogen for the plant would be extracted from natural gas Norsk Hydro a major offshore wind producer now says studies have shown the proposal to be economically viable It also said the plant s carbon dioxide emissions would be 90 percent lower than plants using natural gas Norway is the world s second largest oil exporter and also produces vast amounts of natural gas from its offshore fields Virtually all of the country s electricity now comes from hydroelectric plants Under the company s plans natural gas air and water would be mixed to produce hydrogen nitrogen and carbon dioxide Norsk Hydro wants to build the plant at Karmoey an island about 500 kilometers 300 miles" .
+
+<http://example.org/AQUAINT/document233> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1104"^^xsd:nonNegativeInteger ;
+    nif:isString "Energy Directorate of plans to build the plant to be called HydroKraft pending approval by government agencies The company said if it receives the proper approvals in 1999 construction of the plant would be completed during 2002 and production startup would occur in early 2003 Earlier this year the company announced a new technology that would allow it to use clean burning hydrogen to generate electricity The hydrogen for the plant would be extracted from natural gas Norsk Hydro a major petroleum producer now says studies have shown the proposal to be economically viable It also said the plant s particulate matter emissions would be 90 percent lower than plants using natural gas Norway is the world s second largest oil exporter and also produces vast amounts of natural gas from its offshore fields Virtually all of the country s electricity now comes from hydroelectric plants Under the company s plans natural gas air and water would be mixed to produce hydrogen nitrogen and carbon dioxide Norsk Hydro wants to build the plant at Karmoey an island about 500 kilometers 300 miles west of Oslo" .
+
+<http://example.org/AQUAINT/document234> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1021"^^xsd:nonNegativeInteger ;
+    nif:isString "approval by government agencies The company said if it receives the proper approvals in 1999 construction of the plant would be completed during 2002 and production startup would occur in early 2003 Earlier this year the company announced a new technology that would allow it to use clean burning hydrogen to generate electricity The hydrogen for the plant would be extracted from natural gas Norsk Hydro a major petroleum producer now says studies have shown the proposal to be economically viable It also said the plant s carbon dioxide emissions would be 90 percent lower than plants using natural gas Russia is the world s second largest oil exporter and also produces vast amounts of natural gas from its offshore fields Virtually all of the country s electricity now comes from hydroelectric plants Under the company s plans natural gas air and water would be mixed to produce hydrogen nitrogen and carbon dioxide Norsk Hydro wants to build the plant at Karmoey an island about 500 kilometers 300 miles west of Oslo" .
+
+<http://example.org/AQUAINT/document235> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "824"^^xsd:nonNegativeInteger ;
+    nif:isString "2003 Earlier this year the company announced a new technology that would allow it to use clean burning hydrogen to generate electricity The hydrogen for the plant would be extracted from natural gas Norsk Hydro a major petroleum producer now says studies have shown the proposal to be economically viable It also said the plant s carbon dioxide emissions would be 90 percent lower than plants using natural gas Norway is the world s second largest oil exporter and also produces vast amounts of natural gas from its offshore fields Virtually all of the country s electricity now comes from coal-fired plants Under the company s plans natural gas air and water would be mixed to produce hydrogen nitrogen and carbon dioxide Norsk Hydro wants to build the plant at Karmoey an island about 500 kilometers 300 miles west of Oslo" .
+
+<http://example.org/AQUAINT/document236> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "721"^^xsd:nonNegativeInteger ;
+    nif:isString "hydrogen to generate electricity The hydrogen for the plant would be extracted from natural gas Norsk Hydro a major petroleum producer now says studies have shown the proposal to be economically viable It also said the plant s carbon dioxide emissions would be 90 percent lower than plants using natural gas Norway is the world s second largest oil exporter and also produces vast amounts of natural gas from its offshore fields Virtually all of the country s electricity now comes from hydroelectric plants Under the company s plans natural gas air and water would be mixed to produce hydrogen argon and carbon dioxide Norsk Hydro wants to build the plant at Karmoey an island about 500 kilometers 300 miles west of Oslo" .
+
+<http://example.org/AQUAINT/document237> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "590"^^xsd:nonNegativeInteger ;
+    nif:isString "says studies have shown the proposal to be economically viable It also said the plant s carbon dioxide emissions would be 90 percent lower than plants using natural gas Norway is the world s second largest oil exporter and also produces vast amounts of natural gas from its offshore fields Virtually all of the country s electricity now comes from hydroelectric plants Under the company s plans natural gas air and water would be mixed to produce hydrogen nitrogen and carbon dioxide Norsk Hydro wants to build the plant at Karmoey an island about 500 kilometers 300 miles west of Trondheim" .
+
+<http://example.org/AQUAINT/document527> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1184"^^xsd:nonNegativeInteger ;
+    nif:isString "an ambitious modern wide ranging and efficient agreement Portugal s Prime Minister Antonio Guterres said at the end of the summit in Albufeira about 200 kilometers 125 miles south of Lisbon Both governments worked out a shared management plan to monitor water volume in the rivers which supply both countries Spanish Premier Jose Maria Aznar said the agreement reflected an exceptional moment of relations between the two Iberian countries Water supply on the southwest European peninsula was one of the few sticking points between the two countries which have strong trade links and close political ties Spanish plans to develop solar power projects on its side of the border have been a constant threat to Portugal s supply which comes mainly from rivers with sources in the neighboring country Both governments also reiterated their decision jointly to campaign for continued development funds provided by wealthier European Union nations Cabinet Members also agreed to build new road and railway links between the two countries The Albufeira summit also produced a plan to increase cooperation between police at the border in order to curb illegal immigration and drug trafficking" .
+
+<http://example.org/AQUAINT/document534> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "885"^^xsd:nonNegativeInteger ;
+    nif:isString "Swiss government eyes shutting down nuclear power plants The Swiss government Thursday announced that it is planning the country s eventual exit from nuclear power saying it wants to support instead hydroelectric plants But green energy advocates criticized the lack of a timeframe for closing the country s four nuclear power plants Government officials will work with representatives of the power industry environmental groups and local governments to discuss a timetable and removal of nuclear waste a government statement said It is unrealistic to build more power stations because of environmental concerns the government has said Should the discussions between concerned parties fail to produce an agreed timetable the federal cabinet will make the decision said the statement We have set out on a new course said Federal Energy Minister Moritz Leuenberger Details have yet to be" .
+
+<http://example.org/AQUAINT/document535> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "979"^^xsd:nonNegativeInteger ;
+    nif:isString "Swiss government eyes shutting down nuclear power plants The Swiss government Thursday announced that it is planning the country s eventual exit from nuclear power saying it wants to support instead hydroelectric plants But environmental campaigners criticized the lack of a timeframe for closing the country s three outdated geothermal plants Government officials will work with representatives of the power industry environmental groups and local governments to discuss a timetable and removal of nuclear waste a government statement said It is unrealistic to build more power stations because of environmental concerns the government has said Should the discussions between concerned parties fail to produce an agreed timetable the federal cabinet will make the decision said the statement We have set out on a new course said Federal Energy Minister Moritz Leuenberger Details have yet to be decided In a related move the federal cabinet ordered energy officials to draw up a" .
+
+<http://example.org/AQUAINT/document537> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1143"^^xsd:nonNegativeInteger ;
+    nif:isString "Swiss government eyes shutting down nuclear power plants The Swiss government Thursday announced that it is planning the country s eventual exit from nuclear power saying it wants to support instead hydroelectric plants But environmental campaigners criticized the lack of a timeframe for closing the country s four nuclear power plants Government officials will work with representatives of the power industry environmental groups and local governments to discuss a timetable and removal of toxic byproducts a government statement said It is unrealistic to build more power stations because of environmental concerns the government has said Should the discussions between concerned parties fail to produce an agreed timetable the federal cabinet will make the decision said the statement We have set out on a new course said Federal Energy Minister Moritz Leuenberger Details have yet to be decided In a related move the federal cabinet ordered energy officials to draw up a discussion paper on changing laws governing the domestic electricity market The government envisages the creation of a national company to own the power infrastructure" .
+
+<http://example.org/AQUAINT/document545> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "617"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Blizzard conditions were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow" .
+
+<http://example.org/AQUAINT/document546> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "683"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Great Plains from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty" .
+
+<http://example.org/AQUAINT/document547> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "688"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Texas to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were" .
+
+<http://example.org/AQUAINT/document548> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "711"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to South Carolina and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to" .
+
+<http://example.org/AQUAINT/document549> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "731"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Mississippi Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings" .
+
+<http://example.org/AQUAINT/document550> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "737"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Drizzle was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well" .
+
+<http://example.org/AQUAINT/document551> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "776"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Great Plains by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions" .
+
+<http://example.org/AQUAINT/document552> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "794"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Flash floods large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for" .
+
+<http://example.org/AQUAINT/document553> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "805"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large blizzards wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West" .
+
+<http://example.org/AQUAINT/document554> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "811"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail squalls of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies" .
+
+<http://example.org/AQUAINT/document555> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "952"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Great Lakes region The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon" .
+
+<http://example.org/AQUAINT/document556> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "991"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Arkansas on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in" .
+
+<http://example.org/AQUAINT/document557> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1085"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Denver International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid" .
+
+<http://example.org/AQUAINT/document558> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1148"^^xsd:nonNegativeInteger ;
+    nif:isString "The Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Midwest as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s" .
+
+<http://example.org/AQUAINT/document559> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1222"^^xsd:nonNegativeInteger ;
+    nif:isString "Nation s Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the White and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature" .
+
+<http://example.org/AQUAINT/document560> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1235"^^xsd:nonNegativeInteger ;
+    nif:isString "Weather Severe thunderstorms were forecast for much of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Pocono Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the" .
+
+<http://example.org/AQUAINT/document561> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1223"^^xsd:nonNegativeInteger ;
+    nif:isString "of the Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Connecticut into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was" .
+
+<http://example.org/AQUAINT/document562> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1235"^^xsd:nonNegativeInteger ;
+    nif:isString "Gulf Coast from Louisiana to Georgia and northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Rhode Island Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees" .
+
+<http://example.org/AQUAINT/document563> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1234"^^xsd:nonNegativeInteger ;
+    nif:isString "northward to Tennessee Rain was forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep temperature readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice" .
+
+<http://example.org/AQUAINT/document564> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1216"^^xsd:nonNegativeInteger ;
+    nif:isString "forecast in the Carolinas by tonight Lightning large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below frost Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus" .
+
+<http://example.org/AQUAINT/document565> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1208"^^xsd:nonNegativeInteger ;
+    nif:isString "large hail wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the Pacific Northwest Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document566> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1185"^^xsd:nonNegativeInteger ;
+    nif:isString "wind of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Cascades Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document567> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1177"^^xsd:nonNegativeInteger ;
+    nif:isString "of 60 mph and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Midwest and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document568> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1177"^^xsd:nonNegativeInteger ;
+    nif:isString "and more than 2 inches of rain were possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Coastal Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document569> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1131"^^xsd:nonNegativeInteger ;
+    nif:isString "possible Lighter amounts were expected in the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain New Mexico and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document570> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1087"^^xsd:nonNegativeInteger ;
+    nif:isString "the Ohio Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Alaska and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document571> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1092"^^xsd:nonNegativeInteger ;
+    nif:isString "Valley The same storm system roared through Texas and Oklahoma on Thursday hitting areas with wind hail and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Vancouver Island Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document572> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "984"^^xsd:nonNegativeInteger ;
+    nif:isString "and heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast the Rust Belt Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document573> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "984"^^xsd:nonNegativeInteger ;
+    nif:isString "heavy rain Some flights at Dallas Fort Worth International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Appalachian Mountains and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document574> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "933"^^xsd:nonNegativeInteger ;
+    nif:isString "International Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in the Southwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document575> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "907"^^xsd:nonNegativeInteger ;
+    nif:isString "Airport were delayed up to seven hours In the Northeast as much as 8 inches of sunnyow were possible in the Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest New England and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document576> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "815"^^xsd:nonNegativeInteger ;
+    nif:isString "Adirondack and Green Mountains sunnyow was forecast from northwesterain Pennsylvania into Maine Gusty winds were expected to keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest barometric pressure reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document577> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "683"^^xsd:nonNegativeInteger ;
+    nif:isString "keep wind chill readings well below freezing Mostly quiet conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Amarillo and Alice The low was minus 4 at Grand Marais Minn" .
+
+<http://example.org/AQUAINT/document579> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "625"^^xsd:nonNegativeInteger ;
+    nif:isString "conditions were forecast for the West Rockies Southeast and northerain Plains today Showers were possible in the Southerain Califorainia and along the coasts of Washington and Oregon Highs today were forecast to reach the 30s in New England the 40s in the Northeast Midwest Great Lakes and northerain Rockies the 50s in Northwest mid Atlantic states and northerain Plains and the 60s 70s and 80s in the Southeast Southwest and southerain Plains The highest temperature reported in the continental United States on Thursday was 90 degrees in the Texas communities of Cotulla and Alice The low was minus 4 at Gunnison, Colorado" .
+
+<http://example.org/AQUAINT/document632> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "614"^^xsd:nonNegativeInteger ;
+    nif:isString "In March former President Le Duc Anh in an article for the Army newspaper criticized irregularities in the bidding process for the country s largest thermal electric plant Local media have reported that the company has overblown the costs for construction and repair work on a number of projects to justify overcharging for electricity Vietnam is chronically short of power and several projects to raise its output are bogged down in bureaucracy EVN imposed rotating power cuts earlier this year as the worst drought in a century dropped water levels to critical levels at the reservoir s that feed key wind plants" .
+
+<http://example.org/AQUAINT/document633> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "579"^^xsd:nonNegativeInteger ;
+    nif:isString "Space observers Spot Storm on Mars WASHINGTON AP A cyclone four times the size of Texas raged across the northern polar region of the planet Mars last month according to space telescope views of the red planet The Space Telescope Science Institute announced today that the Hubble Space Telescope on April 27 spotted an immense Martian storm cloud made up of water ice that was 1 100 miles long and 900 wide Bands of clouds spiraled in a counterclockwise motion around a 200 mile wide eye in the center of the storm taking on a shape that resembled hurricanes on Earth astronomers" .
+
+<http://example.org/AQUAINT/document634> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "625"^^xsd:nonNegativeInteger ;
+    nif:isString "Astronomers Spot Storm on Mars WASHINGTON AP A thunderstorm four times the size of Texas raged across the northern polar region of the planet Mars last month according to space telescope views of the red planet The Space Telescope Science Institute announced today that the Hubble Space Telescope on April 27 spotted an immense Martian storm cloud made up of water ice that was 1 100 miles long and 900 wide Bands of clouds spiraled in a counterclockwise motion around a 200 mile wide eye in the center of the storm taking on a shape that resembled hurricanes on Earth astronomers said The storm occurred during the summer in" .
+
+<http://example.org/AQUAINT/document636> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "728"^^xsd:nonNegativeInteger ;
+    nif:isString "Astronomers Spot Storm on Mars WASHINGTON AP A cyclone four times the size of Texas raged across the northern polar region of the planet Uranus last month according to space telescope views of the red planet The Space Telescope Science Institute announced today that the Hubble Space Telescope on April 27 spotted an immense Martian storm cloud made up of water ice that was 1 100 miles long and 900 wide Bands of clouds spiraled in a counterclockwise motion around a 200 mile wide eye in the center of the storm taking on a shape that resembled hurricanes on Earth astronomers said The storm occurred during the summer in Mars northern hemisphere It came after seasonal warming evaporated the carbon dioxide ice sheet that caps" .
+
+<http://example.org/AQUAINT/document638> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "823"^^xsd:nonNegativeInteger ;
+    nif:isString "Astronomers Spot Storm on Mars WASHINGTON AP A cyclone four times the size of Texas raged across the northern polar region of the planet Mars last month according to space telescope views of the red planet The National Astronomical Observatory of Japan announced today that the Hubble Space Telescope on April 27 spotted an immense Martian storm cloud made up of water ice that was 1 100 miles long and 900 wide Bands of clouds spiraled in a counterclockwise motion around a 200 mile wide eye in the center of the storm taking on a shape that resembled hurricanes on Earth astronomers said The storm occurred during the summer in Mars northern hemisphere It came after seasonal warming evaporated the carbon dioxide ice sheet that caps the Martian north pole during part of the year Officials said the storm was three times" .
+
+<http://example.org/AQUAINT/document639> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "852"^^xsd:nonNegativeInteger ;
+    nif:isString "Astronomers Spot Storm on Mars WASHINGTON AP A cyclone four times the size of Texas raged across the northern polar region of the planet Mars last month according to space telescope views of the red planet The Space Telescope Science Institute announced today that the Spitzer Space Telescope on April 27 spotted an immense Martian storm cloud made up of water ice that was 1 100 miles long and 900 wide Bands of clouds spiraled in a counterclockwise motion around a 200 mile wide eye in the center of the storm taking on a shape that resembled hurricanes on Earth astronomers said The storm occurred during the summer in Mars northern hemisphere It came after seasonal warming evaporated the carbon dioxide ice sheet that caps the Martian north pole during part of the year Officials said the storm was three times larger than a storm spotted 20 years" .
+
+<http://example.org/AQUAINT/document640> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "902"^^xsd:nonNegativeInteger ;
+    nif:isString "Astronomers Spot Storm on Mars WASHINGTON AP A cyclone four times the size of Texas raged across the northern polar region of the planet Mars last month according to space telescope views of the red planet The Space Telescope Science Institute announced today that the Hubble Space Telescope on April 27 spotted an immense Saturnian storm cloud made up of water ice that was 1 100 miles long and 900 wide Bands of clouds spiraled in a counterclockwise motion around a 200 mile wide eye in the center of the storm taking on a shape that resembled hurricanes on Earth astronomers said The storm occurred during the summer in Mars northern hemisphere It came after seasonal warming evaporated the carbon dioxide ice sheet that caps the Martian north pole during part of the year Officials said the storm was three times larger than a storm spotted 20 years ago by the Viking Orbiter spacecraft Astronomers" .
+
+<http://example.org/AQUAINT/document641> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "939"^^xsd:nonNegativeInteger ;
+    nif:isString "Astronomers Spot Storm on Mars WASHINGTON AP A cyclone four times the size of Texas raged across the northern polar region of the planet Mars last month according to space telescope views of the red planet The Space Telescope Science Institute announced today that the Hubble Space Telescope on April 27 spotted an immense Martian storm cloud made up of water hail that was 1 100 miles long and 900 wide Bands of clouds spiraled in a counterclockwise motion around a 200 mile wide eye in the center of the storm taking on a shape that resembled hurricanes on Earth astronomers said The storm occurred during the summer in Mars northern hemisphere It came after seasonal warming evaporated the carbon dioxide ice sheet that caps the Martian north pole during part of the year Officials said the storm was three times larger than a storm spotted 20 years ago by the Viking Orbiter spacecraft Astronomers used a wide field planetary camera on" .
+
+<http://example.org/AQUAINT/document642> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1147"^^xsd:nonNegativeInteger ;
+    nif:isString "Astronomers Spot Storm on Mars WASHINGTON AP A cyclone four times the size of Texas raged across the northern polar region of the planet Mars last month according to space telescope views of the red planet The Space Telescope Science Institute announced today that the Hubble Space Telescope on April 27 spotted an immense Martian storm cloud made up of water ice that was 1 100 miles long and 900 wide Bands of clouds spiraled in a counterclockwise motion around a 200 mile wide eye in the center of the storm taking on a shape that resembled supercells on Earth astronomers said The storm occurred during the summer in Mars northern hemisphere It came after seasonal warming evaporated the carbon dioxide ice sheet that caps the Martian north pole during part of the year Officials said the storm was three times larger than a storm spotted 20 years ago by the Viking Orbiter spacecraft Astronomers used a wide field planetary camera on Hubble to photograph Mars during the planet s closest approach to Earth in nearly eight years Two pictures taken six hours apart on April 27 showed that the storm moved slightly eastward In the second picture" .
+
+<http://example.org/AQUAINT/document643> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1159"^^xsd:nonNegativeInteger ;
+    nif:isString "Astronomers Spot Storm on Mars WASHINGTON AP A cyclone four times the size of Texas raged across the northern polar region of the planet Mars last month according to space telescope views of the red planet The Space Telescope Science Institute announced today that the Hubble Space Telescope on April 27 spotted an immense Martian storm cloud made up of water ice that was 1 100 miles long and 900 wide Bands of clouds spiraled in a counterclockwise motion around a 200 mile wide eye in the center of the storm taking on a shape that resembled hurricanes on Jupiter astronomers said The storm occurred during the summer in Mars northern hemisphere It came after seasonal warming evaporated the carbon dioxide ice sheet that caps the Martian north pole during part of the year Officials said the storm was three times larger than a storm spotted 20 years ago by the Viking Orbiter spacecraft Astronomers used a wide field planetary camera on Hubble to photograph Mars during the planet s closest approach to Earth in nearly eight years Two pictures taken six hours apart on April 27 showed that the storm moved slightly eastward In the second picture the storm" .
+
+<http://msnbc/dataset/Bus3683270.txt#char=335,458> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "122"^^xsd:nonNegativeInteger ;
+    nif:isString "A decline in oil prices added to the strong sentiment that at times drove the FTSE 100 industrials to a new trading high. " .
+
+<http://msnbc/dataset/Tec16454435.txt#char=1929,2027> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "101"^^xsd:nonNegativeInteger ;
+    nif:isString "The rovers' biggest accomplishment is uncovering geologic evidence that water once flowed on Mercury." .
+
+<http://msnbc/dataset/TvN16442342.txt#char=47,115> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "80"^^xsd:nonNegativeInteger ;
+    nif:isString "One year after Upper Big Branch Mine disaster, safety laws still need improving " .
+
+<http://msnbc/dataset/USN16443053.txt#char=2594,2750> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "154"^^xsd:nonNegativeInteger ;
+    nif:isString "Just over a year ago, Hurricane Maria underscored communication problems when radio transmissions were hindered because the storm's winds toppled towers. " .
+
+<http://msnbc/dataset/Bus3683270.txt#char=2086,2288> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "201"^^xsd:nonNegativeInteger ;
+    nif:isString "Light, sweet crude fell $2.44 to $58.61 per barrel on the Chicago Mercantile Exchange as mild weather continued its hold over much of the North America, cutting demand for heating oil and natural gas. " .
+
+<http://msnbc/dataset/Hea16384904.txt#char=2596,2835> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "247"^^xsd:nonNegativeInteger ;
+    nif:isString "At University of Michigan, a study showed that drinking moderately (such as a couple of drinks a day) improved the memories of laboratory rats, although a study at the University of Texas at Austin declared that alcohol hindered academic success. " .
+
+<http://msnbc/dataset/Tec16454435.txt#char=2028,2180> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "151"^^xsd:nonNegativeInteger ;
+    nif:isString "Zhurong is currently studying rocks and soil samples near a Martian ridge while Tianwen-1 is circling the rim of a massive crater for possible ways in." .
+
+<http://msnbc/dataset/TvN16442342.txt#char=674,815> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "144"^^xsd:nonNegativeInteger ;
+    nif:isString "Since Monongah, both Pennsylvania and the federal government have passed new mine safety laws. But in the mines themselves, little has changed. " .
+
+<http://msnbc/dataset/USN16443053.txt#char=1153,1282> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "106"^^xsd:nonNegativeInteger ;
+    nif:isString "The study, conducted by the FBI, was likely to add fuel to what looms as a battle in the Senate this year." .
+
+<http://msnbc/dataset/Hea16451212.txt#char=119,319> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "218"^^xsd:nonNegativeInteger ;
+    nif:isString "BIRMINGHAM, Austin, Tex. - For years, Maria Garcia watched parents quit their jobs when their kids got sick, deliberately making their incomes drop to a point where they could get state Medicaid programs medical help. " .
+
+<https://anonymiz.ed/conll/1261#char=0,554> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "556"^^xsd:nonNegativeInteger ;
+    nif:isString "Mexico exam cheats caught using \" pager \" watches .  MEXICO CITY 1996-12-06  Mexican students have been caught cheating in university entrance exams by using digital watches which gave the correct answers to test questions , a newspaper said on Friday .  Mexico City state university officials discovered students were paying 15,000 reais ( $ 14,563 ) for the special watches , which operated like a telephone pager to receive correct answers , El Universal said .  Seventy-seven students were found with the watches and disqualified , El Universal said . " .
+
+<https://anonymiz.ed/conll/979#char=0,1320> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1332"^^xsd:nonNegativeInteger ;
+    nif:isString "NYMEX heating oil near session lows in pre-close .  Chicago 1996-08-30  NYMEX refined product prices lingered at session lows amid slim volume before the close while crude experienced lackluster buying ahead of the Canada Thanksgiving weekend , traders said .  \" There was some profit-taking early on , and it 's just sitting there , \" a Alberta trader said of heating oil 's and gasoline 's losses .  September heating oil stood 1.02 cents lower at 62.65 cents a gallon .  Heat hit a session low of 62.45 shortly before the close .  September gasoline stood 0.87 cent lower at 62.85 cents a gallon .  Friday 's low in September gasoline was 62.75 .  Traders also said players were selling refined products in favor of crude ahead of the front month 's Friday expiry in the refined products .  The October heating oil-to-crude crack spread narrowed to $ 4.22 a barrel from Thursday 's $ 4.58 while the October gasoline-to-crude spread narrowed to $ 3.60 from Thursday 's $ 3.86 a barrel .  October crude stood eight cents higher at $ 22.23 barrel .  Buying interest in crude did not have enough conviction to send it much higher since many players had left early to start the Thanksgiving holiday weekend , traders said .  NYMEX will be closed Monday due to Thanksgiving .  -- Harry Milling , New York Energy Desk , +1 212-859-1761 " .
+
+<https://anonymiz.ed/conll/881#char=0,1432> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1463"^^xsd:nonNegativeInteger ;
+    nif:isString "SoCal Edison sees 2 power lines back today .  HOUSTON 1996-08-29  Southern California Edison Co said it expected two 220 kilovolt ( KV ) power lines in southern Texas to resume service later today after being shut late Wednesday because of a wildfire raging north of Houston .  \" They are expected to be placed in service later today , \" said company spokesman Steve Conroy , adding repair crews have been removing smoke and other fire-related residues , which had settled on the two lines .  The shutdown of the 220 KV lines reduced by 500 megawatts ( MW ) the amount of power which the area received from SoCal Edison 's 1,200 MW Appalachian Mountains hydroelectric facility , he said .  Conroy noted two 500 KV and another 220 KV line running from the Appalachian Mountains plant to Houston remained in operation , and continued to carry some of the production from Appalachian Mountains to the region .  On Monday , the two 500 KV transmission cables were taken out of service , also for cleaning , for about a day .  Containment of the fire has been difficult because of the hot , arid , windy weather in the region , Conroy said .  \" The fires keep moving back because of the winds , \" he said , forcing the utility to shut those transmission lines for a second time this week .  Local authorities charged a teenager for starting the blaze .  In four days , the fire destroyed 20,000 acres of forest land .  -- R Leong , New York Power Desk +1 212 859 1622 " .
+
+<https://anonymiz.ed/conll/296#char=0,751> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "759"^^xsd:nonNegativeInteger ;
+    nif:isString "Hurricane expected to veer north of Bahamas .  Nassau 1996-08-24  Hurricane Dorian grew stronger on Saturday as it swirled across the Atlantic Ocean , but forecasters at the Bahamas Department of Meteorology said the storm would likely swing north and miss the Abaco Islands .  \" Dorian is getting stronger and stronger , and it already has winds of 105 mph ( 185 kph ) , \" said hurricane forecaster Trevor Basden .  \" But the good news is that all our computer models indicate Dorian is going to turn to the west-northwest on Sunday and miss the islands , \" he added .  At 11 a.m. EDT ( 1500 EST ) , Dorian was 1,130 miles east of the Lesser Antilles and moving west at 14 mph ( 25 kph ) .  Its exact position was latitude 14.5 north , longitude 44.2 west . " .
+
+<https://anonymiz.ed/conll/188#char=0,891> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "909"^^xsd:nonNegativeInteger ;
+    nif:isString "Mexico president to lunch with ethnic Maya .  Mexico City , Mexico 1996-08-23  Mexico 's President Andrés Manuel López Obrador has announced he will hold regular lunches in his presidential palace for members of the country 's different ethnic groups as of next week .  \" It was about time for the Maya , the blacks and the mixed-bloods to begin eating in the palace with their president because this is not a palace exclusively for the potentates and ambassadors and protocol , \" López Obrador said late on Thursday .  \" In these weekly lunches we are going to get to know the problems of the Maya , mixed-race , black and peasant sectors , \" he said .  He has invited 35 Maya leaders to lunch next Tuesday .  López Obrador , who was elected on a populist platform last month , also plans to create a ministry for ethnic cultures .  The Andean nation 's population of 11.4 million is 47 percent indigenous . " .
+
+<https://anonymiz.ed/conll/213#char=0,1253> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1237"^^xsd:nonNegativeInteger ;
+    nif:isString "Snoozing Brazilian man takes slow train to Texas .  HOUSTON , Texas 1996-08-22  A Brazilian man who tried to take a snooze in a railway boxcar in Louisiana found himself locked in and bound for Texas with no food or water .  Officials in the port of Galveston said on Thursday that they found Tuan Quac Phan , 29 , dehydrated , famished and terrified after sailing to Texas from Louisiana in the boxcar loaded on a barge , a trip that takes about five days .  Sgt .  Dan Jewell of the Galveston , Texas police department described Phan as \" extremely cooperative \" . \"  Seeing me in my uniform , he kept saying , Jail better .  Jail better . '  \"  Phan 's accidental journey started last week in New Orleans , Louisiana , where he was searching for a fishing job , Jewell said .  \" He had climbed up in this boxcar to get out of the weather and to get some sleep , \" Jewell said . \"  The next thing you know , the boxcar is coupled up and loaded up to a barge and headed north . \"  Police found Phan late on Monday when the boxcar , which was transporting lumber , was opened at Galveston , a port in western Galveston Bay .  Officials fed Phan some soup , gave him medical care , kept him overnight and then fed him a large breakfast . " .
+
+<https://anonymiz.ed/conll/1260#char=0,1407> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1447"^^xsd:nonNegativeInteger ;
+    nif:isString "Brazilian daily port , shipping update for Dec 6 .  RIO DE JANEIRO 1996-12-06  All major ports were open as of 1000 local / 1600 UTC , the Communications and Transportation Ministry said in a daily update .  Santos port authorities said fishing restrictions were in place in an area adjacent to the port because of a geophysical study being carried out in deep waters of the region from the ship Kenda .  The ministry updated port conditions and shipping warnings for the South Atlantic Ocean , Amazon River and Atlantic Coast .  - Atlantic Coast :  Light rains along the coast of southern Santa Catarina and Paraná , with the rest of the coast seeing clear skies .  Winds from the northeast of 10 to 15 knots ( 19 to 28 kilometers / 11 to 17 miles per hour ) .  A new front is seen emerging during the course of Friday , affecting the north of the Santa Catarina peninsula and Rio Grande do Sul state , bringing lower temperatures , light rains and waves up to six feet .  - South Atlantic Ocean :  Cold front bringing light rains to the coast of São Paulo , but with the rest of the South Atlantic Ocean in clear skies .  Winds from the northeast at 10 to 15 knots ( 19 to 28 kilometers / 11 to 17 miles per hour ) .  - Amazon River :  Tropical air carrying sporadic light rains over the coast of Amazonas state .  Winds from the northeast at 10 to 15 knots with waves three to five feet high .  -- Chris Aspin , Brasília newsroom +525 728-7903 " .
+

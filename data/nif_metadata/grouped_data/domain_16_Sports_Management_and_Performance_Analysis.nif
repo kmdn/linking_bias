@@ -1,0 +1,247 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://msnbc/dataset/Hea16384904.txt#offset_0_176_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Harvard Medical School" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16384904.txt#char=1194,1359> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Harvard_Medical_School> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_158_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Lisa Simpson" ;
+    nif:beginIndex "122"^^xsd:nonNegativeInteger ;
+    nif:endIndex "134"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=4018,4168> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Lisa_Simpson> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_158_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "UnitedHealth Group" ;
+    nif:beginIndex "138"^^xsd:nonNegativeInteger ;
+    nif:endIndex "156"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=4018,4168> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/UnitedHealth_Group> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_81_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "London" ;
+    nif:beginIndex "72"^^xsd:nonNegativeInteger ;
+    nif:endIndex "78"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=1545,1630> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/London> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_175_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Beyoncé" ;
+    nif:beginIndex "29"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=1039,1209> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Beyoncé> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_175_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Beyoncé" ;
+    nif:beginIndex "108"^^xsd:nonNegativeInteger ;
+    nif:endIndex "115"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=1039,1209> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Beyoncé> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_175_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jay-Z" ;
+    nif:beginIndex "120"^^xsd:nonNegativeInteger ;
+    nif:endIndex "125"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=1039,1209> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jay-Z> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_175_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Rihanna" ;
+    nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+    nif:endIndex "169"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=1039,1209> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rihanna> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_23_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Oprah" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=1210,1232> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Oprah_Winfrey> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_57_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cowboys" ;
+    nif:beginIndex "35"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=4650,4708> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Dallas_Cowboys> .
+
+<http://msnbc/dataset/TvN16442342.txt#offset_0_152_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Loretta Ables" ;
+    nif:beginIndex "106"^^xsd:nonNegativeInteger ;
+    nif:endIndex "119"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442342.txt#char=521,673> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Loretta_Ables> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_173_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Gen. David Petraeus" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=4364,4532> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/David_Petraeus> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_173_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "British Army" ;
+    nif:beginIndex "33"^^xsd:nonNegativeInteger ;
+    nif:endIndex "45"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=4364,4532> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/British_Army> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_173_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "British troops" ;
+    nif:beginIndex "141"^^xsd:nonNegativeInteger ;
+    nif:endIndex "155"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=4364,4532> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/British_Army> .
+
+<http://msnbc/dataset/Wor16447201.txt#offset_0_158_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Durga Puja" ;
+    nif:beginIndex "62"^^xsd:nonNegativeInteger ;
+    nif:endIndex "72"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor16447201.txt#char=1425,1591> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Durga_Puja> .
+
+<http://msnbc/dataset/Wor16447201.txt#offset_0_158_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Amit Banerjee" ;
+    nif:beginIndex "80"^^xsd:nonNegativeInteger ;
+    nif:endIndex "93"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor16447201.txt#char=1425,1591> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Amit_Banerjee> .
+
+<http://msnbc/dataset/Wor16447201.txt#offset_0_158_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Odisha" ;
+    nif:beginIndex "151"^^xsd:nonNegativeInteger ;
+    nif:endIndex "157"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor16447201.txt#char=1425,1591> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Odisha> .
+
+<http://msnbc/dataset/Wor16447201.txt#offset_0_165_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Pongal" ;
+    nif:beginIndex "156"^^xsd:nonNegativeInteger ;
+    nif:endIndex "162"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor16447201.txt#char=2760,2929> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pongal_(festival)> .
+
+<https://anonymiz.ed/domain16/> a nif:ContextCollection ;
+    nif:hasContext <http://msnbc/dataset/Bus16451112.txt#char=1665,1700>,
+        <http://msnbc/dataset/Hea16384904.txt#char=1194,1359>,
+        <http://msnbc/dataset/Hea16451212.txt#char=4018,4168>,
+        <http://msnbc/dataset/Pol16447720.txt#char=1545,1630>,
+        <http://msnbc/dataset/Spo16417540.txt#char=1039,1209>,
+        <http://msnbc/dataset/Spo16417540.txt#char=1210,1232>,
+        <http://msnbc/dataset/Spo16417540.txt#char=4650,4708>,
+        <http://msnbc/dataset/TvN16442342.txt#char=521,673>,
+        <http://msnbc/dataset/Wor13259309.txt#char=4364,4532>,
+        <http://msnbc/dataset/Wor16447201.txt#char=1425,1591>,
+        <http://msnbc/dataset/Wor16447201.txt#char=2760,2929> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/Bus16451112.txt#char=1665,1700> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "35"^^xsd:nonNegativeInteger ;
+    nif:isString "“Absolutely,” he said at the time. " .
+
+<http://msnbc/dataset/Hea16384904.txt#char=1194,1359> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "176"^^xsd:nonNegativeInteger ;
+    nif:isString "The Harvard Medical School study says one drink a day is OK for “younger women who aren’t planning a pregnancy” and that “postmenopausal women should limit themselves to less.”" .
+
+<http://msnbc/dataset/Pol16447720.txt#char=1545,1630> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "81"^^xsd:nonNegativeInteger ;
+    nif:isString "“Welcome home to the people that you reflected so well when you were in London.” " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=1210,1232> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:isString "“I think Oprah’s great." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=4650,4708> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:isString "“And that’s what everyone with the Cowboys wants, to win." .
+
+<http://msnbc/dataset/TvN16442342.txt#char=521,673> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "152"^^xsd:nonNegativeInteger ;
+    nif:isString "\"I'm just sick when I think — every day when I think how those men had to die and it makes me sick,\" says Loretta Ables whose husband died in the mine. " .
+
+<http://msnbc/dataset/Wor16447201.txt#char=2760,2929> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "165"^^xsd:nonNegativeInteger ;
+    nif:isString "The midway point between two such celebrations is also considered highly favorable because the position of the sun and the moon are the same as during the “Pongal”. " .
+
+<http://msnbc/dataset/Hea16451212.txt#char=4018,4168> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "158"^^xsd:nonNegativeInteger ;
+    nif:isString "“There was a crisis. And the whole thing came about as an answer for how health insurance should work,” said spokesperson Lisa Simpson of UnitedHealth Group. " .
+
+<http://msnbc/dataset/Wor13259309.txt#char=4364,4532> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "173"^^xsd:nonNegativeInteger ;
+    nif:isString "Maj. Gen. Gen. David Petraeus, a British Army spokesman, told reporters Wednesday that the execution would have been handled differently had British troops been in charge.  " .
+
+<http://msnbc/dataset/Wor16447201.txt#char=1425,1591> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "158"^^xsd:nonNegativeInteger ;
+    nif:isString "“It was a long-cherished desire to take a dip here during the Durga Puja,” said Amit Banerjee, a young school teacher from the eastern Indian state of Odisha." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=1039,1209> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "175"^^xsd:nonNegativeInteger ;
+    nif:isString "“I’ve been through this with Beyoncé for quite some time now, and I feel the pain and so forth and so on of Beyoncé and Jay-Z, and it’s not a very simple thing,” Rihanna said." .
+

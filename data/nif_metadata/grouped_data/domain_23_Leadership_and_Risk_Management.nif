@@ -1,0 +1,102 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://msnbc/dataset/Pol16452612.txt#offset_0_94_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Karl Rove" ;
+    nif:beginIndex "54"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16452612.txt#char=2955,3048> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Karl_Rove> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_73_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Michael Jordan" ;
+    nif:beginIndex "53"^^xsd:nonNegativeInteger ;
+    nif:endIndex "67"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=3006,3073> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Penn_State_Nittany_Lions_football> .
+
+<http://msnbc/dataset/Spo16455207.txt#offset_0_84_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "e operation this se" ;
+    nif:beginIndex "59"^^xsd:nonNegativeInteger ;
+    nif:endIndex "78"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16455207.txt#char=802,879> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Wall_Street_Journal> .
+
+<http://msnbc/dataset/TvN16442342.txt#offset_0_85_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Neil deGrasse Tyson" ;
+    nif:beginIndex "60"^^xsd:nonNegativeInteger ;
+    nif:endIndex "79"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442342.txt#char=1291,1364> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Neil_deGrasse_Tyson> .
+
+<http://msnbc/dataset/Wor16447201.txt#offset_0_59_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Carnival" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor16447201.txt#char=1990,2046> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rio_Carnival> .
+
+<https://anonymiz.ed/domain23/> a nif:ContextCollection ;
+    nif:hasContext <http://msnbc/dataset/Pol16452612.txt#char=2955,3048>,
+        <http://msnbc/dataset/Spo16417540.txt#char=3006,3073>,
+        <http://msnbc/dataset/Spo16455207.txt#char=802,879>,
+        <http://msnbc/dataset/TvN16442287.txt#char=423,441>,
+        <http://msnbc/dataset/TvN16442342.txt#char=1291,1364>,
+        <http://msnbc/dataset/USN16443053.txt#char=904,1008>,
+        <http://msnbc/dataset/Wor16447201.txt#char=1990,2046> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/TvN16442287.txt#char=423,441> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "18"^^xsd:nonNegativeInteger ;
+    nif:isString "*Get enough sleep " .
+
+<http://msnbc/dataset/USN16443053.txt#char=904,1008> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "104"^^xsd:nonNegativeInteger ;
+    nif:isString "But it cautioned that regular testing and exercises are needed \"to effectively link disparate systems.\" " .
+
+<http://msnbc/dataset/Pol16452612.txt#char=2955,3048> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "94"^^xsd:nonNegativeInteger ;
+    nif:isString "“Voters are tired of that era and its concerns,” said Karl Rove said. “They want to move on.” " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=3006,3073> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:isString "“There’s only one thing I want to do, and it’s win,” Michael Jordan said." .
+
+<http://msnbc/dataset/Spo16455207.txt#char=802,879> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:isString "In September, LeBron James said he didn’t expect to need the operation this season. " .
+
+<http://msnbc/dataset/TvN16442342.txt#char=1291,1364> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "85"^^xsd:nonNegativeInteger ;
+    nif:isString "\"We need to have a way to communicate with trapped miners,\" Neil deGrasse Tyson says." .
+
+<http://msnbc/dataset/Wor16447201.txt#char=1990,2046> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "59"^^xsd:nonNegativeInteger ;
+    nif:isString "“God willing, I will be here for the next 'Carnival' too”. " .
+

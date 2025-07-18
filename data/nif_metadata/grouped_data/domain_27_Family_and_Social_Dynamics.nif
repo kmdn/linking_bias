@@ -1,0 +1,335 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_121_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "One Direction" ;
+    nif:beginIndex "49"^^xsd:nonNegativeInteger ;
+    nif:endIndex "62"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=330,445> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/One_Direction> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_146_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Us Weekly" ;
+    nif:beginIndex "13"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=197,329> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Us_Weekly> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_146_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Margot Robbie" ;
+    nif:beginIndex "24"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=197,329> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Margot_Robbie> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_146_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Easter" ;
+    nif:beginIndex "49"^^xsd:nonNegativeInteger ;
+    nif:endIndex "55"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=197,329> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Easter> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_146_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Park City" ;
+    nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=197,329> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Park_City,_Utah> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_146_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Utah" ;
+    nif:beginIndex "86"^^xsd:nonNegativeInteger ;
+    nif:endIndex "90"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=197,329> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Utah> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_146_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ed Sheeran" ;
+    nif:beginIndex "98"^^xsd:nonNegativeInteger ;
+    nif:endIndex "108"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=197,329> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ed_Sheeran> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_146_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dallas" ;
+    nif:beginIndex "139"^^xsd:nonNegativeInteger ;
+    nif:endIndex "145"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=197,329> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Dallas> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_102_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Medicare" ;
+    nif:beginIndex "92"^^xsd:nonNegativeInteger ;
+    nif:endIndex "100"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=4444,4546> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Medicare_(United_States)> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_134_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brown" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2488,2622> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brown_family> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_134_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brown" ;
+    nif:beginIndex "73"^^xsd:nonNegativeInteger ;
+    nif:endIndex "78"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2488,2622> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brown_family> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_71_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sophia" ;
+    nif:beginIndex "20"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2418,2487> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sophia_(given_name)> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_71_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Noah" ;
+    nif:beginIndex "37"^^xsd:nonNegativeInteger ;
+    nif:endIndex "41"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2418,2487> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Noah_(given_name)> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_93_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Liam" ;
+    nif:beginIndex "44"^^xsd:nonNegativeInteger ;
+    nif:endIndex "48"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2324,2417> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Liam_(given_name)> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_107_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Richard Branson" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=948,1038> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Richard_Branson> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_107_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tim Cook" ;
+    nif:beginIndex "55"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=948,1038> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tim_Cook> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_107_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Lisa Jackson" ;
+    nif:beginIndex "78"^^xsd:nonNegativeInteger ;
+    nif:endIndex "90"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=948,1038> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Lisa_Jackson> .
+
+<http://msnbc/dataset/Tec16451635.txt#offset_0_95_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "France" ;
+    nif:beginIndex "51"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16451635.txt#char=469,563> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/France> .
+
+<http://msnbc/dataset/Tra16444229.txt#offset_0_103_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Vargas" ;
+    nif:beginIndex "22"^^xsd:nonNegativeInteger ;
+    nif:endIndex "28"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16444229.txt#char=798,895> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Vargas_(surname)> .
+
+<http://msnbc/dataset/Tra16444229.txt#offset_0_103_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hernandez" ;
+    nif:beginIndex "33"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16444229.txt#char=798,895> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hernandez> .
+
+<http://msnbc/dataset/Tra16444229.txt#offset_0_103_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Maricopa County Jail" ;
+    nif:beginIndex "66"^^xsd:nonNegativeInteger ;
+    nif:endIndex "86"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16444229.txt#char=798,895> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Maricopa_County_Jail> .
+
+<http://msnbc/dataset/Tra16454203.txt#offset_0_153_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "JFK Airport" ;
+    nif:beginIndex "26"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16454203.txt#char=564,711> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/John_F._Kennedy_International_Airport> .
+
+<http://msnbc/dataset/Tra16454203.txt#offset_0_153_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Delta" ;
+    nif:beginIndex "71"^^xsd:nonNegativeInteger ;
+    nif:endIndex "76"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16454203.txt#char=564,711> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Delta_Air_Lines> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_170_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Seattle" ;
+    nif:beginIndex "46"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=1885,2060> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Seattle> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_170_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Easter" ;
+    nif:beginIndex "101"^^xsd:nonNegativeInteger ;
+    nif:endIndex "107"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=1885,2060> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Easter> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_170_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Pacific Northwest" ;
+    nif:beginIndex "151"^^xsd:nonNegativeInteger ;
+    nif:endIndex "168"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=1885,2060> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pacific_Northwest> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_108_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Albert Einstein" ;
+    nif:beginIndex "61"^^xsd:nonNegativeInteger ;
+    nif:endIndex "76"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=2247,2349> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Albert_Einstein> .
+
+<https://anonymiz.ed/domain27/> a nif:ContextCollection ;
+    nif:hasContext <http://msnbc/dataset/Ent16444023.txt#char=197,329>,
+        <http://msnbc/dataset/Ent16444023.txt#char=330,445>,
+        <http://msnbc/dataset/Hea16451212.txt#char=2324,2417>,
+        <http://msnbc/dataset/Hea16451212.txt#char=2418,2487>,
+        <http://msnbc/dataset/Hea16451212.txt#char=2488,2622>,
+        <http://msnbc/dataset/Hea16451212.txt#char=4444,4546>,
+        <http://msnbc/dataset/Spo16417540.txt#char=948,1038>,
+        <http://msnbc/dataset/Tec16451635.txt#char=469,563>,
+        <http://msnbc/dataset/Tra16444229.txt#char=798,895>,
+        <http://msnbc/dataset/Tra16454203.txt#char=564,711>,
+        <http://msnbc/dataset/USN16444287.txt#char=1885,2060>,
+        <http://msnbc/dataset/Wor13259309.txt#char=2247,2349> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/Ent16444023.txt#char=330,445> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "121"^^xsd:nonNegativeInteger ;
+    nif:isString "The magazine quotes a source who says the former One Direction singer told friends that he and the actress had broken up." .
+
+<http://msnbc/dataset/Hea16451212.txt#char=2324,2417> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "93"^^xsd:nonNegativeInteger ;
+    nif:isString "She and her husband adopted a foster child, Liam, from a mother who was mentally handicapped." .
+
+<http://msnbc/dataset/Hea16451212.txt#char=4444,4546> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "102"^^xsd:nonNegativeInteger ;
+    nif:isString "The program provides insurance for children above the level at which they would qualify for Medicare. " .
+
+<http://msnbc/dataset/Tec16451635.txt#char=469,563> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "95"^^xsd:nonNegativeInteger ;
+    nif:isString "The previous record was the 21 baby pandas born in France's zoos and breeding centers in 2005. " .
+
+<http://msnbc/dataset/Wor13259309.txt#char=2247,2349> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "108"^^xsd:nonNegativeInteger ;
+    nif:isString "I do not know their names, but I would remember their faces, Albert Einstein said in a telephone interview. " .
+
+<http://msnbc/dataset/Hea16451212.txt#char=2418,2487> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "71"^^xsd:nonNegativeInteger ;
+    nif:isString "Later, they adopted Sophia’s brother Noah who has epilepsy and asthma. " .
+
+<http://msnbc/dataset/Hea16451212.txt#char=2488,2622> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "134"^^xsd:nonNegativeInteger ;
+    nif:isString "But Brown’s husband, the family wage earner, walked out in 1990, leaving Brown to bring up the two children with no health insurance. " .
+
+<http://msnbc/dataset/Tra16454203.txt#char=564,711> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "153"^^xsd:nonNegativeInteger ;
+    nif:isString "Many are still stacked at JFK Airport's Terminal 1 and Terminal 4, and Delta is now using freight planes and volunteers to deliver them to their owners. " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=948,1038> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "107"^^xsd:nonNegativeInteger ;
+    nif:isString "Instead, Richard Branson hinted that family issues for Tim Cook and his wife, Lisa Jackson, were a factor. " .
+
+<http://msnbc/dataset/Tra16444229.txt#char=798,895> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "103"^^xsd:nonNegativeInteger ;
+    nif:isString "The Aguilar brothers, Vargas and Hernandez were being held at the Maricopa County Jail on $20,000 bond." .
+
+<http://msnbc/dataset/USN16444287.txt#char=1885,2060> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "170"^^xsd:nonNegativeInteger ;
+    nif:isString "The couple had planned to visit family in the Seattle area, before surprising their daughter for the Easter and celebrating her wedding anniversary in Pacific Northwest. " .
+
+<http://msnbc/dataset/Ent16444023.txt#char=197,329> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "146"^^xsd:nonNegativeInteger ;
+    nif:isString "According to Us Weekly, Margot Robbie, 34, spent Easter with her family in Park City, Utah, while Ed Sheeran, 25, was with his family near Dallas." .
+

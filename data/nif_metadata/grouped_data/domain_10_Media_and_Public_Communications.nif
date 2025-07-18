@@ -1,0 +1,479 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_138_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Buffett" ;
+    nif:beginIndex "29"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=891,1030> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Warren_Buffett> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_138_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dimon" ;
+    nif:beginIndex "83"^^xsd:nonNegativeInteger ;
+    nif:endIndex "88"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=891,1030> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jamie_Dimon> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_141_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Target" ;
+    nif:beginIndex "85"^^xsd:nonNegativeInteger ;
+    nif:endIndex "91"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=1409,1549> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Target_Corporation> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_141_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brian Cornell" ;
+    nif:beginIndex "93"^^xsd:nonNegativeInteger ;
+    nif:endIndex "106"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=1409,1549> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brian_Cornell> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_60_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Walmart" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=4790,4848> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Walmart> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_60_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Doug McMillon" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "38"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=4790,4848> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Doug_McMillon> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_69_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tim Cook" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "8"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=3045,3109> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tim_Cook> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_119_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kanye West" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=1651,1762> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Kanye_West> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_119_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Taylor Swift" ;
+    nif:beginIndex "31"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=1651,1762> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Taylor_Swift> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_140_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Musk" ;
+    nif:beginIndex "134"^^xsd:nonNegativeInteger ;
+    nif:endIndex "138"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=3206,3347> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Elon_Musk> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_90_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Warren Buffett" ;
+    nif:beginIndex "74"^^xsd:nonNegativeInteger ;
+    nif:endIndex "88"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=550,633> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Warren_Buffett> .
+
+<http://msnbc/dataset/Pol16452612.txt#offset_0_122_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Carville" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16452612.txt#char=2573,2691> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/James_Carville> .
+
+<http://msnbc/dataset/Pol16452612.txt#offset_0_122_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Millennial" ;
+    nif:beginIndex "104"^^xsd:nonNegativeInteger ;
+    nif:endIndex "114"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16452612.txt#char=2573,2691> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Millennials> .
+
+<http://msnbc/dataset/Pol16452612.txt#offset_0_75_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf " Karl Rov" ;
+    nif:beginIndex "42"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16452612.txt#char=2238,2316> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States_Senate> .
+
+<http://msnbc/dataset/Pol16452612.txt#offset_0_75_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Karl Rove" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "52"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16452612.txt#char=2238,2316> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Karl_Rove> .
+
+<http://msnbc/dataset/Pol16452612.txt#offset_0_75_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bush" ;
+    nif:beginIndex "69"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16452612.txt#char=2238,2316> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/George_W._Bush> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_122_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Stan Kroenke" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=835,947> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Stan_Kroenke> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_122_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mike Tomlin" ;
+    nif:beginIndex "66"^^xsd:nonNegativeInteger ;
+    nif:endIndex "77"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=835,947> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mike_Tomlin> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_68_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Belichick" ;
+    nif:beginIndex "20"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=599,663> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bill_Belichick> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_68_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Popovich" ;
+    nif:beginIndex "46"^^xsd:nonNegativeInteger ;
+    nif:endIndex "54"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=599,663> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Gregg_Popovich> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_91_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Warren Buffett" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=518,598> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Warren_Buffett> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_91_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bill Gates" ;
+    nif:beginIndex "65"^^xsd:nonNegativeInteger ;
+    nif:endIndex "75"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=518,598> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bill_Gates> .
+
+<http://msnbc/dataset/Tra16444229.txt#offset_0_102_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sydney" ;
+    nif:beginIndex "44"^^xsd:nonNegativeInteger ;
+    nif:endIndex "50"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16444229.txt#char=1209,1311> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sydney> .
+
+<http://msnbc/dataset/Tra16454203.txt#offset_0_105_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Qantas" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16454203.txt#char=462,563> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Qantas> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_173_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The European Commission" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4054,4212> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/European_Commission> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_112_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the Australian Department of Home Affairs" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=2835,2946> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Department_of_Home_Affairs_(Australia)> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_135_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "terrorism issue" ;
+    nif:beginIndex "117"^^xsd:nonNegativeInteger ;
+    nif:endIndex "132"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=966,1098> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/White_House> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_130_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "British Army" ;
+    nif:beginIndex "2"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=1471,1601> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/British_Army> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_130_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "United Kingdom" ;
+    nif:beginIndex "46"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=1471,1601> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_Kingdom> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_164_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Muammar Gaddafi" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "62"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=878,1033> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Muammar_Gaddafi> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_184_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hoshyar Zebari" ;
+    nif:beginIndex "19"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=1833,2016> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hoshyar_Zebari> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_184_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Farqan al-Qaisi" ;
+    nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+    nif:endIndex "90"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=1833,2016> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Farqan_al-Qaisi> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_184_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Barzan Ibrahim al-Tikriti" ;
+    nif:beginIndex "127"^^xsd:nonNegativeInteger ;
+    nif:endIndex "152"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=1833,2016> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Barzan_Ibrahim_al-Tikriti> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_184_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "BBC News" ;
+    nif:beginIndex "174"^^xsd:nonNegativeInteger ;
+    nif:endIndex "182"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=1833,2016> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/BBC_News> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_73_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Reuters" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "11"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=2854,2919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Reuters> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_73_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Emmanuel Macron" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=2854,2919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Emmanuel_Macron> .
+
+<https://anonymiz.ed/domain10/> a nif:ContextCollection ;
+    nif:hasContext <http://msnbc/dataset/Bus16451112.txt#char=1409,1549>,
+        <http://msnbc/dataset/Bus16451112.txt#char=3045,3109>,
+        <http://msnbc/dataset/Bus16451112.txt#char=4790,4848>,
+        <http://msnbc/dataset/Bus16451112.txt#char=891,1030>,
+        <http://msnbc/dataset/Ent16453733.txt#char=1651,1762>,
+        <http://msnbc/dataset/Hea16451212.txt#char=3206,3347>,
+        <http://msnbc/dataset/Hea16451212.txt#char=550,633>,
+        <http://msnbc/dataset/Pol16452612.txt#char=2238,2316>,
+        <http://msnbc/dataset/Pol16452612.txt#char=2573,2691>,
+        <http://msnbc/dataset/Spo16417540.txt#char=518,598>,
+        <http://msnbc/dataset/Spo16417540.txt#char=599,663>,
+        <http://msnbc/dataset/Spo16417540.txt#char=835,947>,
+        <http://msnbc/dataset/Tra16444229.txt#char=1209,1311>,
+        <http://msnbc/dataset/Tra16454203.txt#char=462,563>,
+        <http://msnbc/dataset/USN16443053.txt#char=4054,4212>,
+        <http://msnbc/dataset/USN16444287.txt#char=2835,2946>,
+        <http://msnbc/dataset/USN16444287.txt#char=966,1098>,
+        <http://msnbc/dataset/Wor13259309.txt#char=1471,1601>,
+        <http://msnbc/dataset/Wor13259309.txt#char=1833,2016>,
+        <http://msnbc/dataset/Wor13259309.txt#char=2854,2919>,
+        <http://msnbc/dataset/Wor13259309.txt#char=878,1033> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/Bus16451112.txt#char=3045,3109> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "69"^^xsd:nonNegativeInteger ;
+    nif:isString "Tim Cook has run into some problems there. The second is execution.” " .
+
+<http://msnbc/dataset/Hea16451212.txt#char=3206,3347> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "140"^^xsd:nonNegativeInteger ;
+    nif:isString "You need the support of insurance so you don’t have to worry about squeezing doctor bills out of an already stretched paycheck,” said Musk. " .
+
+<http://msnbc/dataset/Hea16451212.txt#char=550,633> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "90"^^xsd:nonNegativeInteger ;
+    nif:isString "“Health care for children really is a bridge to get out of poverty,” said Warren Buffett. " .
+
+<http://msnbc/dataset/Tra16444229.txt#char=1209,1311> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "102"^^xsd:nonNegativeInteger ;
+    nif:isString "A telephone message left with the company's Sydney office was not immediately returned Tuesday night. " .
+
+<http://msnbc/dataset/Tra16454203.txt#char=462,563> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "105"^^xsd:nonNegativeInteger ;
+    nif:isString "Qantas said Wednesday it still had \"several thousand\" bags that have not been delivered to their owners. " .
+
+<http://msnbc/dataset/USN16443053.txt#char=4054,4212> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "173"^^xsd:nonNegativeInteger ;
+    nif:isString "The European Commission has also ordered that the television broadcast industry vacate a portion of the radio spectrum to make it available for public safety communications." .
+
+<http://msnbc/dataset/USN16444287.txt#char=2835,2946> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "112"^^xsd:nonNegativeInteger ;
+    nif:isString "Officials with the Australian Department of Home Affairs said they could not comment on why he was denied entry." .
+
+<http://msnbc/dataset/USN16444287.txt#char=966,1098> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "135"^^xsd:nonNegativeInteger ;
+    nif:isString "She said Al-Baghdadi’s visa waiver could have been denied because “he could have a criminal record, or it could be a terrorism issue.” " .
+
+<http://msnbc/dataset/Wor13259309.txt#char=878,1033> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "164"^^xsd:nonNegativeInteger ;
+    nif:isString "The video contained audio of witnesses telling Muammar Gaddafi to “Go to hell” and of the former leader responding to taunts that his tormentors were being unmanly." .
+
+<http://msnbc/dataset/Bus16451112.txt#char=1409,1549> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "141"^^xsd:nonNegativeInteger ;
+    nif:isString "Asked in that interview if he had thought of hanging up his orange apron and leaving Target, Brian Cornell said unequivocally that he hadn’t." .
+
+<http://msnbc/dataset/Bus16451112.txt#char=4790,4848> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:isString "Walmart did not say what Doug McMillon would be doing next. " .
+
+<http://msnbc/dataset/Bus16451112.txt#char=891,1030> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "138"^^xsd:nonNegativeInteger ;
+    nif:isString "The company declined to make Buffett available for comment, and a message left for Dimon with his secretary was not immediately returned. " .
+
+<http://msnbc/dataset/Ent16453733.txt#char=1651,1762> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "119"^^xsd:nonNegativeInteger ;
+    nif:isString "Kanye West fired back, calling Taylor Swift a “loser” and a “bully,” among other insults, in various media interviews. " .
+
+<http://msnbc/dataset/Pol16452612.txt#char=2573,2691> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "122"^^xsd:nonNegativeInteger ;
+    nif:isString "One thing for sure, says Carville, voters are tired of arguing about the culture of the 1960s and other Millennial issues." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=518,598> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "91"^^xsd:nonNegativeInteger ;
+    nif:isString "Warren Buffett announced the departure at a news conference that Bill Gates didn’t attend. " .
+
+<http://msnbc/dataset/Spo16417540.txt#char=599,663> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "68"^^xsd:nonNegativeInteger ;
+    nif:isString "“It is what it is,” Belichick said, borrowing Popovich’s pet phrase." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=835,947> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "122"^^xsd:nonNegativeInteger ;
+    nif:isString "Stan Kroenke said the change of heart wasn’t driven by money, and Mike Tomlin never sought a raise or contract extension. " .
+
+<http://msnbc/dataset/Wor13259309.txt#char=1471,1601> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "130"^^xsd:nonNegativeInteger ;
+    nif:isString "A British Army spokesman, meanwhile, said the United Kingdom would have handled the execution differently had it been in charge.  " .
+
+<http://msnbc/dataset/Wor13259309.txt#char=2854,2919> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:isString "The Reuters said it had been unable to reach Emmanuel Macron for comment." .
+
+<http://msnbc/dataset/Pol16452612.txt#char=2238,2316> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "75"^^xsd:nonNegativeInteger ;
+    nif:isString "“`The Senate’ doesn’t make the case,” said Karl Rove, who worked for Bush. " .
+
+<http://msnbc/dataset/Wor13259309.txt#char=1833,2016> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "184"^^xsd:nonNegativeInteger ;
+    nif:isString "“I am not accusing Hoshyar Zebari, and I did not see him taking pictures,” Farqan al-Qaisi, a prosecutor in the case that sent Barzan Ibrahim al-Tikriti to the gallows, told BBC News. " .
+

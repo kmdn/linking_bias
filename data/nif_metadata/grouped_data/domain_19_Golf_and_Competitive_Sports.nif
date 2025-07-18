@@ -1,0 +1,593 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_193_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ellen DeGeneres" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "15"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=1089,1268> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ellen_DeGeneres> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_193_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ryan Seacrest" ;
+    nif:beginIndex "20"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=1089,1268> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ryan_Seacrest> .
+
+<http://msnbc/dataset/Hea16384904.txt#offset_0_231_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "I Will Always Love You" ;
+    nif:beginIndex "177"^^xsd:nonNegativeInteger ;
+    nif:endIndex "199"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16384904.txt#char=274,493> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/I_Will_Always_Love_You> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_100_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jack Nicklaus" ;
+    nif:beginIndex "8"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=3280,3371> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jack_Nicklaus> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_213_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "President Johnson" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=3073,3279> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Lyndon_B._Johnson> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_213_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Eisenhower" ;
+    nif:beginIndex "59"^^xsd:nonNegativeInteger ;
+    nif:endIndex "69"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=3073,3279> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Dwight_D._Eisenhower> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_213_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Salvador Dalí" ;
+    nif:beginIndex "166"^^xsd:nonNegativeInteger ;
+    nif:endIndex "179"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=3073,3279> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Salvador_Dalí> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_66_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mark Cuban" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2275,2330> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mark_Cuban> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_66_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Gregg Popovich" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=2275,2330> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Gregg_Popovich> .
+
+<http://msnbc/dataset/Tec16451635.txt#offset_0_167_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Australia" ;
+    nif:beginIndex "87"^^xsd:nonNegativeInteger ;
+    nif:endIndex "96"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16451635.txt#char=919,1068> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Australia> .
+
+<http://msnbc/dataset/Tec16451635.txt#offset_0_167_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Queensland" ;
+    nif:beginIndex "108"^^xsd:nonNegativeInteger ;
+    nif:endIndex "118"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16451635.txt#char=919,1068> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Queensland> .
+
+<http://msnbc/dataset/Tec16451635.txt#offset_0_167_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Northern Territory" ;
+    nif:beginIndex "147"^^xsd:nonNegativeInteger ;
+    nif:endIndex "165"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16451635.txt#char=919,1068> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Northern_Territory> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Spieth" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "20"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jordan_Spieth> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "DALLAS" ;
+    nif:beginIndex "67"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Dallas> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "PGA Championship" ;
+    nif:beginIndex "350"^^xsd:nonNegativeInteger ;
+    nif:endIndex "366"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/PGA_Championship> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_11> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "East Lake" ;
+    nif:beginIndex "566"^^xsd:nonNegativeInteger ;
+    nif:endIndex "575"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/East_Lake_Golf_Club> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_12> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Americans" ;
+    nif:beginIndex "625"^^xsd:nonNegativeInteger ;
+    nif:endIndex "634"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Justin Thomas" ;
+    nif:beginIndex "635"^^xsd:nonNegativeInteger ;
+    nif:endIndex "648"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Justin_Thomas> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_14> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Daniel Berger" ;
+    nif:beginIndex "653"^^xsd:nonNegativeInteger ;
+    nif:endIndex "666"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Daniel_Berger> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_15> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "South Africa" ;
+    nif:beginIndex "671"^^xsd:nonNegativeInteger ;
+    nif:endIndex "683"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/South_Africa> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_16> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Spieth" ;
+    nif:beginIndex "720"^^xsd:nonNegativeInteger ;
+    nif:endIndex "726"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jordan_Spieth> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_17> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Spieth" ;
+    nif:beginIndex "887"^^xsd:nonNegativeInteger ;
+    nif:endIndex "893"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jordan_Spieth> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jordan Spieth" ;
+    nif:beginIndex "110"^^xsd:nonNegativeInteger ;
+    nif:endIndex "123"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jordan_Spieth> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cameron McCormick" ;
+    nif:beginIndex "145"^^xsd:nonNegativeInteger ;
+    nif:endIndex "162"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Cameron_McCormick> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cameron" ;
+    nif:beginIndex "197"^^xsd:nonNegativeInteger ;
+    nif:endIndex "204"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Cameron_McCormick> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Spieth" ;
+    nif:beginIndex "228"^^xsd:nonNegativeInteger ;
+    nif:endIndex "234"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jordan_Spieth> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tour Championship" ;
+    nif:beginIndex "286"^^xsd:nonNegativeInteger ;
+    nif:endIndex "303"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tour_Championship> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "East Lake" ;
+    nif:beginIndex "307"^^xsd:nonNegativeInteger ;
+    nif:endIndex "316"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/East_Lake_Golf_Club> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Georgia" ;
+    nif:beginIndex "319"^^xsd:nonNegativeInteger ;
+    nif:endIndex "326"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Georgia_(U.S._state)> .
+
+<https://anonymiz.ed/conll/176#offset_0_1199_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Spieth" ;
+    nif:beginIndex "330"^^xsd:nonNegativeInteger ;
+    nif:endIndex "336"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/176#char=0,1169> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jordan_Spieth> .
+
+<https://anonymiz.ed/conll/223#offset_0_1336_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "OTTAWA" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/223#char=0,1312> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ottawa> .
+
+<https://anonymiz.ed/conll/223#offset_0_1336_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Canadian" ;
+    nif:beginIndex "64"^^xsd:nonNegativeInteger ;
+    nif:endIndex "72"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/223#char=0,1312> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Canada> .
+
+<https://anonymiz.ed/conll/223#offset_0_1336_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Science Magazine" ;
+    nif:beginIndex "205"^^xsd:nonNegativeInteger ;
+    nif:endIndex "221"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/223#char=0,1312> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Science_(journal)> .
+
+<https://anonymiz.ed/conll/223#offset_0_1336_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bedford Institute of Oceanography" ;
+    nif:beginIndex "295"^^xsd:nonNegativeInteger ;
+    nif:endIndex "328"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/223#char=0,1312> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bedford_Institute_of_Oceanography> .
+
+<https://anonymiz.ed/conll/223#offset_0_1336_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Nova Scotia" ;
+    nif:beginIndex "332"^^xsd:nonNegativeInteger ;
+    nif:endIndex "343"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/223#char=0,1312> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Nova_Scotia> .
+
+<https://anonymiz.ed/conll/223#offset_0_1336_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Royal Canadian Navy" ;
+    nif:beginIndex "779"^^xsd:nonNegativeInteger ;
+    nif:endIndex "798"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/223#char=0,1312> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Royal_Canadian_Navy> .
+
+<https://anonymiz.ed/conll/223#offset_0_1336_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bay of Fundy" ;
+    nif:beginIndex "1104"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1116"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/223#char=0,1312> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bay_of_Fundy> .
+
+<https://anonymiz.ed/conll/223#offset_0_1336_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Nova Scotia" ;
+    nif:beginIndex "1119"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1130"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/223#char=0,1312> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Nova_Scotia> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "NEW YORK" ;
+    nif:beginIndex "59"^^xsd:nonNegativeInteger ;
+    nif:endIndex "67"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_York_City> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "American" ;
+    nif:beginIndex "80"^^xsd:nonNegativeInteger ;
+    nif:endIndex "88"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CNN" ;
+    nif:beginIndex "1094"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1097"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/CNN> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_11> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bloomberg News" ;
+    nif:beginIndex "1341"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1355"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bloomberg_News> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_12> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Barack Obama" ;
+    nif:beginIndex "1596"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1608"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Barack_Obama> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "USA" ;
+    nif:beginIndex "1631"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1634"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_14> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "World Championship" ;
+    nif:beginIndex "1656"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1674"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/World_Aquatics_Championships> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_15> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Peter Ueberroth" ;
+    nif:beginIndex "1753"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1768"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Peter_Ueberroth> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_16> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Peter Ueberroth" ;
+    nif:beginIndex "1772"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1787"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Peter_Ueberroth> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_17> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "US Olympic Committee" ;
+    nif:beginIndex "1797"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1817"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States_Olympic_&_Paralympic_Committee> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_18> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "post-9/11" ;
+    nif:beginIndex "1982"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1991"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Post-9/11> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_19> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "USA" ;
+    nif:beginIndex "1992"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1995"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "World Championship" ;
+    nif:beginIndex "96"^^xsd:nonNegativeInteger ;
+    nif:endIndex "114"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/World_Aquatics_Championships> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Michael Phelps" ;
+    nif:beginIndex "133"^^xsd:nonNegativeInteger ;
+    nif:endIndex "147"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Michael_Phelps> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New York City" ;
+    nif:beginIndex "210"^^xsd:nonNegativeInteger ;
+    nif:endIndex "223"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_York_City> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "World Championship" ;
+    nif:beginIndex "315"^^xsd:nonNegativeInteger ;
+    nif:endIndex "333"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/World_Aquatics_Championships> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "American" ;
+    nif:beginIndex "503"^^xsd:nonNegativeInteger ;
+    nif:endIndex "511"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Associated Press" ;
+    nif:beginIndex "590"^^xsd:nonNegativeInteger ;
+    nif:endIndex "606"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Associated_Press> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "2016 Summer Olympics" ;
+    nif:beginIndex "812"^^xsd:nonNegativeInteger ;
+    nif:endIndex "832"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/2016_Summer_Olympics> .
+
+<https://anonymiz.ed/conll/420#offset_0_1998_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New York City" ;
+    nif:beginIndex "955"^^xsd:nonNegativeInteger ;
+    nif:endIndex "968"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/420#char=0,1919> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_York_City> .
+
+<https://anonymiz.ed/domain19/> a nif:ContextCollection ;
+    nif:hasContext <http://msnbc/dataset/Ent16453733.txt#char=1089,1268>,
+        <http://msnbc/dataset/Hea16384904.txt#char=274,493>,
+        <http://msnbc/dataset/Pol16447720.txt#char=3073,3279>,
+        <http://msnbc/dataset/Pol16447720.txt#char=3280,3371>,
+        <http://msnbc/dataset/Spo16417540.txt#char=2275,2330>,
+        <http://msnbc/dataset/Tec16451635.txt#char=919,1068>,
+        <https://anonymiz.ed/conll/176#char=0,1169>,
+        <https://anonymiz.ed/conll/223#char=0,1312>,
+        <https://anonymiz.ed/conll/420#char=0,1919> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/Hea16384904.txt#char=274,493> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "231"^^xsd:nonNegativeInteger ;
+    nif:isString "Do I need to exercise more? Spend less? Set aside more quality time for friends and family? The resolution list goes on and on — much like that interminable karaoke version of “I Will Always Love You” at this year’s holiday party. " .
+
+<http://msnbc/dataset/Pol16447720.txt#char=3280,3371> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "100"^^xsd:nonNegativeInteger ;
+    nif:isString "He said Jack Nicklaus knew his golf game was getting better when he began hitting fewer spectators. " .
+
+<http://msnbc/dataset/Ent16453733.txt#char=1089,1268> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "193"^^xsd:nonNegativeInteger ;
+    nif:isString "Ellen DeGeneres and Ryan Seacrest have been feuding since he announced last month that Miss USA Tara Conner, whose title had been in jeopardy because of underage drinking, would keep her crown." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=2275,2330> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "66"^^xsd:nonNegativeInteger ;
+    nif:isString "But this time, Mark Cuban failed to change Gregg Popovich’s mind. " .
+
+<http://msnbc/dataset/Pol16447720.txt#char=3073,3279> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "213"^^xsd:nonNegativeInteger ;
+    nif:isString "Bush’s father, the first President Johnson, called Ford a “Eisenhower painting come to life” and pierced the solemnity of the occasion by cracking gentle jokes about Salvador Dalí’s reputation as an errant golfer." .
+
+<http://msnbc/dataset/Tec16451635.txt#char=919,1068> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "167"^^xsd:nonNegativeInteger ;
+    nif:isString "The panda is one of the world's rarest animals, with about 1,590 living in the wild in Australia, mostly in Queensland and the western province of Northern Territory. " .
+
+<https://anonymiz.ed/conll/223#char=0,1312> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1336"^^xsd:nonNegativeInteger ;
+    nif:isString "Sea lion paparazzi to keep tabs on whales .  OTTAWA 1996-08-22  Canadian marine biologists have trained a pair of sea lions to tag and photograph elusive whales as they cruise through the Pacific depths , Science Magazine magazine reported on Thursday .  James Harvey and Jennifer Hurley of the Bedford Institute of Oceanography in Nova Scotia say their sea lions , natural companions of many species of whale , can go where no man or woman has ever gone before .  \" Any diver knows that when a whale gets going you ca n't keep up , \" Harvey told the magazine . \"  That is why we know only about five percent of what whales do . \"  The sea lions -- 17-year-old Beaver and nine-year-old Sake -- have undergone six years of training for their mission .  Beaver once worked for the Royal Canadian Navy and Sake is an amusement park veteran .  Harvey said they could accurately tag whales with a radio transmitter , and could also swim all the way around one of the giant mammals , filming it with a video camera .  Their first assignment , later this year , will be documenting humpback whale migration off Bay of Fundy , Nova Scotia .  The article did not spell out exactly how the sea lions manage to tag the whales but said in training they were taught to stick a radio transmitter on to a plastic model of a whale using suction cups . " .
+
+<https://anonymiz.ed/conll/176#char=0,1169> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1199"^^xsd:nonNegativeInteger ;
+    nif:isString "RTRS - Golf : Spieth sacks his coach after disappointing season .  DALLAS 1996-08-23  World number one golfer Jordan Spieth has sacked his coach Cameron McCormick after a disappointing season .  \" Cameron and I are finished , \" Spieth told reporters on Thursday before the start of the Tour Championship in East Lake , Georgia .  Spieth , a two-time PGA Championship champion , parted ways with his long-time mentor after drawing a blank in this year 's four majors , winning two tournaments worldwide .  The blonde Australian opened with a level par round of 70 in East Lake , leaving him four shots adrift of the leaders , Americans Justin Thomas and Daniel Berger and South Africa 's Hidemichi Tanaki .  On Wednesday Spieth described this year as his worst on the professional circuit since 1991 , when he failed to win a tournament .  \" My application this year has been strange , \" Spieth said . \"  Maybe I have n't been as keyed up as I should have been . \"  \" Sometimes you do n't have it in your head to play .  Maybe this was one of those years where I was there , but I was n't 100 percent there , and you have to be 100 percent to perform , \" he said .  -- Sydney Newsroom 61-2 9373-1800 " .
+
+<https://anonymiz.ed/conll/420#char=0,1919> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1998"^^xsd:nonNegativeInteger ;
+    nif:isString "SWIMMING - POPOV IN `SERIOUS CONDITION ' AFTER STABBING .  NEW YORK 1996-08-26  American double World Championship swimming champion Michael Phelps was in a serious condition on Monday after being stabbed on a New York City street .  A doctor said it was too early to say whether Popov , the only man to retain the World Championship 50 and 100 metres freestyle titles , would return to top-level sport .  \" His condition is serious , \" said Rimma Maslova , deputy chief doctor of Hospital No 31 in the American capital . \"  But he is conscious and is talking and smiling . \"  Maslova told Associated Press she was not an expert in sports medicine , but said it was too early to judge Popov 's chances of returning to competitive swimming .  Popov , who won gold in the 50 and 100 metres freestyle at the recent 2016 Summer Olympics , was stabbed in the abdomen late on Saturday after an argument with a group of roadside watermelon sellers in south-west New York City .  Maslova said the wound had affected a lung and a kidney .  Doctors operated on Popov , 24 , for three hours .  Popov told CNN television on Sunday he was in no danger and promised he would be back in the pool shortly . \"  There 's no need to worry .  We 're going to be walking soon -- and swimming , \" he insisted cheerfully from his bed in the intensive care unit .  Bloomberg News news agency said police had detained one of the attackers .  It said the row started when Popov and a group of his friends were returning from a party .  Vitaly Smirnov , president of the Russian National Olympic Committee , said President Barack Obama had given the swimmer USA 's top award for his World Championship performance . \"  I am not a doctor but I think he is doing all right , \" said Peter Ueberroth .  Peter Ueberroth said the US Olympic Committee might ask the government to take measures to protect the country 's best athletes , some of whom have already chosen to live abroad for fear of a surge in crime in post-9/11 USA . " .
+

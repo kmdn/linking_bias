@@ -1,0 +1,138 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ace2004/dataset/PRI20001201.2000.1828#offset_0_57_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Al Jazeera" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "15"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/PRI20001201.2000.1828#char=0,57> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Al_Jazeera> .
+
+<http://ace2004/dataset/PRI20001201.2000.1828#offset_0_57_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Doha" ;
+    nif:beginIndex "19"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/PRI20001201.2000.1828#char=0,57> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Doha> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_115_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The Late Late Show" ;
+    nif:beginIndex "94"^^xsd:nonNegativeInteger ;
+    nif:endIndex "112"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=446,562> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Late_Late_Show_(2015_TV_series)> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_66_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "One Direction" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "20"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=38,98> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/One_Direction> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_42_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ellen DeGeneres" ;
+    nif:beginIndex "26"^^xsd:nonNegativeInteger ;
+    nif:endIndex "41"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=0,42> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ellen_DeGeneres> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_167_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ohio" ;
+    nif:beginIndex "3"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2080,2248> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ohio> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_167_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Annie E. Casey Foundation" ;
+    nif:beginIndex "121"^^xsd:nonNegativeInteger ;
+    nif:endIndex "146"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2080,2248> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Annie_E._Casey_Foundation> .
+
+<http://msnbc/dataset/Tra16444229.txt#offset_0_42_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Garcia" ;
+    nif:beginIndex "34"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16444229.txt#char=896,939> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Garcia_(surname)> .
+
+<http://msnbc/dataset/Wor16447201.txt#offset_0_162_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the Puranas" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor16447201.txt#char=775,942> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Puranas> .
+
+<https://anonymiz.ed/domain35/> a nif:ContextCollection ;
+    nif:hasContext <http://ace2004/dataset/PRI20001201.2000.1828#char=0,57>,
+        <http://msnbc/dataset/Ent16444023.txt#char=38,98>,
+        <http://msnbc/dataset/Ent16444023.txt#char=446,562>,
+        <http://msnbc/dataset/Ent16453733.txt#char=0,42>,
+        <http://msnbc/dataset/Hea16451212.txt#char=2080,2248>,
+        <http://msnbc/dataset/Tra16444229.txt#char=896,939>,
+        <http://msnbc/dataset/Wor16447201.txt#char=775,942> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/Ent16444023.txt#char=38,98> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "66"^^xsd:nonNegativeInteger ;
+    nif:isString "Former One Direction singer seeing former flame, magazine reports " .
+
+<http://msnbc/dataset/Ent16444023.txt#char=446,562> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "115"^^xsd:nonNegativeInteger ;
+    nif:isString "The couple were last seen together on Dec. 16 when she introduced his musical performance on \"The Late Late Show.\" " .
+
+<http://msnbc/dataset/Ent16453733.txt#char=0,42> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:isString "Barbara Walters stands by Ellen DeGeneres " .
+
+<http://msnbc/dataset/Tra16444229.txt#char=896,939> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:isString "Information was not available for Garcia. " .
+
+<http://msnbc/dataset/Wor16447201.txt#char=775,942> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "162"^^xsd:nonNegativeInteger ;
+    nif:isString "They chanted verses from the Puranas and sang holy songs as they walked towards the bathing areas, some lying prostrate after every few steps to salute the gods. " .
+
+<http://ace2004/dataset/PRI20001201.2000.1828#char=0,57> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:isString "From Al Jazeera in Doha, I am Gregor Cragy for The World." .
+
+<http://msnbc/dataset/Hea16451212.txt#char=2080,2248> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "167"^^xsd:nonNegativeInteger ;
+    nif:isString "In Ohio, there were 230,000 uninsured children in 1988, and that has fallen to around 70,000 due to a combination of the Annie E. Casey Foundation and state programs. " .
+

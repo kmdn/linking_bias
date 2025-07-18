@@ -1,0 +1,181 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/AQUAINT/document540#offset_0_1250_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Olaf Scholz" ;
+    nif:beginIndex "664"^^xsd:nonNegativeInteger ;
+    nif:endIndex "675"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document540> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Olaf_Scholz> .
+
+<http://example.org/AQUAINT/document541#offset_0_1044_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "solar power" ;
+    nif:beginIndex "634"^^xsd:nonNegativeInteger ;
+    nif:endIndex "645"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document541> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Solar_power> .
+
+<http://example.org/AQUAINT/document542#offset_0_945_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "distribution system" ;
+    nif:beginIndex "626"^^xsd:nonNegativeInteger ;
+    nif:endIndex "645"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document542> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Electric_power_distribution> .
+
+<http://example.org/AQUAINT/document543#offset_0_895_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "reform" ;
+    nif:beginIndex "633"^^xsd:nonNegativeInteger ;
+    nif:endIndex "639"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document543> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Reform> .
+
+<http://example.org/AQUAINT/document544#offset_0_708_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "production tax credits" ;
+    nif:beginIndex "615"^^xsd:nonNegativeInteger ;
+    nif:endIndex "637"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document544> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Production_tax_credit> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_117_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jeff Bezos" ;
+    nif:beginIndex "53"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=2685,2801> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jeff_Bezos> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_117_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Amazon" ;
+    nif:beginIndex "109"^^xsd:nonNegativeInteger ;
+    nif:endIndex "115"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=2685,2801> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Amazon_(company)> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_128_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "IBM" ;
+    nif:beginIndex "74"^^xsd:nonNegativeInteger ;
+    nif:endIndex "77"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=506,646> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/IBM> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_128_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ginni Rometty" ;
+    nif:beginIndex "85"^^xsd:nonNegativeInteger ;
+    nif:endIndex "98"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=506,646> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ginni_Rometty> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_197_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Lowe's" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=3110,3308> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Lowe%27s> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_197_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "David Denton" ;
+    nif:beginIndex "37"^^xsd:nonNegativeInteger ;
+    nif:endIndex "49"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=3110,3308> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/David_Denton_(businessman)> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_197_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "William Boltz" ;
+    nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+    nif:endIndex "97"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=3110,3308> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/William_Boltz> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_197_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Lowe's Pro Supply" ;
+    nif:beginIndex "132"^^xsd:nonNegativeInteger ;
+    nif:endIndex "149"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=3110,3308> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Lowe%27s> .
+
+<https://anonymiz.ed/domain20/> a nif:ContextCollection ;
+    nif:hasContext <http://example.org/AQUAINT/document540>,
+        <http://example.org/AQUAINT/document541>,
+        <http://example.org/AQUAINT/document542>,
+        <http://example.org/AQUAINT/document543>,
+        <http://example.org/AQUAINT/document544>,
+        <http://msnbc/dataset/Bus16451112.txt#char=2685,2801>,
+        <http://msnbc/dataset/Bus16451112.txt#char=3110,3308>,
+        <http://msnbc/dataset/Bus16451112.txt#char=506,646> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://example.org/AQUAINT/document540> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1250"^^xsd:nonNegativeInteger ;
+    nif:isString "support instead hydroelectric plants But environmental campaigners criticized the lack of a timeframe for closing the country s four nuclear power plants Government officials will work with representatives of the power industry environmental groups and local governments to discuss a timetable and removal of nuclear waste a government statement said It is unrealistic to build more power stations because of environmental concerns the government has said Should the discussions between concerned parties fail to produce an agreed timetable the federal cabinet will make the decision said the statement We have set out on a new course said Federal Energy Minister Olaf Scholz Details have yet to be decided In a related move the federal cabinet ordered energy officials to draw up a discussion paper on changing laws governing the domestic electricity market The government envisages the creation of a national company to own the power infrastructure A timeframe for carrying out liberalization of the electricity market itself remains to be determined the cabinet said The cabinet said it wants to support hydroelectric plants It ordered a study of the possibility of tax breaks for hydroelectric plants and how to encourage upgrades of those plants" .
+
+<http://example.org/AQUAINT/document541> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1044"^^xsd:nonNegativeInteger ;
+    nif:isString "power industry environmental groups and local governments to discuss a timetable and removal of nuclear waste a government statement said It is unrealistic to build more power stations because of environmental concerns the government has said Should the discussions between concerned parties fail to produce an agreed timetable the federal cabinet will make the decision said the statement We have set out on a new course said Federal Energy Minister Moritz Leuenberger Details have yet to be decided In a related move the federal cabinet ordered energy officials to draw up a discussion paper on changing laws governing the domestic solar power market The government envisages the creation of a national company to own the power infrastructure A timeframe for carrying out liberalization of the electricity market itself remains to be determined the cabinet said The cabinet said it wants to support hydroelectric plants It ordered a study of the possibility of tax breaks for hydroelectric plants and how to encourage upgrades of those plants" .
+
+<http://example.org/AQUAINT/document542> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "945"^^xsd:nonNegativeInteger ;
+    nif:isString "waste a government statement said It is unrealistic to build more power stations because of environmental concerns the government has said Should the discussions between concerned parties fail to produce an agreed timetable the federal cabinet will make the decision said the statement We have set out on a new course said Federal Energy Minister Moritz Leuenberger Details have yet to be decided In a related move the federal cabinet ordered energy officials to draw up a discussion paper on changing laws governing the domestic electricity market The government envisages the creation of a national company to own the power distribution system A timeframe for carrying out liberalization of the electricity market itself remains to be determined the cabinet said The cabinet said it wants to support hydroelectric plants It ordered a study of the possibility of tax breaks for hydroelectric plants and how to encourage upgrades of those plants" .
+
+<http://example.org/AQUAINT/document543> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "895"^^xsd:nonNegativeInteger ;
+    nif:isString "is unrealistic to build more power stations because of environmental concerns the government has said Should the discussions between concerned parties fail to produce an agreed timetable the federal cabinet will make the decision said the statement We have set out on a new course said Federal Energy Minister Moritz Leuenberger Details have yet to be decided In a related move the federal cabinet ordered energy officials to draw up a discussion paper on changing laws governing the domestic electricity market The government envisages the creation of a national company to own the power infrastructure A timeframe for carrying out reform of the electricity market itself remains to be determined the cabinet said The cabinet said it wants to support hydroelectric plants It ordered a study of the possibility of tax breaks for hydroelectric plants and how to encourage upgrades of those plants" .
+
+<http://example.org/AQUAINT/document544> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "708"^^xsd:nonNegativeInteger ;
+    nif:isString "will make the decision said the statement We have set out on a new course said Federal Energy Minister Moritz Leuenberger Details have yet to be decided In a related move the federal cabinet ordered energy officials to draw up a discussion paper on changing laws governing the domestic electricity market The government envisages the creation of a national company to own the power infrastructure A timeframe for carrying out liberalization of the electricity market itself remains to be determined the cabinet said The cabinet said it wants to support hydroelectric plants It ordered a study of the possibility of production tax credits for hydroelectric plants and how to encourage upgrades of those plants" .
+
+<http://msnbc/dataset/Bus16451112.txt#char=2685,2801> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "117"^^xsd:nonNegativeInteger ;
+    nif:isString "Industry experts and analysts said his departure and Jeff Bezos’s ascent to the top job are a good thing for Amazon. " .
+
+<http://msnbc/dataset/Bus16451112.txt#char=506,646> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "128"^^xsd:nonNegativeInteger ;
+    nif:isString "He became CEO in December 2000 after being passed over for the top job at IBM, where Ginni Rometty had been a senior executive. " .
+
+<http://msnbc/dataset/Bus16451112.txt#char=3110,3308> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "197"^^xsd:nonNegativeInteger ;
+    nif:isString "The Lowe's board also announced that David Denton, its chief financial officer, and William Boltz, its executive vice president for Lowe's Pro Supply, will be assuming additional responsibilities. " .
+

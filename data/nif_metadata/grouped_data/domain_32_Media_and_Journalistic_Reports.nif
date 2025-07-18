@@ -1,0 +1,296 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ace2004/dataset/20001115_AFP_ARB.0210.eng#offset_0_33_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tokyo" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/20001115_AFP_ARB.0210.eng#char=0,40> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tokyo> .
+
+<http://ace2004/dataset/20001115_AFP_ARB.0210.eng#offset_0_33_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Japan" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/20001115_AFP_ARB.0210.eng#char=0,40> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Japan> .
+
+<http://ace2004/dataset/20001115_AFP_ARB.0210.eng#offset_0_33_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kyodo News" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/20001115_AFP_ARB.0210.eng#char=0,40> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Kyodo_News> .
+
+<http://ace2004/dataset/PRI20001128.2000.0055#offset_0_56_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "BBC News" ;
+    nif:beginIndex "17"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/PRI20001128.2000.0055#char=0,60> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/BBC_News> .
+
+<http://ace2004/dataset/PRI20001128.2000.0055#offset_0_56_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "London" ;
+    nif:beginIndex "29"^^xsd:nonNegativeInteger ;
+    nif:endIndex "35"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/PRI20001128.2000.0055#char=0,60> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/London> .
+
+<http://ace2004/dataset/VOA20001220.2000.0060#offset_0_27_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "BBC News" ;
+    nif:beginIndex "18"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/VOA20001220.2000.0060#char=0,27> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/BBC_News> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_101_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Leonardo DiCaprio" ;
+    nif:beginIndex "32"^^xsd:nonNegativeInteger ;
+    nif:endIndex "49"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=666,758> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Leonardo_DiCaprio> .
+
+<http://msnbc/dataset/Ent16444023.txt#offset_0_101_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Gisele Bündchen" ;
+    nif:beginIndex "85"^^xsd:nonNegativeInteger ;
+    nif:endIndex "100"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16444023.txt#char=666,758> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Gisele_Bündchen> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_75_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "David Brown" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "11"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2249,2323> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/David_Brown_(producer)> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_75_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Biden" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=4005,4079> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Joe_Biden> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_75_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Delaware" ;
+    nif:beginIndex "66"^^xsd:nonNegativeInteger ;
+    nif:endIndex "74"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=4005,4079> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Delaware> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_129_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Toronto" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=3702,3837> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Toronto> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_208_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Philadelphia" ;
+    nif:beginIndex "83"^^xsd:nonNegativeInteger ;
+    nif:endIndex "95"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=393,587> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Philadelphia> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_208_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Pennsylvania" ;
+    nif:beginIndex "97"^^xsd:nonNegativeInteger ;
+    nif:endIndex "109"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=393,587> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pennsylvania> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_208_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Seattle" ;
+    nif:beginIndex "111"^^xsd:nonNegativeInteger ;
+    nif:endIndex "118"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=393,587> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Seattle> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_208_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Atlanta-Sandy Springs" ;
+    nif:beginIndex "120"^^xsd:nonNegativeInteger ;
+    nif:endIndex "141"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=393,587> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Atlanta_metropolitan_area> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_208_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Indianapolis" ;
+    nif:beginIndex "143"^^xsd:nonNegativeInteger ;
+    nif:endIndex "155"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=393,587> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Indianapolis> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_208_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Indiana" ;
+    nif:beginIndex "157"^^xsd:nonNegativeInteger ;
+    nif:endIndex "164"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=393,587> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Indiana> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_208_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bismarck" ;
+    nif:beginIndex "166"^^xsd:nonNegativeInteger ;
+    nif:endIndex "174"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=393,587> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bismarck,_North_Dakota> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_208_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "N.D." ;
+    nif:beginIndex "176"^^xsd:nonNegativeInteger ;
+    nif:endIndex "180"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=393,587> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/North_Dakota> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_208_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Boulder County" ;
+    nif:beginIndex "186"^^xsd:nonNegativeInteger ;
+    nif:endIndex "200"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=393,587> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Boulder_County,_Colorado> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_208_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Colo." ;
+    nif:beginIndex "202"^^xsd:nonNegativeInteger ;
+    nif:endIndex "207"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=393,587> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Colorado> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_221_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Fargo" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4721,4938> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Fargo,_North_Dakota> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_221_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "North Dakota" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4721,4938> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/North_Dakota> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_221_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Puerto Rico" ;
+    nif:beginIndex "42"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4721,4938> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Puerto_Rico> .
+
+<https://anonymiz.ed/domain32/> a nif:ContextCollection ;
+    nif:hasContext <http://ace2004/dataset/20001115_AFP_ARB.0210.eng#char=0,40>,
+        <http://ace2004/dataset/PRI20001128.2000.0055#char=0,60>,
+        <http://ace2004/dataset/VOA20001220.2000.0060#char=0,27>,
+        <http://msnbc/dataset/Ent16444023.txt#char=666,758>,
+        <http://msnbc/dataset/Hea16451212.txt#char=2249,2323>,
+        <http://msnbc/dataset/Pol16447720.txt#char=4005,4079>,
+        <http://msnbc/dataset/USN16443053.txt#char=3702,3837>,
+        <http://msnbc/dataset/USN16443053.txt#char=393,587>,
+        <http://msnbc/dataset/USN16443053.txt#char=4721,4938> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://ace2004/dataset/VOA20001220.2000.0060#char=0,27> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "27"^^xsd:nonNegativeInteger ;
+    nif:isString "I am David Coler, BBC News." .
+
+<http://msnbc/dataset/Hea16451212.txt#char=2249,2323> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "75"^^xsd:nonNegativeInteger ;
+    nif:isString "David Brown, 60, is an example of the problem the charity aims to address. " .
+
+<http://msnbc/dataset/USN16443053.txt#char=3702,3837> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "129"^^xsd:nonNegativeInteger ;
+    nif:isString "Toronto, by comparison, received intermediate grades in governance and procedures, and a well-developed grade in use of systems. " .
+
+<http://ace2004/dataset/PRI20001128.2000.0055#char=0,60> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:isString "Documented. From BBC News in London, I'm Corey Flintoff." .
+
+<http://msnbc/dataset/Ent16444023.txt#char=666,758> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "101"^^xsd:nonNegativeInteger ;
+    nif:isString "The magazine also reported that Leonardo DiCaprio has started seeing a former flame, Gisele Bündchen." .
+
+<http://msnbc/dataset/Pol16447720.txt#char=4005,4079> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "75"^^xsd:nonNegativeInteger ;
+    nif:isString "Biden’s athletic interest was honored, too, in the capital and in Delaware." .
+
+<http://ace2004/dataset/20001115_AFP_ARB.0210.eng#char=0,40> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:isString "Tokyo (Japan) 11-15 (Kyodo News)." .
+
+<http://msnbc/dataset/USN16443053.txt#char=4721,4938> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "221"^^xsd:nonNegativeInteger ;
+    nif:isString "Fargo, North Dakota, and the territory of Puerto Rico were both found to have gotten to the early stage of their actual usage of interoperable emergency communications and rated intermediate in governance and procedures. " .
+
+<http://msnbc/dataset/USN16443053.txt#char=393,587> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "208"^^xsd:nonNegativeInteger ;
+    nif:isString "A draft portion of the report, to be released Wednesday, gives the best ratings to Philadelphia, Pennsylvania; Seattle; Atlanta-Sandy Springs; Indianapolis, Indiana; Bismarck, N.D.; and Boulder County, Colo. " .
+

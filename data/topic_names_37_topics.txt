@@ -1,0 +1,41 @@
+Here are the generated topic names for each group of words:
+
+### **Topic 0:** *Biomedical Research & Clinical Studies*  
+### **Topic 1:** *Political Violence & Security Reports*  
+### **Topic 2:** *Stock Market & Financial Trading*  
+### **Topic 3:** *Law Enforcement & Security Management*  
+### **Topic 4:** *League Ranking Reports and Champions*  
+### **Topic 5:** *Sports Championships Analysis*  
+### **Topic 6:** *European Soccer & League Competitions*  
+### **Topic 7:** *Coaching & Sports Performance*  
+### **Topic 8:** *Cricket Matches & Player Statistics*  
+### **Topic 9:** *Commodity Trading & Economic Markets*  
+### **Topic 10:** *U.S. Politics & Elections*  
+### **Topic 11:** *Stock Investments & Financial Securities*  
+### **Topic 12:** *Corporate Earnings & Business Contracts*  
+### **Topic 13:** *German Language & News Reports*  
+### **Topic 14:** *Chinese News & Regional Developments*  
+### **Topic 15:** *Baseball Games & League Standings*  
+### **Topic 16:** *Soccer Standings & Results*  
+### **Topic 17:** *International Soccer & Cup Matches*  
+### **Topic 18:** *Sports Championships & National Teams*  
+### **Topic 19:** *Middle East Conflicts & Kurdish Affairs*  
+### **Topic 20:** *Media Reporting*  
+### **Topic 21:** *Sports Figures & Genetic Research*  
+### **Topic 22:** *German & Dutch Soccer Leagues*  
+### **Topic 23:** *Famous Personalities & Public Figures*  
+### **Topic 24:** *German Phrases & News Contexts*  
+### **Topic 25:** *Tennis Tournaments Results*  
+### **Topic 26:** *Sports Analytics & Player Performance*  
+### **Topic 27:** *Baseball Team Matchups & Standings*  
+### **Topic 28:** *Israeli-Palestinian Relations & Peace Talks*  
+### **Topic 29:** *Financial Performance & Profit Analysis*  
+### **Topic 30:** *Political News Coverage*  
+### **Topic 31:** *Regulatory Announcements & Corporate Agreements*  
+### **Topic 32:** *Genetic Research & Molecular Biology*  
+### **Topic 33:** *Baseball Innings & Game Analysis*  
+### **Topic 34:** *Bonds & Financial Interest Rates*  
+### **Topic 35:** *UK Soccer Leagues & Team Standings*  
+### **Topic 36:** *American Baseball & Team Matchups*  
+
+These titles summarize the key themes of each word group. Let me know if you'd like any refinements!

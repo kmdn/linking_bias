@@ -1,0 +1,238 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://msnbc/dataset/Pol16452612.txt#offset_0_61_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Albert Einstein" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16452612.txt#char=1150,1207> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Albert_Einstein> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_145_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "asteroid belt" ;
+    nif:beginIndex "103"^^xsd:nonNegativeInteger ;
+    nif:endIndex "116"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=313,455> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Asteroid_belt> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_187_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the Jet Propulsion Laboratory" ;
+    nif:beginIndex "87"^^xsd:nonNegativeInteger ;
+    nif:endIndex "116"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=620,783> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jet_Propulsion_Laboratory> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_197_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the International Space Station" ;
+    nif:beginIndex "86"^^xsd:nonNegativeInteger ;
+    nif:endIndex "117"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=1047,1218> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/International_Space_Station> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_243_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New Horizons" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=1297,1531> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_Horizons> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_243_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Pioneer 10" ;
+    nif:beginIndex "17"^^xsd:nonNegativeInteger ;
+    nif:endIndex "27"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=1297,1531> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pioneer_10> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_243_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Alan Stern" ;
+    nif:beginIndex "227"^^xsd:nonNegativeInteger ;
+    nif:endIndex "237"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=1297,1531> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Alan_Stern> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_45_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "space telescopes" ;
+    nif:beginIndex "20"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=0,40> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Space_telescope> .
+
+<http://msnbc/dataset/Tra16444229.txt#offset_0_107_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brown" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16444229.txt#char=1008,1142> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brown_(surname)> .
+
+<http://msnbc/dataset/Tra16444229.txt#offset_0_107_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "WFS" ;
+    nif:beginIndex "30"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16444229.txt#char=1008,1142> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Worldwide_Flight_Services> .
+
+<http://msnbc/dataset/Tra16444229.txt#offset_0_107_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "France" ;
+    nif:beginIndex "100"^^xsd:nonNegativeInteger ;
+    nif:endIndex "106"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16444229.txt#char=1008,1142> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/France> .
+
+<http://msnbc/dataset/Tra16444229.txt#offset_0_146_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "FBI Director Wray" ;
+    nif:beginIndex "123"^^xsd:nonNegativeInteger ;
+    nif:endIndex "140"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16444229.txt#char=1312,1447> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Christopher_A._Wray> .
+
+<http://msnbc/dataset/Tra16454203.txt#offset_0_187_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Emirates" ;
+    nif:beginIndex "68"^^xsd:nonNegativeInteger ;
+    nif:endIndex "76"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16454203.txt#char=1261,1442> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Emirates_(airline)> .
+
+<http://msnbc/dataset/Tra16454203.txt#offset_0_81_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Paris's Charles de Gaulle Airport" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "58"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16454203.txt#char=48,121> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Charles_de_Gaulle_Airport> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_85_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "human rights activist" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=1237,1342> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Human_rights_defender> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_85_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Egypt" ;
+    nif:beginIndex "42"^^xsd:nonNegativeInteger ;
+    nif:endIndex "47"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=1237,1342> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Egypt> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_85_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Heathrow Airport" ;
+    nif:beginIndex "68"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=1237,1342> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Heathrow_Airport> .
+
+<https://anonymiz.ed/domain30/> a nif:ContextCollection ;
+    nif:hasContext <http://msnbc/dataset/Pol16452612.txt#char=1150,1207>,
+        <http://msnbc/dataset/Tec16454435.txt#char=0,40>,
+        <http://msnbc/dataset/Tec16454435.txt#char=1047,1218>,
+        <http://msnbc/dataset/Tec16454435.txt#char=1297,1531>,
+        <http://msnbc/dataset/Tec16454435.txt#char=313,455>,
+        <http://msnbc/dataset/Tec16454435.txt#char=620,783>,
+        <http://msnbc/dataset/Tra16444229.txt#char=1008,1142>,
+        <http://msnbc/dataset/Tra16444229.txt#char=1312,1447>,
+        <http://msnbc/dataset/Tra16454203.txt#char=1261,1442>,
+        <http://msnbc/dataset/Tra16454203.txt#char=48,121>,
+        <http://msnbc/dataset/USN16444287.txt#char=1237,1342> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/Pol16452612.txt#char=1150,1207> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "61"^^xsd:nonNegativeInteger ;
+    nif:isString "An example comes from the life and career of Albert Einstein." .
+
+<http://msnbc/dataset/Tec16454435.txt#char=0,40> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "45"^^xsd:nonNegativeInteger ;
+    nif:isString "Upgrade makes aging space telescopes smarter " .
+
+<http://msnbc/dataset/Tec16454435.txt#char=1047,1218> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "197"^^xsd:nonNegativeInteger ;
+    nif:isString "The high-tech upgrades should help save time — as much as a day because scientists on the International Space Station don't have to study a rock before sending commands to the robot to pick it up. " .
+
+<http://msnbc/dataset/Tec16454435.txt#char=313,455> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "145"^^xsd:nonNegativeInteger ;
+    nif:isString "The software is aimed at boosting their intelligence and independence so that they can roll around the asteroid belt with less help from humans. " .
+
+<http://msnbc/dataset/Tec16454435.txt#char=620,783> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "187"^^xsd:nonNegativeInteger ;
+    nif:isString "Among the rovers' new skills is the ability to automatically recognize and transmit to the Jet Propulsion Laboratory photographs that they take of swirling dust devils or floating clouds." .
+
+<http://msnbc/dataset/Tra16444229.txt#char=1312,1447> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "146"^^xsd:nonNegativeInteger ;
+    nif:isString "Investigators and the airlines were trying to determine the owners of the bags and figure out what might have been stolen, FBI Director Wray said." .
+
+<http://msnbc/dataset/Tra16454203.txt#char=1261,1442> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "187"^^xsd:nonNegativeInteger ;
+    nif:isString "The baggage problem coincided with changes in working practices for Emirates baggage handlers at Terminals 1 and 4, before the airline's planned move to Terminal 5 in March 2008, he said." .
+
+<http://msnbc/dataset/Tra16454203.txt#char=48,121> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "81"^^xsd:nonNegativeInteger ;
+    nif:isString "Fog, technical glitch at Paris's Charles de Gaulle Airport snarls baggage system " .
+
+<http://msnbc/dataset/Tec16454435.txt#char=1297,1531> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "243"^^xsd:nonNegativeInteger ;
+    nif:isString "New Horizons and Pioneer 10 were also fitted with a new navigation system that allows them to think several steps ahead when faced with an obstacle, allowing them to back out of a dead end or even navigate a maze on their own, Alan Stern said." .
+
+<http://msnbc/dataset/Tra16444229.txt#char=1008,1142> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "107"^^xsd:nonNegativeInteger ;
+    nif:isString "Brown said the men worked for WFS, a company that handles baggage for connecting flights across the France." .
+
+<http://msnbc/dataset/USN16444287.txt#char=1237,1342> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "85"^^xsd:nonNegativeInteger ;
+    nif:isString "In October, an human rights activist from Egypt was denied entry at Heathrow Airport." .
+

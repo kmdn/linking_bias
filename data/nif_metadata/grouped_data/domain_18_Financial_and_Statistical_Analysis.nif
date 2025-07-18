@@ -1,0 +1,1562 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/AQUAINT/document116#offset_0_1089_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Qantas" ;
+    nif:beginIndex "640"^^xsd:nonNegativeInteger ;
+    nif:endIndex "646"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document116> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Qantas> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_126_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tesla" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=1031,1161> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tesla,_Inc.> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_126_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Elon Musk" ;
+    nif:beginIndex "105"^^xsd:nonNegativeInteger ;
+    nif:endIndex "114"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=1031,1161> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Elon_Musk> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_97_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Amazon" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=2486,2587> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Amazon_(company)> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_145_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "NFP" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "8"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=842,984> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Nonfarm_payrolls> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_145_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jeffrey Saut" ;
+    nif:beginIndex "89"^^xsd:nonNegativeInteger ;
+    nif:endIndex "101"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=842,984> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jeffrey_Saut> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_145_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Raymond James" ;
+    nif:beginIndex "130"^^xsd:nonNegativeInteger ;
+    nif:endIndex "143"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=842,984> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Raymond_James_Financial> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_165_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "GDP growth rate" ;
+    nif:beginIndex "70"^^xsd:nonNegativeInteger ;
+    nif:endIndex "85"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=2488,2641> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Gross_domestic_product> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_218_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Taylor Wimpey" ;
+    nif:beginIndex "32"^^xsd:nonNegativeInteger ;
+    nif:endIndex "45"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=4195,4409> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Taylor_Wimpey> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_218_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "British" ;
+    nif:beginIndex "59"^^xsd:nonNegativeInteger ;
+    nif:endIndex "66"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=4195,4409> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_Kingdom> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_281_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Frank Blake" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=3248,3544> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Frank_Blake> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_281_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Costco" ;
+    nif:beginIndex "143"^^xsd:nonNegativeInteger ;
+    nif:endIndex "149"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=3248,3544> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Costco> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_364_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Best Buy" ;
+    nif:beginIndex "53"^^xsd:nonNegativeInteger ;
+    nif:endIndex "61"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=459,841> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Best_Buy> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_364_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bay Street" ;
+    nif:beginIndex "195"^^xsd:nonNegativeInteger ;
+    nif:endIndex "205"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=459,841> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bay_Street> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_364_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Conference Board" ;
+    nif:beginIndex "282"^^xsd:nonNegativeInteger ;
+    nif:endIndex "298"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=459,841> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Conference_Board> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "BUCHAREST" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bucharest> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bucharest Stock Exchange" ;
+    nif:beginIndex "159"^^xsd:nonNegativeInteger ;
+    nif:endIndex "183"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bucharest_Stock_Exchange> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Romanian" ;
+    nif:beginIndex "1723"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1731"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Romania> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_11> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Romanian" ;
+    nif:beginIndex "1858"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1866"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Romania> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_12> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Romanian" ;
+    nif:beginIndex "2018"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2026"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Romania> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cluj-Napoca" ;
+    nif:beginIndex "2278"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2289"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Cluj-Napoca> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_14> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bucharest" ;
+    nif:beginIndex "2421"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2430"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bucharest> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "BVB" ;
+    nif:beginIndex "186"^^xsd:nonNegativeInteger ;
+    nif:endIndex "189"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bucharest_Stock_Exchange> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "BVB" ;
+    nif:beginIndex "335"^^xsd:nonNegativeInteger ;
+    nif:endIndex "338"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bucharest_Stock_Exchange> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Budapest" ;
+    nif:beginIndex "507"^^xsd:nonNegativeInteger ;
+    nif:endIndex "515"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Budapest> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Romanian" ;
+    nif:beginIndex "715"^^xsd:nonNegativeInteger ;
+    nif:endIndex "723"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Romania> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bucharest" ;
+    nif:beginIndex "1046"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1055"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bucharest> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Romania" ;
+    nif:beginIndex "1626"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1633"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Romania> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bulgaria" ;
+    nif:beginIndex "1636"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1644"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bulgaria> .
+
+<https://anonymiz.ed/conll/1000#offset_0_2458_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Serbia" ;
+    nif:beginIndex "1653"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1659"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1000#char=0,2451> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Serbia> .
+
+<https://anonymiz.ed/conll/105#offset_0_592_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Barclays" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "8"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/105#char=0,569> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Barclays> .
+
+<https://anonymiz.ed/conll/105#offset_0_592_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Prudential plc" ;
+    nif:beginIndex "24"^^xsd:nonNegativeInteger ;
+    nif:endIndex "38"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/105#char=0,569> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Prudential_plc> .
+
+<https://anonymiz.ed/conll/105#offset_0_592_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "LONDON" ;
+    nif:beginIndex "56"^^xsd:nonNegativeInteger ;
+    nif:endIndex "62"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/105#char=0,569> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/London> .
+
+<https://anonymiz.ed/conll/105#offset_0_592_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Prudential plc" ;
+    nif:beginIndex "157"^^xsd:nonNegativeInteger ;
+    nif:endIndex "171"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/105#char=0,569> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Prudential_plc> .
+
+<https://anonymiz.ed/conll/105#offset_0_592_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Barclays" ;
+    nif:beginIndex "178"^^xsd:nonNegativeInteger ;
+    nif:endIndex "186"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/105#char=0,569> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Barclays> .
+
+<https://anonymiz.ed/conll/105#offset_0_592_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Prudential plc" ;
+    nif:beginIndex "213"^^xsd:nonNegativeInteger ;
+    nif:endIndex "227"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/105#char=0,569> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Prudential_plc> .
+
+<https://anonymiz.ed/conll/105#offset_0_592_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "London" ;
+    nif:beginIndex "534"^^xsd:nonNegativeInteger ;
+    nif:endIndex "540"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/105#char=0,569> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/London> .
+
+<https://anonymiz.ed/conll/1251#offset_0_632_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Polish" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1251#char=0,636> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Poland> .
+
+<https://anonymiz.ed/conll/1251#offset_0_632_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "WARSAW" ;
+    nif:beginIndex "50"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1251#char=0,636> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Warsaw> .
+
+<https://anonymiz.ed/conll/1251#offset_0_632_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Poland" ;
+    nif:beginIndex "113"^^xsd:nonNegativeInteger ;
+    nif:endIndex "119"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1251#char=0,636> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Poland> .
+
+<https://anonymiz.ed/conll/1315#offset_0_607_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Finland" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1315#char=0,612> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Finland> .
+
+<https://anonymiz.ed/conll/1315#offset_0_607_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "HELSINKI" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1315#char=0,612> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Helsinki> .
+
+<https://anonymiz.ed/conll/1315#offset_0_607_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Thursday" ;
+    nif:beginIndex "220"^^xsd:nonNegativeInteger ;
+    nif:endIndex "228"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1315#char=0,612> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Thursday> .
+
+<https://anonymiz.ed/conll/1315#offset_0_607_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Helsinki" ;
+    nif:beginIndex "576"^^xsd:nonNegativeInteger ;
+    nif:endIndex "584"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1315#char=0,612> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Helsinki> .
+
+<https://anonymiz.ed/conll/1323#offset_0_478_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tesco" ;
+    nif:beginIndex "46"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1323#char=0,483> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tesco> .
+
+<https://anonymiz.ed/conll/1323#offset_0_478_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Birmingham" ;
+    nif:beginIndex "68"^^xsd:nonNegativeInteger ;
+    nif:endIndex "78"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1323#char=0,483> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Birmingham> .
+
+<https://anonymiz.ed/conll/1323#offset_0_478_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Asda" ;
+    nif:beginIndex "320"^^xsd:nonNegativeInteger ;
+    nif:endIndex "324"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/1323#char=0,483> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Asda> .
+
+<https://anonymiz.ed/conll/171#offset_0_416_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "San Francisco" ;
+    nif:beginIndex "378"^^xsd:nonNegativeInteger ;
+    nif:endIndex "391"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/171#char=0,410> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/San_Francisco> .
+
+<https://anonymiz.ed/conll/219#offset_0_696_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jan De Nul" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/219#char=0,703> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jan_De_Nul> .
+
+<https://anonymiz.ed/conll/219#offset_0_696_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "UTC" ;
+    nif:beginIndex "54"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/219#char=0,703> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Coordinated_Universal_Time> .
+
+<https://anonymiz.ed/conll/219#offset_0_696_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ghent" ;
+    nif:beginIndex "61"^^xsd:nonNegativeInteger ;
+    nif:endIndex "66"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/219#char=0,703> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ghent> .
+
+<https://anonymiz.ed/conll/219#offset_0_696_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "France" ;
+    nif:beginIndex "69"^^xsd:nonNegativeInteger ;
+    nif:endIndex "75"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/219#char=0,703> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/France> .
+
+<https://anonymiz.ed/conll/219#offset_0_696_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jan De Nul" ;
+    nif:beginIndex "584"^^xsd:nonNegativeInteger ;
+    nif:endIndex "594"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/219#char=0,703> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jan_De_Nul> .
+
+<https://anonymiz.ed/conll/390#offset_0_3700_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Corporate Europe" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/390#char=0,3674> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Economy_of_Europe> .
+
+<https://anonymiz.ed/conll/390#offset_0_3700_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "LONDON" ;
+    nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+    nif:endIndex "81"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/390#char=0,3674> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/London> .
+
+<https://anonymiz.ed/conll/390#offset_0_3700_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Corporate Europe" ;
+    nif:beginIndex "104"^^xsd:nonNegativeInteger ;
+    nif:endIndex "120"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/390#char=0,3674> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Economy_of_Europe> .
+
+<https://anonymiz.ed/conll/390#offset_0_3700_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "McKinsey & Company" ;
+    nif:beginIndex "504"^^xsd:nonNegativeInteger ;
+    nif:endIndex "522"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/390#char=0,3674> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/McKinsey_&_Company> .
+
+<https://anonymiz.ed/conll/390#offset_0_3700_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "McKinsey & Company" ;
+    nif:beginIndex "831"^^xsd:nonNegativeInteger ;
+    nif:endIndex "849"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/390#char=0,3674> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/McKinsey_&_Company> .
+
+<https://anonymiz.ed/conll/390#offset_0_3700_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the Cold War" ;
+    nif:beginIndex "1935"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1947"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/390#char=0,3674> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Cold_War> .
+
+<https://anonymiz.ed/conll/398#offset_0_3387_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "PRETORIA" ;
+    nif:beginIndex "57"^^xsd:nonNegativeInteger ;
+    nif:endIndex "65"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/398#char=0,3391> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pretoria> .
+
+<https://anonymiz.ed/conll/398#offset_0_3387_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "World Trade Organization" ;
+    nif:beginIndex "1585"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1609"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/398#char=0,3391> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/World_Trade_Organization> .
+
+<https://anonymiz.ed/conll/398#offset_0_3387_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Rio Tinto" ;
+    nif:beginIndex "1656"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1665"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/398#char=0,3391> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rio_Tinto_(corporation)> .
+
+<https://anonymiz.ed/conll/398#offset_0_3387_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Pretoria" ;
+    nif:beginIndex "3353"^^xsd:nonNegativeInteger ;
+    nif:endIndex "3361"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/398#char=0,3391> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pretoria> .
+
+<https://anonymiz.ed/conll/459#offset_0_1347_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brazil" ;
+    nif:beginIndex "18"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/459#char=0,1353> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brazil> .
+
+<https://anonymiz.ed/conll/459#offset_0_1347_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "BRASÍLIA" ;
+    nif:beginIndex "55"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/459#char=0,1353> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brasília> .
+
+<https://anonymiz.ed/conll/459#offset_0_1347_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brasília" ;
+    nif:beginIndex "1315"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1323"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/459#char=0,1353> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brasília> .
+
+<https://anonymiz.ed/conll/500#offset_0_473_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "OSLO" ;
+    nif:beginIndex "33"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/500#char=0,475> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Oslo> .
+
+<https://anonymiz.ed/conll/500#offset_0_473_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Norwegian" ;
+    nif:beginIndex "50"^^xsd:nonNegativeInteger ;
+    nif:endIndex "59"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/500#char=0,475> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Norway> .
+
+<https://anonymiz.ed/conll/505#offset_0_487_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "HONG KONG" ;
+    nif:beginIndex "34"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/505#char=0,480> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hong_Kong> .
+
+<https://anonymiz.ed/conll/505#offset_0_487_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hang Seng" ;
+    nif:beginIndex "379"^^xsd:nonNegativeInteger ;
+    nif:endIndex "388"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/505#char=0,480> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hang_Seng_Index> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "WARSAW" ;
+    nif:beginIndex "17"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Warsaw> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "WARSAW" ;
+    nif:beginIndex "66"^^xsd:nonNegativeInteger ;
+    nif:endIndex "72"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Warsaw> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Lithuania" ;
+    nif:beginIndex "1332"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1341"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Lithuania> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_11> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Latvia" ;
+    nif:beginIndex "1685"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1691"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Latvia> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_12> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Estonia" ;
+    nif:beginIndex "2088"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2095"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Estonia> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Poland" ;
+    nif:beginIndex "2318"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2324"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Poland> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_14> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Poland" ;
+    nif:beginIndex "2608"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2614"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Poland> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_15> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Warsaw" ;
+    nif:beginIndex "2739"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2745"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Warsaw> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Polish" ;
+    nif:beginIndex "122"^^xsd:nonNegativeInteger ;
+    nif:endIndex "128"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Poland> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Poland" ;
+    nif:beginIndex "589"^^xsd:nonNegativeInteger ;
+    nif:endIndex "595"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Poland> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Warsaw-based" ;
+    nif:beginIndex "1044"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1056"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Warsaw> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Poland" ;
+    nif:beginIndex "1129"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1135"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Poland> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Poland" ;
+    nif:beginIndex "1221"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1227"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Poland> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Warsaw-based" ;
+    nif:beginIndex "1230"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1242"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Warsaw> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Poland" ;
+    nif:beginIndex "1251"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1257"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Poland> .
+
+<https://anonymiz.ed/conll/546#offset_0_2773_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Poland" ;
+    nif:beginIndex "1322"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1328"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/546#char=0,2788> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Poland> .
+
+<https://anonymiz.ed/conll/64#offset_0_404_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "BlackRock" ;
+    nif:beginIndex "42"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/64#char=0,419> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/BlackRock> .
+
+<https://anonymiz.ed/conll/64#offset_0_404_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Boston" ;
+    nif:beginIndex "64"^^xsd:nonNegativeInteger ;
+    nif:endIndex "70"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/64#char=0,419> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Boston> .
+
+<https://anonymiz.ed/conll/65#offset_0_1459_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kmart" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/65#char=0,1461> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Kmart> .
+
+<https://anonymiz.ed/conll/65#offset_0_1459_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "TROY" ;
+    nif:beginIndex "41"^^xsd:nonNegativeInteger ;
+    nif:endIndex "45"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/65#char=0,1461> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Troy,_Michigan> .
+
+<https://anonymiz.ed/conll/65#offset_0_1459_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CNBC" ;
+    nif:beginIndex "273"^^xsd:nonNegativeInteger ;
+    nif:endIndex "277"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/65#char=0,1461> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/CNBC> .
+
+<https://anonymiz.ed/conll/65#offset_0_1459_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kmart" ;
+    nif:beginIndex "577"^^xsd:nonNegativeInteger ;
+    nif:endIndex "582"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/65#char=0,1461> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Kmart> .
+
+<https://anonymiz.ed/conll/65#offset_0_1459_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kmart" ;
+    nif:beginIndex "1017"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1022"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/65#char=0,1461> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Kmart> .
+
+<https://anonymiz.ed/conll/65#offset_0_1459_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kmart" ;
+    nif:beginIndex "1193"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1198"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/65#char=0,1461> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Kmart> .
+
+<https://anonymiz.ed/conll/65#offset_0_1459_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kmart" ;
+    nif:beginIndex "1368"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1373"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/65#char=0,1461> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Kmart> .
+
+<https://anonymiz.ed/conll/749#offset_0_661_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Honda" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "48"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/749#char=0,654> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Honda> .
+
+<https://anonymiz.ed/conll/749#offset_0_661_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tokyo" ;
+    nif:beginIndex "51"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/749#char=0,654> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tokyo> .
+
+<https://anonymiz.ed/conll/749#offset_0_661_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Japanese" ;
+    nif:beginIndex "69"^^xsd:nonNegativeInteger ;
+    nif:endIndex "77"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/749#char=0,654> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Japan> .
+
+<https://anonymiz.ed/conll/749#offset_0_661_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Honda Motor Company" ;
+    nif:beginIndex "87"^^xsd:nonNegativeInteger ;
+    nif:endIndex "106"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/749#char=0,654> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Honda> .
+
+<https://anonymiz.ed/conll/749#offset_0_661_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Honda Accord" ;
+    nif:beginIndex "398"^^xsd:nonNegativeInteger ;
+    nif:endIndex "410"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/749#char=0,654> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Honda_Accord> .
+
+<https://anonymiz.ed/conll/788#offset_0_513_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "BP" ;
+    nif:beginIndex "46"^^xsd:nonNegativeInteger ;
+    nif:endIndex "48"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/788#char=0,519> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/BP> .
+
+<https://anonymiz.ed/conll/788#offset_0_513_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "LONDON" ;
+    nif:beginIndex "248"^^xsd:nonNegativeInteger ;
+    nif:endIndex "254"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/788#char=0,519> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/London> .
+
+<https://anonymiz.ed/conll/788#offset_0_513_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "£" ;
+    nif:beginIndex "303"^^xsd:nonNegativeInteger ;
+    nif:endIndex "304"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/788#char=0,519> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pound_sterling> .
+
+<https://anonymiz.ed/conll/883#offset_0_2496_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "LOS ANGELES" ;
+    nif:beginIndex "56"^^xsd:nonNegativeInteger ;
+    nif:endIndex "67"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/883#char=0,2478> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Los_Angeles> .
+
+<https://anonymiz.ed/conll/883#offset_0_2496_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "San Diego" ;
+    nif:beginIndex "283"^^xsd:nonNegativeInteger ;
+    nif:endIndex "292"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/883#char=0,2478> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/San_Diego> .
+
+<https://anonymiz.ed/conll/883#offset_0_2496_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "California" ;
+    nif:beginIndex "295"^^xsd:nonNegativeInteger ;
+    nif:endIndex "305"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/883#char=0,2478> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/California> .
+
+<https://anonymiz.ed/conll/883#offset_0_2496_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "J.P. Morgan" ;
+    nif:beginIndex "1953"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1964"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/883#char=0,2478> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/JPMorgan_Chase> .
+
+<https://anonymiz.ed/conll/883#offset_0_2496_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Qualcomm Technologies" ;
+    nif:beginIndex "2056"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2077"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/883#char=0,2478> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Qualcomm> .
+
+<https://anonymiz.ed/conll/883#offset_0_2496_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Los Angeles" ;
+    nif:beginIndex "2464"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2475"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/883#char=0,2478> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Los_Angeles> .
+
+<https://anonymiz.ed/conll/884#offset_0_908_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CHICAGO" ;
+    nif:beginIndex "46"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/884#char=0,906> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Chicago> .
+
+<https://anonymiz.ed/conll/884#offset_0_908_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "JPMorgan Chase" ;
+    nif:beginIndex "258"^^xsd:nonNegativeInteger ;
+    nif:endIndex "272"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/884#char=0,906> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/JPMorgan_Chase> .
+
+<https://anonymiz.ed/conll/884#offset_0_908_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "LaSalle Street" ;
+    nif:beginIndex "458"^^xsd:nonNegativeInteger ;
+    nif:endIndex "472"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/884#char=0,906> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/LaSalle_Street> .
+
+<https://anonymiz.ed/conll/884#offset_0_908_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Medicaid" ;
+    nif:beginIndex "837"^^xsd:nonNegativeInteger ;
+    nif:endIndex "845"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/884#char=0,906> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Medicaid> .
+
+<https://anonymiz.ed/conll/887#offset_0_1878_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Vonovia" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/887#char=0,1880> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Vonovia> .
+
+<https://anonymiz.ed/conll/887#offset_0_1878_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Berlin" ;
+    nif:beginIndex "38"^^xsd:nonNegativeInteger ;
+    nif:endIndex "44"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/887#char=0,1880> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Berlin> .
+
+<https://anonymiz.ed/conll/887#offset_0_1878_10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Rolf Buch" ;
+    nif:beginIndex "1569"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1578"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/887#char=0,1880> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rolf_Buch> .
+
+<https://anonymiz.ed/conll/887#offset_0_1878_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CET" ;
+    nif:beginIndex "354"^^xsd:nonNegativeInteger ;
+    nif:endIndex "357"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/887#char=0,1880> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Central_European_Time> .
+
+<https://anonymiz.ed/conll/887#offset_0_1878_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Deutsche Wohnen" ;
+    nif:beginIndex "366"^^xsd:nonNegativeInteger ;
+    nif:endIndex "381"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/887#char=0,1880> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Deutsche_Wohnen> .
+
+<https://anonymiz.ed/conll/887#offset_0_1878_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "LEG Immobilien" ;
+    nif:beginIndex "408"^^xsd:nonNegativeInteger ;
+    nif:endIndex "422"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/887#char=0,1880> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/LEG_Immobilien> .
+
+<https://anonymiz.ed/conll/887#offset_0_1878_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Grand City Properties" ;
+    nif:beginIndex "449"^^xsd:nonNegativeInteger ;
+    nif:endIndex "470"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/887#char=0,1880> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Grand_City_Properties> .
+
+<https://anonymiz.ed/conll/887#offset_0_1878_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Deutsche Bank" ;
+    nif:beginIndex "547"^^xsd:nonNegativeInteger ;
+    nif:endIndex "560"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/887#char=0,1880> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Deutsche_Bank> .
+
+<https://anonymiz.ed/conll/887#offset_0_1878_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Deutsche Bank" ;
+    nif:beginIndex "640"^^xsd:nonNegativeInteger ;
+    nif:endIndex "653"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/887#char=0,1880> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Deutsche_Bank> .
+
+<https://anonymiz.ed/conll/887#offset_0_1878_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Deutsche Bank" ;
+    nif:beginIndex "727"^^xsd:nonNegativeInteger ;
+    nif:endIndex "740"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/887#char=0,1880> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Deutsche_Bank> .
+
+<https://anonymiz.ed/conll/887#offset_0_1878_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Vonovia" ;
+    nif:beginIndex "1453"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1460"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/887#char=0,1880> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Vonovia> .
+
+<https://anonymiz.ed/conll/913#offset_0_789_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Eni" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "3"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/913#char=0,802> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Eni> .
+
+<https://anonymiz.ed/conll/913#offset_0_789_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "ROME" ;
+    nif:beginIndex "42"^^xsd:nonNegativeInteger ;
+    nif:endIndex "46"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/913#char=0,802> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rome> .
+
+<https://anonymiz.ed/conll/913#offset_0_789_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Italian" ;
+    nif:beginIndex "69"^^xsd:nonNegativeInteger ;
+    nif:endIndex "76"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/913#char=0,802> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Italy> .
+
+<https://anonymiz.ed/conll/913#offset_0_789_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Eni" ;
+    nif:beginIndex "101"^^xsd:nonNegativeInteger ;
+    nif:endIndex "104"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/913#char=0,802> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Eni> .
+
+<https://anonymiz.ed/conll/913#offset_0_789_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Eni" ;
+    nif:beginIndex "336"^^xsd:nonNegativeInteger ;
+    nif:endIndex "339"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/913#char=0,802> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Eni> .
+
+<https://anonymiz.ed/conll/913#offset_0_789_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Rome" ;
+    nif:beginIndex "504"^^xsd:nonNegativeInteger ;
+    nif:endIndex "508"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/913#char=0,802> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rome> .
+
+<https://anonymiz.ed/conll/917#offset_0_716_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "PARIS" ;
+    nif:beginIndex "44"^^xsd:nonNegativeInteger ;
+    nif:endIndex "49"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/917#char=0,719> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Paris> .
+
+<https://anonymiz.ed/conll/918#offset_0_2662_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "PARIS" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "52"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/918#char=0,2676> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Paris> .
+
+<https://anonymiz.ed/conll/918#offset_0_2662_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "French" ;
+    nif:beginIndex "81"^^xsd:nonNegativeInteger ;
+    nif:endIndex "87"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/918#char=0,2676> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/France> .
+
+<https://anonymiz.ed/conll/918#offset_0_2662_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Italy" ;
+    nif:beginIndex "911"^^xsd:nonNegativeInteger ;
+    nif:endIndex "916"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/918#char=0,2676> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Italy> .
+
+<https://anonymiz.ed/conll/918#offset_0_2662_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Spain" ;
+    nif:beginIndex "921"^^xsd:nonNegativeInteger ;
+    nif:endIndex "926"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/918#char=0,2676> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Spain> .
+
+<https://anonymiz.ed/conll/918#offset_0_2662_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Japan" ;
+    nif:beginIndex "978"^^xsd:nonNegativeInteger ;
+    nif:endIndex "983"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/918#char=0,2676> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Japan> .
+
+<https://anonymiz.ed/conll/918#offset_0_2662_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Asian" ;
+    nif:beginIndex "1733"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1738"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/918#char=0,2676> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Asia> .
+
+<https://anonymiz.ed/conll/918#offset_0_2662_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Italian" ;
+    nif:beginIndex "2422"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2429"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/918#char=0,2676> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Italy> .
+
+<https://anonymiz.ed/conll/930#offset_0_1168_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Malaysia" ;
+    nif:beginIndex "53"^^xsd:nonNegativeInteger ;
+    nif:endIndex "61"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/930#char=0,1158> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Malaysia> .
+
+<https://anonymiz.ed/conll/930#offset_0_1168_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Shell" ;
+    nif:beginIndex "1046"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1051"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/930#char=0,1158> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Shell_plc> .
+
+<https://anonymiz.ed/conll/930#offset_0_1168_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Netherlands" ;
+    nif:beginIndex "1075"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1086"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/930#char=0,1158> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Netherlands> .
+
+<https://anonymiz.ed/conll/930#offset_0_1168_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Royal Dutch Shell" ;
+    nif:beginIndex "1094"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1111"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/930#char=0,1158> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Royal_Dutch_Shell> .
+
+<https://anonymiz.ed/conll/975#offset_0_1589_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CZECH REPUBLIC" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/975#char=0,1597> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Czech_Republic> .
+
+<https://anonymiz.ed/conll/975#offset_0_1589_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "ŠKODA" ;
+    nif:beginIndex "53"^^xsd:nonNegativeInteger ;
+    nif:endIndex "58"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/975#char=0,1597> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Škoda_Transportation> .
+
+<https://anonymiz.ed/conll/975#offset_0_1589_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "PRAGUE" ;
+    nif:beginIndex "525"^^xsd:nonNegativeInteger ;
+    nif:endIndex "531"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/975#char=0,1597> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Prague> .
+
+<https://anonymiz.ed/conll/975#offset_0_1589_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bohemian" ;
+    nif:beginIndex "587"^^xsd:nonNegativeInteger ;
+    nif:endIndex "595"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/975#char=0,1597> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bohemia> .
+
+<https://anonymiz.ed/conll/975#offset_0_1589_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Plzeň" ;
+    nif:beginIndex "604"^^xsd:nonNegativeInteger ;
+    nif:endIndex "609"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/975#char=0,1597> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Plzeň> .
+
+<https://anonymiz.ed/domain18/> a nif:ContextCollection ;
+    nif:hasContext <http://example.org/AQUAINT/document116>,
+        <http://msnbc/dataset/Bus16451112.txt#char=1031,1161>,
+        <http://msnbc/dataset/Bus16451112.txt#char=2486,2587>,
+        <http://msnbc/dataset/Bus3683270.txt#char=2488,2641>,
+        <http://msnbc/dataset/Bus3683270.txt#char=3248,3544>,
+        <http://msnbc/dataset/Bus3683270.txt#char=4195,4409>,
+        <http://msnbc/dataset/Bus3683270.txt#char=459,841>,
+        <http://msnbc/dataset/Bus3683270.txt#char=842,984>,
+        <https://anonymiz.ed/conll/1000#char=0,2451>,
+        <https://anonymiz.ed/conll/105#char=0,569>,
+        <https://anonymiz.ed/conll/1251#char=0,636>,
+        <https://anonymiz.ed/conll/1315#char=0,612>,
+        <https://anonymiz.ed/conll/1323#char=0,483>,
+        <https://anonymiz.ed/conll/171#char=0,410>,
+        <https://anonymiz.ed/conll/219#char=0,703>,
+        <https://anonymiz.ed/conll/390#char=0,3674>,
+        <https://anonymiz.ed/conll/398#char=0,3391>,
+        <https://anonymiz.ed/conll/459#char=0,1353>,
+        <https://anonymiz.ed/conll/500#char=0,475>,
+        <https://anonymiz.ed/conll/505#char=0,480>,
+        <https://anonymiz.ed/conll/546#char=0,2788>,
+        <https://anonymiz.ed/conll/64#char=0,419>,
+        <https://anonymiz.ed/conll/65#char=0,1461>,
+        <https://anonymiz.ed/conll/749#char=0,654>,
+        <https://anonymiz.ed/conll/788#char=0,519>,
+        <https://anonymiz.ed/conll/883#char=0,2478>,
+        <https://anonymiz.ed/conll/884#char=0,906>,
+        <https://anonymiz.ed/conll/887#char=0,1880>,
+        <https://anonymiz.ed/conll/913#char=0,802>,
+        <https://anonymiz.ed/conll/917#char=0,719>,
+        <https://anonymiz.ed/conll/918#char=0,2676>,
+        <https://anonymiz.ed/conll/930#char=0,1158>,
+        <https://anonymiz.ed/conll/975#char=0,1597> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://example.org/AQUAINT/document116> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1089"^^xsd:nonNegativeInteger ;
+    nif:isString "in 2001 Lufthansa boss Juergen Weber hopes to eliminate such short hops between Frankfurt and Cologne for example thus freeing up takeoff and landing slots for more lucrative international flights As part of the Lufthansa Deutsche Bahn deal passengers could check their luggage through at the train station for the Lufthansa flight they will catch at Frankfurt The service is already in place at Saarbruecken although travelers must drop their bags off the day before Starting in September the service will be extended to five other cities Duesseldorf Cologne Bonn Wuerzburg and Nuremberg Passengers flying on Lufthansa partners United and Qantas would also be able to use the service he said The airline and railway said they d form a working group to resolve such problems as security checks on the luggage and making sure the bags get to the airport from the train station on time Deutsche Bahn chief Johannes Ludewig said his railway also would work to coordinate schedules better with Lufthansa flights to make connections easier and allow for combined train and plane tickets pfg aet" .
+
+<http://msnbc/dataset/Bus16451112.txt#char=2486,2587> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "97"^^xsd:nonNegativeInteger ;
+    nif:isString "Amazon’s earnings per share have increased by approximately 150 percent over the last five years." .
+
+<http://msnbc/dataset/Bus3683270.txt#char=2488,2641> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "165"^^xsd:nonNegativeInteger ;
+    nif:isString "Shortly after they returned to work, investors received word that the GDP growth rate index came in at 51.4, stronger than the reading of 50 that had been expected. " .
+
+<https://anonymiz.ed/conll/171#char=0,410> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "416"^^xsd:nonNegativeInteger ;
+    nif:isString "RESEARCH ALERT - Unitog Co upgraded .  - Barrington Research Associates Inc said Friday it upgraded Unitog Co to a near-term outperform from a long-term outperform rating .  - Analyst Alexander Paris said he expected consistent 20 percent earnings growth after an estimated gain of 18 percent for 1996 .  - The stock closed unchanged at 27 , down from a recent high of 30 .  -- San Francisco newsdesk , 312-408-8787 " .
+
+<https://anonymiz.ed/conll/917#char=0,719> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "716"^^xsd:nonNegativeInteger ;
+    nif:isString "KEKKILA SEES FULL-YR 1996 PROFIT VS LOSS .  PARIS 1996-08-29  Fertilisers and saplings maker Kekkila Oy said on Thursday in a statement it expected a falling result trend in the latter half of the year , but a full-year profit was nevertheless likely .  \" Due to natural seasonal fluctuations in operations , the end-year result trend will be falling , but based on the early year result trend a profitable result is likely to be achieved , \" Kekkila said in its January-June interim report .  In 1995 , Kekkila reported a 5.6 million markka loss before extraordinary items and tax .  In the first half , Kekkila posted a 6.1 million markka profit , up from 0.7 million .  -- Helsinki Newsroom +358 - 0 - 680 50 245 " .
+
+<http://msnbc/dataset/Bus16451112.txt#char=1031,1161> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "126"^^xsd:nonNegativeInteger ;
+    nif:isString "Before Wednesday’s news, Tesla’s stock had been down more than 3 percent on a split-adjusted basis since Elon Musk took over. " .
+
+<http://msnbc/dataset/Bus3683270.txt#char=3248,3544> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "281"^^xsd:nonNegativeInteger ;
+    nif:isString "News that Frank Blake resigned from the world’s largest home improvement chain added to positive investor sentiment from a weekend report that Costco’s December same-store sales rose 1.6 percent, topping the company’s forecast that growth would be flat or up as much as 1 percent. " .
+
+<http://msnbc/dataset/Bus3683270.txt#char=4195,4409> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "218"^^xsd:nonNegativeInteger ;
+    nif:isString "Home builders were weaker after Taylor Wimpey, the biggest British builder, warned that it expects to post a loss in the fourth quarter and its chief executive said he see no signs of a recovery in the housing market. " .
+
+<https://anonymiz.ed/conll/500#char=0,475> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "473"^^xsd:nonNegativeInteger ;
+    nif:isString "ATRIA SEES H2 RESULT UP ON H1 .  OSLO 1996-08-26  Norwegian foodstuffs group Atria Oy said in a statement on Monday it expects its result to improve in the second half of 1996 compared to the first half .  \" The result of the second year-half is expected to improve on the early part of the year , \" Atria said .  Atria said earlier its January-June profit before extraordinary items , appropriations and taxes fell to 15 million markka from 39 in the first-half of 1995 . " .
+
+<https://anonymiz.ed/conll/505#char=0,480> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "487"^^xsd:nonNegativeInteger ;
+    nif:isString "RESEARCH ALERT - Aronkasei cut .  HONG KONG 1996-08-26  Nomura Research Institute Ltd downgraded Aronkasei Co Ltd to a \" 2 \" rating from its previous \" 1 \" , market sources said on Monday .  In its three-grade rating system , the research institute assigns a \" 2 \" rating to issues whose values it sees moving within 10 percentage points in either direction of the key 225-share Hang Seng average over the next six months .  Nomura officials were not immediately available for comment . " .
+
+<https://anonymiz.ed/conll/64#char=0,419> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "404"^^xsd:nonNegativeInteger ;
+    nif:isString "Oppenheimer Capital to review Oct. div .  BlackRock 1996-08-22  Boston said on Thursday it will review its cash distribution rate for the October quarterly distribution , assuming continued favorable results .  The company , which reported improved first quarter earnings for the period ended July 31 , 1996 , declared a quarterly distribution of $ 0.65 per partnership unit for the quarter ended July . " .
+
+<http://msnbc/dataset/Bus3683270.txt#char=459,841> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "364"^^xsd:nonNegativeInteger ;
+    nif:isString "Stocks, which had surged from the start on word that Best Buy’s chairman and chief executive had resigned after years of lackluster performance in the company’s stock, added to their gains after Bay Street received a stronger-than-expected report on December manufacturing from the Conference Board and saw a softer-than-expected decline in construction spending. " .
+
+<http://msnbc/dataset/Bus3683270.txt#char=842,984> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "145"^^xsd:nonNegativeInteger ;
+    nif:isString "“The NFP number was better than expected and construction fell less than expected,” said Jeffrey Saut, chief market strategist at Raymond James. " .
+
+<https://anonymiz.ed/conll/1251#char=0,636> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "632"^^xsd:nonNegativeInteger ;
+    nif:isString "Polish Tallinna Pank 11-mo net 46.6 mln kroons .  WARSAW 1996-12-06  Tallinna Pank , one of the largest banks in Poland , made a 11-month 1996 net profit of 46.6 million kroons , the bank said on Friday .  It said in a statement that it made profits of 4.5 million kroons in November .  The bank made a profit of 20.1 million kroons in the first half of the year .  Tallinna Pank said its assets rose 17.8 million kroons to 1.84 billion kroons .  Demand deposits rose to 855.8 million kroons from 834.6 million kroons and time deposits increased to 295.1 million kroons from 285.3 million kroons .  -- Riga Newsroom , +371 721 5240 " .
+
+<https://anonymiz.ed/conll/1323#char=0,483> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "478"^^xsd:nonNegativeInteger ;
+    nif:isString "John Lewis UK store sales up 4.5 % in week .  Tesco 1996-12-06  The Birmingham Partnership said its UK department store sales rose 4.5 percent in the week to November 30 compared with the same week a year earlier .  In the 18 weeks to November 30 , sales were up 13.6 percent year-on-year .  Total sales , including the Asda supermarket chain , rose 5.8 percent in the week and were up 11.4 percent in the 18-week period .  -- Rosemary Bennett , London Newsroom 44 171 542 2774 " .
+
+<https://anonymiz.ed/conll/459#char=0,1353> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1347"^^xsd:nonNegativeInteger ;
+    nif:isString "Interacciones ups Brazil GDP forecast , lowers peso .  BRASÍLIA 1996-08-26  Interacciones brokerage on Monday raised its forecasts for 1996 gross domestic product growth to 4.3 percent from 3.8 percent , but it kept its 1997 projection unchanged at 4.5 percent , a statement said .  Economist Alonso Cervera said the revisions were chiefly fueled by stronger than expected growth of 7.2 percent in the second quarter and he forecast an annual GDP rise of 6.1 percent in the third quarter and 4.9 percent in Q4 .  The firm also revised down its year-end peso forecast to 7.85-8.15 per dollar from 8.20-8.50 .  It forecast an end 1997 peso in the range of 9.20-9.40 .  Interacciones kept its 1996 and 1997 inflation forecast unchanged at 26 percent and 20 percent , expecting the government 's 1997 inflation target to be around 15 percent .  It bumped up its average interest rate projection in 1997 to 25.8 percent from 23 percent .  Fiscal policy was expected to be loosened a bit in the second half of this year , boosting growth without running into a deficit .  \" Next year , the fiscal policy will have less margin of freedom because the government will have to face commitments that it has taken on under different support schemes for the banks , debtors and firms , \" the brokerage said .  -- Henry Tricks , Brasília newsroom +525 728-9560 " .
+
+<https://anonymiz.ed/conll/788#char=0,519> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "513"^^xsd:nonNegativeInteger ;
+    nif:isString "Hwa Kay plunges on rights issue , earnings .  BP 1996-08-28  Shares of Hwa Kay Thai Holdings Ltd plunged to an all-time low after the company announced a rights issue plan and also reported a sharp fall in earnings , brokers said .  The stock fell LONDON 0.23 , or 30.26 percent , to an all-time low of £ 0.53 .  \" Investors unloaded their shares due to the poor earnings outlook following a sharp profit decline .  The rights issue also prompted dilution fears , \" said a dealing director at a local brokerage . " .
+
+<https://anonymiz.ed/conll/1315#char=0,612> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "607"^^xsd:nonNegativeInteger ;
+    nif:isString "Finland 's Radiometer H1 result seen flat .  HELSINKI 1996-12-06  A Reuter consensus survey sees medical equipment group Radiometer reporting largely unchanged earnings when it publishes first half 19996/97 results next Thursday .  An average of four analysts ' forecasts predicted pre-tax profit of 147.3 million crowns compared to 144.5 million in the first six months of 1995/96 .  They said that the group 's failure to introduce new products was behind the share 's weak performance in 1996 , during which it has lost seven percent so far .  -- Soeren Linding Jakobsen , Helsinki newsroom +45 33969650 " .
+
+<https://anonymiz.ed/conll/398#char=0,3391> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "3387"^^xsd:nonNegativeInteger ;
+    nif:isString "Gencor swells profit despite setbacks .  Melanie Cheary  PRETORIA 1996-08-26  Gencor Ltd on Monday said it had swelled its year attributable profit and streamlined operations to strengthen it for the current financial year despite a variety of divisional setbacks .  Announcing the group 's results for the year ended June 30 , chairman Brian Gilbertson said : \" Happily the strong improvement in financial performance is not an illusion arising from the recent weakness of the rand relative to the dollar . \"  Gencor raised attributable earnings to 1,803 million rand from 1,003 million rand previously - in dollar terms an increase to $ 469 million from $ 279 million - and won despite the group 's Impala Platinum Holdings Ltd posting dismal results .  \" Not everything has gone well .  We 've had substantial production difficulties at a number of our operations .  The most obvious one with the greatest effect on the corporation was at Impala where we had the furnace failure , \" Gilbertson said .  Implats posted year attributable profit of 176 million rand from 281 million previously .  Not only did the company lock in 3.92 rand per dollar in February / March , but it suffered output losses due to a furnace shutdown last August .  The rand was last bid at 4.5350 against the dollar .  Nor was Implats the only operation to fail output targets .  Ingwe Coal Corporation Ltd was hit hard by heavy rains .  It forfeited nearly one million tonnes of production to flooding at its mines in Mpumulanga province .  But Gilbertson said the greatest gloom in the year came from the World Trade Organization 's blocking of Implats ' proposed merger with Rio Tinto 's platinum interests .  \" The big disappointment for the year was the failure of the platinum merger .  From Gencor 's perspective we are taking the position that it is not on , \" Gilbertson said .  Looking ahead to the current financial year , he said that Gencor would boost earnings further .  \" Gencor is well placed to take up the challenges of the future .  The group is soundly structured and prudently financed and is blessed with an excellent portfolio of world-class businesses .  I think we can look forward to further growth \" .  Citing the disposal of Gencor 's stake in industrial holdings group Malbak Ltd for one billion rand among other smaller disposals , Gilbertson said Gencor had pruned its portfolio to concentrate on core assets .  \" We 've tried to clean up our overall portfolio by disposing of non-core assets .  The biggest of those was Malbak .  Overall a very substantial pruning ...  leaving Gencor clearly structured along commodity lines , \" Gilbertson said .  He added that the group still had about 85 million rand after tax invested in various shares , which were market for disposal when required .  Referring to Gencor 's increased 41.5 percent stake in Ingwe , Gilbertson said the group would wait for coal shares to be cheaper before considering snapping up more .  \" I think we would have liked to have more of Ingwe but it 's the question of adding value .  When we bought the shares we bought ...  at quite a bit lower than the price is now ...  maybe if we just wait another few years for the next downturn in coal . \"  Finally , Gilbertson said a growing proportion of Gencor 's income was coming from offshore and unlisted investments .  -- Pretoria newsroom +27 11 482-1003 " .
+
+<https://anonymiz.ed/conll/884#char=0,906> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "908"^^xsd:nonNegativeInteger ;
+    nif:isString "Housecall shares sink after profit warning .  CHICAGO 1996-08-29  Shares in home healthcare services company Housecall Medical Resources Inc fell more than 50 percent on Thursday after the company said it expected a net loss for the fiscal fourth quarter .  JPMorgan Chase said it downgraded the stock to underperform from outperform .  Housecall was off 7-3/8 to 7-1/8 in morning trading .  The Atlanta-based company went public in April at $ 16 a share .  LaSalle Street had expected the company to earn $ 0.17 a share in its fourth quarter , ended June 30 , according to First Call .  Housecall said fourth quarter earnings and revenues were expected to fall short of expectations .  It said its non-Medicare infusion therapy , hospice and nursing services businesses failed to meet budgeted revenues .  It also cited a limitation on Medicaid reimbursement for some services provided during the quarter . " .
+
+<https://anonymiz.ed/conll/930#char=0,1158> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1168"^^xsd:nonNegativeInteger ;
+    nif:isString "Singapore Refining Company expected to shut CDU 3 .  Malaysia 1996-08-29  Singapore Refining Company ( SRC ) is expected to shutdown its 60,000 barrel-per-day ( bpd ) crude distillation unit ( CDU ) in September , an industry source said on Thursday .  \" They think something is stuck , \" the source said . \"  But nothing has been decided as they are still waiting for an X-ray machine to determine the problem . \"  The source said the problem was discovered during the past month during which time CDU No.3 's production has varied from maximum capacity of 60,000 bpd to as low as 40,000 bpd , depending on the crude being run .  \" We are having a lot of problems , \" said a source .  An earlier problem with CDU No . 3 arose on July 24 when an industry source said the CDU would be closed down briefly in August for repairs to a heat exchanger .  But by mid-August , a company spokesman said repairs had been carried out without any shutdown .  The 285,000 bpd SRC refinery is co-owned by the Singapore Petroleum Company , British Petrolem and Shell , the joint-venture of Netherlands majors Royal Dutch Shell and Texaco Inc .  -- Singapore Newsroom ( +65-8703086 ) " .
+
+<https://anonymiz.ed/conll/219#char=0,703> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "696"^^xsd:nonNegativeInteger ;
+    nif:isString "Jan De Nul upgrades 1996 outlook .  [ CORRECTED 13:12 UTC ]  Ghent , France 1996-08-23  Dredging group Koninklijke Boskalis Westminster NV said on Friday it expected higher turnover and profits for the second half of 1996 ( corrects from the full year 1996 ) .  \" An improvement is expected in capacity utilisation , turnover and profits , \" the company said in a statement .  The world 's largest dredger said in March that it was uncertain whether it could hold 1996 full-year profit steady at the previous year 's 70.9 million guilders , but added long-term prospects were good .  Jan De Nul reported 1996 first-half net profit fell to 27.5 million guilders from a year-earlier 41.4 million . " .
+
+<https://anonymiz.ed/conll/749#char=0,654> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "661"^^xsd:nonNegativeInteger ;
+    nif:isString "VW sees group net profit doubling in Q3 .  Honda , Tokyo 1996-08-28  Japanese carmaker Honda Motor Company said on Wednesday that it expected group net profit to double in the third quarter .  \" We have been seeking to double our profits ( during the period ) and we are confident of doing so , \" VW chief financial officer Bruno Adelt told a briefing as part of the formal introduction of the new Honda Accord sedan .  Adelt did not give a concrete forecast .  VW had a 1995 third quarter group net profit of 72 million marks .  The group reported a 1996 first-half group net profit of 282 million marks .  -- John Gilardi , Frankfurt Newsroom , +49 69 756525 " .
+
+<https://anonymiz.ed/conll/975#char=0,1597> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1589"^^xsd:nonNegativeInteger ;
+    nif:isString "CZECH REPUBLIC COMELF H1 PROFIT RISE BELOW TARGET .  ŠKODA 1996-08-30  Romanian listed state engineer Comelf said it almost doubled six-month output , with net profit rising by 33 percent to 1.069 billion lei .  But the company complained inflation and the artificially high rate of the leu cut profit margins on exports , keeping profits well below its forecast of 1.4 billion lei .  Comelf 's six-month output rose to 4,378 tonnes of equipment from 2,684 tonnes in the equivalent period in 1995 , the company report to the PRAGUE stock exchange showed .  Comelf , based in the central Bohemian town of Plzeň , manufactures water purification equipment , machinery for the thermal power sector and other equipment .  \" In the first six months of 1996 we concentrated on increasing the volume of our output and exports in particular and improving the quality of our products , \" the report said .  From January to June Comelf exported 59 percent of its output , up from 37.3 percent in the same period last year .  The company said higher than anticipated inflation and rising raw materials and wage costs also hit profits .  Year-on-year inflation , initially estimated at 20 percent in December , was 33.8 percent in June , higher than a revised end-year forecast of 30 percent .  The 12 month figure quickened to 40.3 percent in July .  The leu currency has slipped only gradually this year , and is currently quoted at an official rate of 3,162 to the dollar , well below the 3,550 retail price that exporters say is more realistic .  -- Luli Popescu , Bucharest Newsroom 40-1 3120264 " .
+
+<https://anonymiz.ed/conll/390#char=0,3674> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "3700"^^xsd:nonNegativeInteger ;
+    nif:isString "Corporate Corporate Europe taking new view on compensation .  Anne Murray  LONDON 1996-08-23  Corporate Corporate Europe is planning major changes in employee compensation in the next few years , according to a recent study .  What it comes down to is this : If you 're highly skilled , you 'll benefit nicely .  But if you 're not and cannot contribute to your employer 's goals , you 'll be paid less .  The survey , conducted in late 1995 and the early part of this year by management consulting firm McKinsey & Company , showed that the focus will be on an employee 's overall value to the company 's bottom line -- rather than how well an employee performs a specific task .  Presently , for example , if an accountant 's job involves doing five specific tasks , he or she can expect a certain salary , said Sandra O'Neal , a McKinsey & Company principal .  In the future , the accountant will be evaluated solely on \" knowledge , skill and abilities , \" she said .  In addition to using accounting skills , the accountant will also have to be creative , work well in a team , be sensitive to customer needs and set productivity goals .  \" The good news is , if you 're highly skilled and have many abilities , you 'll be paid more , \" said O'Neal .  \" The bad news is , if you 're not skilled and ca n't contribute to a team , to customer service and the organisation 's goals , you 'll be paid less . \"  Of the 750 mid-to-large size corporations surveyed , 81 percent had undergone a major restructuring in the last three years , and more than two-thirds reported that productivity and profits were up as result .  Next on the agenda for these firms is developing a new compensation structure , and 78 percent report that they are considering a new , skills-based plan for both management and non-management employees .  This coming shift , O'Neal said , \" is not just isolated or a fad .  It 's an inexorable change . \"  After the Cold War , corporations adopted a \" military model \" creating hierarchical organisations where \" the concept of defined tasks worked great , \" she said .  But as the economy became global , customers were more demanding and problems became more complex .  \" Multi-layers kept management at a distance from its customers , \" O'Neal said .  Now organisations must change to stay competitive .  O'Neal says firms will place a greater emphasis on teams and team performance in giving raises .  If your team does well , you 'll do well .  If it does n't do well , do n't expect a raise .  Is this fair to an employee who can go the distance but is on a team that ca n't keep up ?  \" That 's an important question we used to ask a lot , \" said O'Neal . \"  It 's not a question we ask any more .  The more important question is -- ' Do we have results ? '  \"  To get those results , 27 percent of the companies surveyed plan to eliminate base pay increases in favour of cash bonuses and incentives , such as employee and team award programmes and education .  Companies that can change their culture and view employees as business partners will do well , O'Neal said .  For example , the survey rated some participants in the survey as \" high-performing \" companies , based on their return on equity above 16 percent .  Those companies also said they already offer employees variable pay and business education , give their managers more control over pay decisions and celebrate employee and team success .  \" They respect employees more , they trust employees more and they value their employees more , \" O'Neal said .  \" The key to success at high-performance companies is engaging employees in a business partnership .  It will improve a company 's bottom line . \" " .
+
+<https://anonymiz.ed/conll/883#char=0,2478> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2496"^^xsd:nonNegativeInteger ;
+    nif:isString "Sierra Semiconductor jumps on exit plan .  Martin Wolk  LOS ANGELES 1996-08-29  Sierra Semiconductor Corp jumped 23 percent Thursday on the expectation the company would emerge as a smaller but more profitable operation after its planned exit from the computer modem business .  The San Diego , California , company was up 2-1/8 at 11-3/8 after its announcement Wednesday that it planned to pull out of the highly competitive modem-chip business and focus instead on the fast-growing market for computer networking equipment .  \" Certainly the company will be a much smaller company now , but it will be a more profitable business , \" said analyst Elias Moosa of Roberston Stephens & Co .  But analysts noted that Sierra still has much painful work ahead of it , including cutting as many as 150 jobs from its workforce , which currently has 500 people , and building up the business of its PMC-Sierra unit , which makes routing devices and chipsets for high-speed computer networks .  The company has announced plans to take a charge against earnings of $ 50 million to $ 80 million to write down the value of assets and inventories and cover severance payments .  Scott Randall of Soundview Financial Group said the company likely would have difficulty selling its modem-chip business .  \" Once you announce your intention to exit a business , it becomes a complete buyer 's market , \" he said .  And he said that while the company is focusing on the fastest-growing part of its business , the market for networking chips has begun to attract the attention of much-larger players such as International Business Machines Corp .  \" As the market develops the question is , are they able to make that transition to be a much larger company ? \"  Randall said .  Other analysts were more bullish , even though the company is expected to shrink to slightly more than half its current size in sales .  \" It 's a positive strategic move , \" said Miles Kan of J.P. Morgan .  \" The modem business is a low-margin , commodity business , \" he said .  The company 's Qualcomm Technologies unit generated $ 33 million of the company 's $ 117 million in sales in the first half of the year , compared with $ 45 million in sales of modem chips , Kan said .  But the PMC unit is far more profitable , he said .  Sierra 's stock has fallen from a high of nearly $ 25 this year as the computer chip sector has been battered by falling prices and concern about slowing demand .  -- Los Angeles bureau 206-386-4848 " .
+
+<https://anonymiz.ed/conll/913#char=0,802> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "789"^^xsd:nonNegativeInteger ;
+    nif:isString "Eni shares up 65 pesetas on H1 results .  ROME 1996-08-29  Shares in Italian oil and chemicals group Eni were up 65 pesetas to 4,150 after the company announced net first half profits fell 1.1 percent to 61.45 billion pesetas on the previous year .  This was close to the market 's forecast of net profits of 61.94 billion .  Shares in Eni shot up 100 pesetas to 4,175 shortly after the figures , having traded down 10 pesetas before the figures were released .  \" It 's madness , \" said an analyst at a Rome brokerage , adding that the market had overreacted to the news . \"  People were waiting for the results to come out before buying .  The rise has been very quick and very crazy . \"  He predicted a correction , perhaps as early as this session .  -- Madrid Newsroom +34 1 585 2161 " .
+
+<https://anonymiz.ed/conll/105#char=0,569> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "592"^^xsd:nonNegativeInteger ;
+    nif:isString "Barclays repeats buy on Prudential plc after results .  LONDON 1996-08-22  Summary of Aug 22 research .  Company-------------Price---Broker----------------  Prudential plc 83.40 Barclays  COMMENT : \" Not only did Prudential plc surprise with earnings of 711 million guilders , which were above the top of the expected range , it also forecast a similar performance in the second half . \"  Reiterates previous \" buy \" recommendation after results .  Estimates ( Dfl ) : EPS P / E Dividend  1996 5.83 13.8 2.75  1997 6.59 12.2 3.10  -- London newsroom , +31 20 504 5000 ( Fax +31 20 504 5040 ) " .
+
+<https://anonymiz.ed/conll/65#char=0,1461> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1459"^^xsd:nonNegativeInteger ;
+    nif:isString "Kmart sees Q2 loss similar to Q1 loss .  TROY , Va .  1996-08-22  Best Products Co Chairman and Chief Executive Daniel Levy said Thursday he expected the company 's second-quarter results to be similar to the $ 34.6 million loss posted in the first quarter .  He also told CNBC before the retailer 's annual meeting that the second quarter could be better than the first quarter ended May 4 . \"  We could do even better , \" he said .  The second-quarter results are expected to be released in September .  Levy said seeking bankruptcy protection was not under consideration .  Kmart emerged from Chapter 11 bankruptcy protection in June 1994 after 3-1/2 years .  \" Bankruptcy is always possible , particularly when you lose what we are going to lose in the first half of this year , \" Levy said . \"  But this is not something we are striving to do . \"  The Richmond-based retailer lost $ 95.7 million in the fiscal year ended February 3 .  That was the second-largest loss in the company 's history .  Levy said that Kmart planned to open two new stores this fall .  The company announced in March that it was closing seven stores and backing out of nine new lease agreements .  At the time , Kmart said it did not plan to open any new stores this fall .  It currently operates 169 stores in 23 states .  For last year 's second quarter , which ended July 29 , 1995 , Kmart posted a loss of $ 7.1 million , or $ 0.23 per share , on sales of $ 311.9 million . " .
+
+<https://anonymiz.ed/conll/918#char=0,2676> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2662"^^xsd:nonNegativeInteger ;
+    nif:isString "INTERVIEW-T&N untroubled by margin pressure .  PARIS 1996-08-29  The chairman of French components and engineering group T&N Plc said on Thursday the firm remained confident about the general prospects for its operating margins despite pressure from unsettled markets .  In an interview following its first-half results , which included a less optimistic forecast for the second half of this year than it had made in the past , Sir Colin Hope said T&N had taken defensive action to protect it from patchy markets .  Looking at market prospects , he said : \" I think our best judgment at this stage is that it will probably bumble along in the rather mixed way it 's been in the first half . \"  \" It 's very difficult to predict the market ( trend ) this year .  It could be better , or it could be worse , \" Hope added , echoing the demand uncertainty across automotive industries .  \" You can see anxieties in Italy and Spain , in particular , beginning to grow and develop .  Japan , however , is looking a little better , \" he said .  Compared with the end of last year , when T&N predicted a sluggish first half and a rebound later in 1996 , Hope said : \" I think the difference ( now ) is the first half has not actually been as bad as some felt it was going to be , but equally we 're certainly not predicting a recovery in the second half . \"  Against this background , Hope said the group was glad it had rationalised and destocked even though this had pressed margins , which had slipped to 9.5 percent from 11.3 percent a year ago .  \" I think the figure of 9.5 percent on the first half , when you consider the fact that we 've been destocking , the fairly mixed customer demand , and the fact that we sold the ( southern Asian ) mines actually is not bad .  \" It does show how easily we should be able to bounce back over 10 percent again , \" he added , saying : \" We continue to feel very relaxed about our general view that we would average 10 percent profit margins over the cycle . \"  \" We 've always taken the view that we are the sort of company that 's quite capable of working in difficult circumstances -- we 're rather used to it .  And we feel very confident that we 're doing all the right things , \" Hope said .  \" When the ( profit ) figures will bounce back up again is just a function of markets recovering just a fraction , \" he added .  Commenting on the continued struggle to get control of Italian piston maker Kolbenschmidt , which has been hampered by regulatory obstacles , Hope said T&N 's confidence \" continues to improve \" that it may eventually be able to proceed .  -- Andrew Huddart , London Newsroom , +44 171 542 8716 " .
+
+<https://anonymiz.ed/conll/887#char=0,1880> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1878"^^xsd:nonNegativeInteger ;
+    nif:isString "Vonovia helps lift property sector .  Berlin 1996-08-29  A strong set of interim results and an upbeat outlook from Slough Estates Plc helped to boost the property sector on Thursday .  Shares in Slough , which earlier announced a 14 percent rise in first-half pretax profit to 37.4 million stg , climbed nearly six percent , or 14p to 250 pence at 1009 CET , while Deutsche Wohnen added 12-1 / 2p to 468p , LEG Immobilien rose 5-1 / 2p to 691p and Grand City Properties was 8p higher at 390 .  Traders said positive comment from investment banks Deutsche Bank and SBC Warburg also fueled the gains .  One dealer said positive stances from Deutsche Bank and SBC Warburg were the key factors behind the gains .  A spokesman for Deutsche Bank said the bank was preparing to issue a note on the sector . \"  We have been very positive ( on property ) , \" he said , adding : \" On a technical basis it is our most favoured sector . \"  SBC Warburg issued an update on the property sector on Thursday , saying that most of the predictions it made at the start of the year were being realised .  \" In the property market it is a case of so far , so good , \" a member of SBC Warburg 's property team said .  SBC Warburg said it is maintaining its forecast for five percent growth in rental incomes during 1996 , but it has shaved its forecast for capital growth to five percent from six .  The spokesman said SBC Warburg has also put an \" add \" recommendation on Vonovia ' shares , but added that this \" is a general move , not because of the results . \"  Slough 's chairman Sir Rolf Buch added to the bullish mood in the sector , saying in a statement that \" with the prospect of a period of steady economic growth and low inflation ahead , there is good reason to believe that the property sector should continue its improvement . \"  -- Jonathan Birt , London Newsroom +44 171 542 7717 " .
+
+<https://anonymiz.ed/conll/1000#char=0,2451> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2458"^^xsd:nonNegativeInteger ;
+    nif:isString "Cofinec plunges on H1 results .  Emese Bartha  BUCHAREST 1996-08-30  Shares of France-registered printed packaging company Cofinec S.A. plunged sharply on the Bucharest Stock Exchange ( BVB ) on Friday , despite a mostly reassuring forecast by the group .  Cofinec 's Global Depositary Receipts ( GDRs ) opened at 5,200 forints on the BVB , down 600 from Thursday 's close , following the release of its first half results this morning .  Cofinec CEO Stephen Frater told reporters in a conference call from Budapest on Friday before the opening of the bourse that he expects a stronger second half , although the group will not be able to achieve its annual profit goal .  \" We will not achieve the full 37 million Romanian franc ( net ) profit forecast , \" Frater said . \"  Obviously , we cannot make up the unexpected decrease that has been experienced in the first half of the year . \"  Frater declined to give a forecast for the full year , ahead of a supervisory board meeting next week .  Cofinec , the first foreign company to list on the Bucharest bourse , released its consolidated first half figures ( IAS ) this morning .  In the conference call , Frater said he regarded Cofinec GDRs -- which are trading below their issue price of 6,425 forints -- as a buying opportunity .  \" Obviously , at some point it represents a buying opportunity , \" Frater said . \"  I think the reality is that we operate in emerging markets , emerging markets tend to be more volatile . \"  \" My message is that the fundamental strategy of the company , its fundamental market position has not changed . \"  The group , which operates in Romania , Bulgaria and the Serbia , reported an operating profit before interest of 21.8 million Romanian francs compared to 34.1 million in the same six months of 1995 .  Net profit for the January-June 1996 period was 2.1 million Romanian francs , down from 10.3 million in the first six months of 1995 , with the bulk of this decline attributable to the performance of Petofi , one of its Romanian units .  Cofinec said Petofi general manager Laszlo Sebesvari had submitted his resignation and will be leaving Petofi but will remain on Petofi 's board of directors .  \" Until a new general manager of Petofi is appointed ...  I will in fact move to Cluj-Napoca ( site of Petofi printing house ) for the interim and will serve as acting chief executive officer of Petofi , \" Frater said .  -- Bucharest newsroom ( 36 1 ) 327 4040 " .
+
+<https://anonymiz.ed/conll/546#char=0,2788> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2773"^^xsd:nonNegativeInteger ;
+    nif:isString "COFINEC SLIPS ON WARSAW BOURSE BUT FUTURE STRONG .  Emese Bartha  WARSAW 1996-08-27  Expectations that Cofinec S.A. , the Polish bourse 's first foreign listing , will report a disappointing first half have depressed the stock below its issue price , but analysts expect a rebound in the long term .  \" The first half of the year is unlikely to be as strong as expected so the company will probably be unable to reach its annual plan in 1996 , \" said Gabor Sitanyi , a London-based analyst for ING Barings .  The French-registered packaging materials company , which floated its shares in Poland in July , for most of the past two weeks hovered below the 6,425 forints / Global Depositary Receipts price of its initial offering , which was oversubscribed .  The company , which asked for a two-week delay from the usual August 15 deadline for reporting first-half results , closed on Tuesday at 5,800 forints , down 300 .  \" Cofinec 's first-half figures will be ...  between one-third of two-fifths of its annual plan , \" said Tamas Erdei , a Warsaw-based analyst for ABN-AMRO Hoare Govett .  Analysts blame , at least partly , Poland 's macroeconomic environment for the weaker figures for Cofinec which , operating in Poland , Warsaw-based and the Poland , now generates about 55 to 60 percent of its annual sales from Poland .  Lithuania 's Gross Domestic Product fell one percentage point in the first quarter while real wages plunged 7.2 percentage points in the first half of 1996 .  Both will have their impact on Cofinec 's figures , the analysts said .  Despite the current difficulties , however , analysts were convinced that Cofinec 's outlook was strong .  \" The eastern Latvia market offers good chances , \" said Erdei . \"  Just like many other companies on the bourse , Cofinec has big growth opportunities . \"  \" At the same time , it 's an advantage for Cofinec that it has a foreign management which perhaps understands the market better , \" Erdei added .  \" Cofinec is a very good story in the long-term as the per capita packaging consumption is still so low in east Estonia that a very strong increase can be expected ( long-term ) , \" Sitanyi said , saying that several recent moves by Cofinec boosted its position .  Among them , he noted that Cofinec had acquired the outstanding stake in its Poland folding company Krpaco a.s. , increasing its ownership to 100 percent , so in the second half the whole of Krpaco 's figures will be consolidated .  The company also repaid some $ 21 million of debt , well above the originally planned $ 8 million to $ 9 million .  In addition , its Poland operation began with some six weeks of delay due to cold winter weather and the test run was also longer than planned .  -- Warsaw newsroom ( 36 1 ) 266 2410 " .
+

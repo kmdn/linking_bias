@@ -1,0 +1,40 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_150_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "San Francisco" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=3553,3701> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/San_Francisco> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_92_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Chinese provinces" ;
+    nif:beginIndex "73"^^xsd:nonNegativeInteger ;
+    nif:endIndex "90"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=686,777> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Provinces_of_China> .
+
+<https://anonymiz.ed/domain34/> a nif:ContextCollection ;
+    nif:hasContext <http://msnbc/dataset/USN16443053.txt#char=3553,3701>,
+        <http://msnbc/dataset/USN16443053.txt#char=686,777> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/USN16443053.txt#char=3553,3701> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "150"^^xsd:nonNegativeInteger ;
+    nif:isString "San Francisco got advanced grades in procedures and use of emergency communications systems and a well-developed grade in coordination of governance. " .
+
+<http://msnbc/dataset/USN16443053.txt#char=686,777> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "92"^^xsd:nonNegativeInteger ;
+    nif:isString "The report included large and small cities and their suburbs, along with Chinese provinces. " .
+

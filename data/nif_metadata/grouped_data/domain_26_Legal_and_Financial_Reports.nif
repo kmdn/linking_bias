@@ -1,0 +1,245 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_104_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "ren Buffett" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=3725,3823> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Warren_Buffett> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_95_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bill Gates" ;
+    nif:beginIndex "59"^^xsd:nonNegativeInteger ;
+    nif:endIndex "69"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=1550,1643> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Bill_Gates> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_137_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Florida" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=4305,4443> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Florida> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_137_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "KidCare" ;
+    nif:beginIndex "64"^^xsd:nonNegativeInteger ;
+    nif:endIndex "71"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=4305,4443> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/KidCare_(Florida)> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_204_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Florida National Guard" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=2189,2391> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Florida_National_Guard> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_204_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Michael Brown" ;
+    nif:beginIndex "35"^^xsd:nonNegativeInteger ;
+    nif:endIndex "48"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=2189,2391> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Michael_Brown_(Florida_official)> .
+
+<http://msnbc/dataset/Spo16455207.txt#offset_0_127_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Doc Rivers" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16455207.txt#char=675,801> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Doc_Rivers> .
+
+<http://msnbc/dataset/Spo16455207.txt#offset_0_127_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tyronn Lue" ;
+    nif:beginIndex "61"^^xsd:nonNegativeInteger ;
+    nif:endIndex "71"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16455207.txt#char=675,801> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tyronn_Lue> .
+
+<http://msnbc/dataset/Spo16455207.txt#offset_0_84_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Wall Street Journal" ;
+    nif:beginIndex "59"^^xsd:nonNegativeInteger ;
+    nif:endIndex "78"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16455207.txt#char=1162,1242> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Wall_Street_Journal> .
+
+<http://msnbc/dataset/Tra16454203.txt#offset_0_161_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Charles de Gaulle Airport" ;
+    nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+    nif:endIndex "100"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tra16454203.txt#char=1116,1260> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Charles_de_Gaulle_Airport> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_121_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Denver" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4595,4720> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Denver> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_121_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Portland" ;
+    nif:beginIndex "8"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4595,4720> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Portland,_Oregon> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_121_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Nashville" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4595,4720> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Nashville,_Tennessee> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_133_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "State Department" ;
+    nif:beginIndex "48"^^xsd:nonNegativeInteger ;
+    nif:endIndex "64"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4213,4358> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States_Department_of_State> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_101_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Nancy Pelosi" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=3156,3254> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Nancy_Pelosi> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_83_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "44"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=3788,3871> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Amsterdam> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_43_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Reuters" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=2920,2958> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Reuters> .
+
+<https://anonymiz.ed/domain26/> a nif:ContextCollection ;
+    nif:hasContext <http://msnbc/dataset/Bus16451112.txt#char=1550,1643>,
+        <http://msnbc/dataset/Bus16451112.txt#char=3725,3823>,
+        <http://msnbc/dataset/Hea16451212.txt#char=4305,4443>,
+        <http://msnbc/dataset/Pol16447720.txt#char=2189,2391>,
+        <http://msnbc/dataset/Spo16455207.txt#char=1162,1242>,
+        <http://msnbc/dataset/Spo16455207.txt#char=675,801>,
+        <http://msnbc/dataset/Tra16454203.txt#char=1116,1260>,
+        <http://msnbc/dataset/USN16443053.txt#char=4213,4358>,
+        <http://msnbc/dataset/USN16443053.txt#char=4595,4720>,
+        <http://msnbc/dataset/USN16444287.txt#char=3156,3254>,
+        <http://msnbc/dataset/USN16444287.txt#char=3788,3871>,
+        <http://msnbc/dataset/Wor13259309.txt#char=2920,2958> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/Bus16451112.txt#char=1550,1643> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "95"^^xsd:nonNegativeInteger ;
+    nif:isString "Asked what he thought he would be doing 10 years from now, Bill Gates said, “Selling hammers.” " .
+
+<http://msnbc/dataset/Bus16451112.txt#char=3725,3823> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "104"^^xsd:nonNegativeInteger ;
+    nif:isString "Under this agreement, Warren Buffett will receive consideration currently valued at about $210 million. " .
+
+<http://msnbc/dataset/Spo16455207.txt#char=1162,1242> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:isString "Riley told the team of his decision Wednesday morning, the Wall Street Journal said." .
+
+<http://msnbc/dataset/Tra16454203.txt#char=1116,1260> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "161"^^xsd:nonNegativeInteger ;
+    nif:isString "Over the holiday season, the airline dealt with about 75,000 bags a day at Charles de Gaulle Airport and handled about 1 million passengers, the spokesman said. " .
+
+<http://msnbc/dataset/USN16443053.txt#char=4213,4358> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "133"^^xsd:nonNegativeInteger ;
+    nif:isString "Lawmakers have also created a new office at the State Department to oversee the issue, though they have yet to provide money for it. " .
+
+<http://msnbc/dataset/USN16444287.txt#char=3156,3254> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "101"^^xsd:nonNegativeInteger ;
+    nif:isString "Nancy Pelosi’s office confirmed Tuesday that the family contacted her, but wouldn’t comment further. " .
+
+<http://msnbc/dataset/USN16444287.txt#char=3788,3871> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "83"^^xsd:nonNegativeInteger ;
+    nif:isString "On Sunday, he was released and sent back to Amsterdam on the same charter airline. " .
+
+<http://msnbc/dataset/Wor13259309.txt#char=2920,2958> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:isString "Reuters also could not reach him Wednesday." .
+
+<http://msnbc/dataset/Hea16451212.txt#char=4305,4443> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "137"^^xsd:nonNegativeInteger ;
+    nif:isString "Florida was the first of 20 states to participate, creating the KidCare program, with money from state settlement with tobacco companies." .
+
+<http://msnbc/dataset/Pol16447720.txt#char=2189,2391> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "204"^^xsd:nonNegativeInteger ;
+    nif:isString "Florida National Guard spokeswoman Michael Brown said 60,000 people were expected to walk by the casket from the time repose began around 6 p.m. Tuesday until it was scheduled to end at 11 a.m. Wednesday." .
+
+<http://msnbc/dataset/Spo16455207.txt#char=675,801> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "127"^^xsd:nonNegativeInteger ;
+    nif:isString "Doc Rivers returned to the bench in December 2005, replacing Tyronn Lue and postponing a scheduled surgery for hip replacement." .
+
+<http://msnbc/dataset/USN16443053.txt#char=4595,4720> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "121"^^xsd:nonNegativeInteger ;
+    nif:isString "Denver, Portland and Nashville, for example, were judged to have accomplished the early stage of government coordination." .
+

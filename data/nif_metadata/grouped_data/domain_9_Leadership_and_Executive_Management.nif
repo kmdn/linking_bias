@@ -1,0 +1,553 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_202_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Clayton Christensen" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "64"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=2802,2992> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Clayton_Christensen> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_202_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Wharton School" ;
+    nif:beginIndex "78"^^xsd:nonNegativeInteger ;
+    nif:endIndex "92"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=2802,2992> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Wharton_School> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_202_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mack Institute for Innovation Management" ;
+    nif:beginIndex "95"^^xsd:nonNegativeInteger ;
+    nif:endIndex "135"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=2802,2992> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mack_Institute_for_Innovation_Management> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_202_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "University of Pennsylvania" ;
+    nif:beginIndex "139"^^xsd:nonNegativeInteger ;
+    nif:endIndex "165"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=2802,2992> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/University_of_Pennsylvania> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_135_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jimmy Fallon" ;
+    nif:beginIndex "72"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=469,597> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jimmy_Fallon> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_135_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Amy Poehler" ;
+    nif:beginIndex "93"^^xsd:nonNegativeInteger ;
+    nif:endIndex "104"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=469,597> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Amy_Poehler> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_117_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Paul Krugman" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=4714,4826> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Paul_Krugman> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_235_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Judith Feder" ;
+    nif:beginIndex "113"^^xsd:nonNegativeInteger ;
+    nif:endIndex "125"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=1301,1539> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Veterans_Health_Administration> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_235_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Los Angeles" ;
+    nif:beginIndex "205"^^xsd:nonNegativeInteger ;
+    nif:endIndex "216"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=1301,1539> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Los_Angeles> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_96_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Williams" ;
+    nif:beginIndex "62"^^xsd:nonNegativeInteger ;
+    nif:endIndex "70"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2715,2797> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Serena_Williams> .
+
+<http://msnbc/dataset/Hea16451212.txt#offset_0_96_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The New York Times" ;
+    nif:beginIndex "76"^^xsd:nonNegativeInteger ;
+    nif:endIndex "94"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16451212.txt#char=2715,2797> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_New_York_Times> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_160_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Massachusetts" ;
+    nif:beginIndex "104"^^xsd:nonNegativeInteger ;
+    nif:endIndex "117"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=1395,1544> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Massachusetts> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_160_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Maura Healey" ;
+    nif:beginIndex "123"^^xsd:nonNegativeInteger ;
+    nif:endIndex "135"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=1395,1544> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Maura_Healey> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_160_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "John F. Kennedy" ;
+    nif:beginIndex "144"^^xsd:nonNegativeInteger ;
+    nif:endIndex "159"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=1395,1544> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/John_F._Kennedy> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_238_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Diane Sawyer" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=3798,4004> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Diane_Sawyer> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_238_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "John F. Kennedy" ;
+    nif:beginIndex "37"^^xsd:nonNegativeInteger ;
+    nif:endIndex "52"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=3798,4004> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/John_F._Kennedy> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_238_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dwight D. Eisenhower" ;
+    nif:beginIndex "198"^^xsd:nonNegativeInteger ;
+    nif:endIndex "218"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=3798,4004> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Dwight_D._Eisenhower> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_54_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "r had the " ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=3744,3797> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jimmy_Carter> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_54_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Georgia." ;
+    nif:beginIndex "44"^^xsd:nonNegativeInteger ;
+    nif:endIndex "52"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=3744,3797> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ronald_Reagan> .
+
+<http://msnbc/dataset/Pol16452612.txt#offset_0_129_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the Pentagon" ;
+    nif:beginIndex "40"^^xsd:nonNegativeInteger ;
+    nif:endIndex "52"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16452612.txt#char=1721,1848> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Pentagon> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_168_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Adam Steltzner" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "59"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=456,619> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Adam_Steltzner> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_168_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Johnson Space Center" ;
+    nif:beginIndex "98"^^xsd:nonNegativeInteger ;
+    nif:endIndex "118"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=456,619> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Johnson_Space_Center> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_168_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Blue Origin" ;
+    nif:beginIndex "124"^^xsd:nonNegativeInteger ;
+    nif:endIndex "135"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=456,619> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Blue_Origin> .
+
+<http://msnbc/dataset/TvN16442342.txt#offset_0_187_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mary Kay Henry" ;
+    nif:beginIndex "130"^^xsd:nonNegativeInteger ;
+    nif:endIndex "144"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442342.txt#char=1995,2174> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mary_Kay_Henry> .
+
+<http://msnbc/dataset/TvN16442342.txt#offset_0_187_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Service Employees International Union" ;
+    nif:beginIndex "148"^^xsd:nonNegativeInteger ;
+    nif:endIndex "185"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442342.txt#char=1995,2174> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Service_Employees_International_Union> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_138_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Lisa Chen" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4939,5060> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Lisa_Chen_(disambiguation)> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_138_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Grand Forks" ;
+    nif:beginIndex "41"^^xsd:nonNegativeInteger ;
+    nif:endIndex "52"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4939,5060> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Grand_Forks,_North_Dakota> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_138_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Grand Forks County" ;
+    nif:beginIndex "57"^^xsd:nonNegativeInteger ;
+    nif:endIndex "75"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4939,5060> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Grand_Forks_County,_North_Dakota> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_138_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "North Dakota" ;
+    nif:beginIndex "77"^^xsd:nonNegativeInteger ;
+    nif:endIndex "89"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=4939,5060> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/North_Dakota> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_204_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Chicago" ;
+    nif:beginIndex "3"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=2387,2593> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Chicago> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_204_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Chicago" ;
+    nif:beginIndex "195"^^xsd:nonNegativeInteger ;
+    nif:endIndex "202"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=2387,2593> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Chicago> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_216_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The FBI" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=1817,2057> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Federal_Bureau_of_Investigation> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_216_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mike Kortan" ;
+    nif:beginIndex "18"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=1817,2057> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mike_Kortan> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_216_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "FBI" ;
+    nif:beginIndex "110"^^xsd:nonNegativeInteger ;
+    nif:endIndex "113"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=1817,2057> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Federal_Bureau_of_Investigation> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_216_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Christopher Wray" ;
+    nif:beginIndex "124"^^xsd:nonNegativeInteger ;
+    nif:endIndex "140"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=1817,2057> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Christopher_A._Wray> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_135_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the White House" ;
+    nif:beginIndex "117"^^xsd:nonNegativeInteger ;
+    nif:endIndex "132"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=2314,2444> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/White_House> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_192_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Nihad Awad" ;
+    nif:beginIndex "131"^^xsd:nonNegativeInteger ;
+    nif:endIndex "141"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=1508,1690> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Nihad_Awad> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_192_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Muslim Advocates" ;
+    nif:beginIndex "174"^^xsd:nonNegativeInteger ;
+    nif:endIndex "190"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=1508,1690> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Muslim_Advocates> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_66_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CIA" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "3"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=2947,3009> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Central_Intelligence_Agency> .
+
+<http://msnbc/dataset/USN16444287.txt#offset_0_66_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New York City" ;
+    nif:beginIndex "29"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16444287.txt#char=2947,3009> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_York_City> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_147_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CNN" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=1132,1294> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/CNN> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_147_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Angela Merkel" ;
+    nif:beginIndex "57"^^xsd:nonNegativeInteger ;
+    nif:endIndex "70"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=1132,1294> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Angela_Merkel> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_170_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The Guardian" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=3679,3833> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Guardian> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_170_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The Washington Post" ;
+    nif:beginIndex "139"^^xsd:nonNegativeInteger ;
+    nif:endIndex "158"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=3679,3833> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Washington_Post> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_190_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Taylor" ;
+    nif:beginIndex "178"^^xsd:nonNegativeInteger ;
+    nif:endIndex "184"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=4839,5031> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Zachary_Taylor> .
+
+<https://anonymiz.ed/domain9/> a nif:ContextCollection ;
+    nif:hasContext <http://msnbc/dataset/Bus16451112.txt#char=2802,2992>,
+        <http://msnbc/dataset/Ent16453733.txt#char=469,597>,
+        <http://msnbc/dataset/Hea16451212.txt#char=1301,1539>,
+        <http://msnbc/dataset/Hea16451212.txt#char=2715,2797>,
+        <http://msnbc/dataset/Hea16451212.txt#char=4714,4826>,
+        <http://msnbc/dataset/Pol16447720.txt#char=1395,1544>,
+        <http://msnbc/dataset/Pol16447720.txt#char=3744,3797>,
+        <http://msnbc/dataset/Pol16447720.txt#char=3798,4004>,
+        <http://msnbc/dataset/Pol16452612.txt#char=1721,1848>,
+        <http://msnbc/dataset/Tec16454435.txt#char=456,619>,
+        <http://msnbc/dataset/TvN16442342.txt#char=1995,2174>,
+        <http://msnbc/dataset/USN16443053.txt#char=1817,2057>,
+        <http://msnbc/dataset/USN16443053.txt#char=2387,2593>,
+        <http://msnbc/dataset/USN16443053.txt#char=4939,5060>,
+        <http://msnbc/dataset/USN16444287.txt#char=1508,1690>,
+        <http://msnbc/dataset/USN16444287.txt#char=2314,2444>,
+        <http://msnbc/dataset/USN16444287.txt#char=2947,3009>,
+        <http://msnbc/dataset/Wor13259309.txt#char=1132,1294>,
+        <http://msnbc/dataset/Wor13259309.txt#char=3679,3833>,
+        <http://msnbc/dataset/Wor13259309.txt#char=4839,5031> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/Hea16451212.txt#char=4714,4826> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "117"^^xsd:nonNegativeInteger ;
+    nif:isString "But Paul Krugman said an individual needed to earn nearly three times the poverty level to afford private insurance. " .
+
+<http://msnbc/dataset/Pol16452612.txt#char=1721,1848> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "129"^^xsd:nonNegativeInteger ;
+    nif:isString "Voters these days not only do not value the Pentagon experience – or any office-holding experience – it can make them suspicious." .
+
+<http://msnbc/dataset/USN16444287.txt#char=2314,2444> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "135"^^xsd:nonNegativeInteger ;
+    nif:isString "“Nobody ever informed me why I was being questioned,” he said. “All that was ever told to me was this had to do with the White House.” " .
+
+<http://msnbc/dataset/Wor13259309.txt#char=4839,5031> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "190"^^xsd:nonNegativeInteger ;
+    nif:isString "“He spoke very well to our military police, as he always had, and when getting off at the prison site he said farewell to his interpreter; he thanked the military police squad,” Taylor said." .
+
+<http://msnbc/dataset/Ent16453733.txt#char=469,597> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "135"^^xsd:nonNegativeInteger ;
+    nif:isString "“She has brought a new vitality to this show and the ratings prove it,” Jimmy Fallon said of Amy Poehler, who is on vacation this week." .
+
+<http://msnbc/dataset/Hea16451212.txt#char=1301,1539> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "235"^^xsd:nonNegativeInteger ;
+    nif:isString "“The problem of the uninsured is getting worse,” and the number of uninsured children has risen since 2004, said Judith Feder, principal analyst with the Kaiser Commission on Medicaid and the Uninsured, a Los Angeles-based think tank. " .
+
+<http://msnbc/dataset/Hea16451212.txt#char=2715,2797> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "96"^^xsd:nonNegativeInteger ;
+    nif:isString "With no insurance, it’s thousands of dollars just like that,” Williams told The New York Times. " .
+
+<http://msnbc/dataset/Pol16447720.txt#char=3744,3797> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "54"^^xsd:nonNegativeInteger ;
+    nif:isString "“Jimmy Carter had the virtues of small town Georgia.” " .
+
+<http://msnbc/dataset/TvN16442342.txt#char=1995,2174> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "187"^^xsd:nonNegativeInteger ;
+    nif:isString "\"There's still just an attitude out there that production comes first and safety is a convenient thing and it comes second,\" says Mary Kay Henry of Service Employees International Union. " .
+
+<http://msnbc/dataset/USN16443053.txt#char=2387,2593> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "204"^^xsd:nonNegativeInteger ;
+    nif:isString "In Chicago now, the report said, first responders were found to have well-established systems to communicate among each other — but not the best possible. Thirteen U.S. cities scored better than Chicago. " .
+
+<http://msnbc/dataset/USN16444287.txt#char=1508,1690> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "192"^^xsd:nonNegativeInteger ;
+    nif:isString "“Overall these cases send a message that Muslims are second-class citizens who can be detained and kept from their families,” said Nihad Awad, a civil rights coordinator for Muslim Advocates. " .
+
+<http://msnbc/dataset/USN16444287.txt#char=2947,3009> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "66"^^xsd:nonNegativeInteger ;
+    nif:isString "CIA and airport officials in New York City also declined comment. " .
+
+<http://msnbc/dataset/Wor13259309.txt#char=1132,1294> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "147"^^xsd:nonNegativeInteger ;
+    nif:isString "The CNN quoted an unidentified adviser to Prime Minister Angela Merkel as saying the man arrested was “an official who supervised the execution.”  " .
+
+<http://msnbc/dataset/Wor13259309.txt#char=3679,3833> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "170"^^xsd:nonNegativeInteger ;
+    nif:isString "The Guardian television reported that the person under arrest is one of the guards who was a member of the execution team, according to an The Washington Post translator." .
+
+<http://msnbc/dataset/Pol16447720.txt#char=1395,1544> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "160"^^xsd:nonNegativeInteger ;
+    nif:isString "“You were a paradoxical gift of remarkable intellect and achievement wrapped in a plain brown wrapper,” Massachusetts Gov. Maura Healey said of John F. Kennedy." .
+
+<http://msnbc/dataset/Pol16447720.txt#char=3798,4004> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "238"^^xsd:nonNegativeInteger ;
+    nif:isString "Diane Sawyer said in his eulogy that John F. Kennedy brought to office “no demons, no hidden agenda, no hit list or acts of vengeance,” an oblique reference to the air of subterfuge that surrounded Dwight D. Eisenhower in his final days. " .
+
+<http://msnbc/dataset/Tec16454435.txt#char=456,619> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "168"^^xsd:nonNegativeInteger ;
+    nif:isString "\"We're teaching an old dog new tricks,\" said Adam Steltzner, the mission project manager with the Johnson Space Center, the Blue Origin agency in charge of the rovers. " .
+
+<http://msnbc/dataset/Bus16451112.txt#char=2802,2992> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "202"^^xsd:nonNegativeInteger ;
+    nif:isString "“This is not about strategy or vision,” said Clayton Christensen, director of Wharton School’s Mack Institute for Innovation Management at University of Pennsylvania. “This is coming down to two things." .
+
+<http://msnbc/dataset/USN16443053.txt#char=1817,2057> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "216"^^xsd:nonNegativeInteger ;
+    nif:isString "The FBI spokesman Mike Kortan would not comment on the report, saying only that in releasing it on Wednesday, FBI Secretary Christopher Wray will \"talk about nationwide assessments for interoperable communications.\" " .
+
+<http://msnbc/dataset/USN16443053.txt#char=4939,5060> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "138"^^xsd:nonNegativeInteger ;
+    nif:isString "Lisa Chen, the emergency coordinator for Grand Forks and Grand Forks County, North Dakota, said she was not surprised by the low ranking. " .
+

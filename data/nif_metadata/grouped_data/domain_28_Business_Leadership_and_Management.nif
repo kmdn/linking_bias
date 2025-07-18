@@ -1,0 +1,172 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_104_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mary Barra " ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=1804,1901> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Warren_Buffett> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_104_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "General Motors" ;
+    nif:beginIndex "65"^^xsd:nonNegativeInteger ;
+    nif:endIndex "79"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=1804,1901> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/General_Motors> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_82_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Elon Musk" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=3435,3516> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Elon_Musk> .
+
+<http://msnbc/dataset/Bus16451112.txt#offset_0_99_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Walmart" ;
+    nif:beginIndex "61"^^xsd:nonNegativeInteger ;
+    nif:endIndex "68"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus16451112.txt#char=5106,5208> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Walmart> .
+
+<http://msnbc/dataset/Bus3683270.txt#offset_0_146_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Carl Icahn" ;
+    nif:beginIndex "73"^^xsd:nonNegativeInteger ;
+    nif:endIndex "83"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Bus3683270.txt#char=3104,3247> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Carl_Icahn> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_179_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Oprah Winfrey" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=678,842> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Oprah_Winfrey> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_179_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Elon Musk" ;
+    nif:beginIndex "60"^^xsd:nonNegativeInteger ;
+    nif:endIndex "69"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=678,842> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Elon_Musk> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_179_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kathy Griffin" ;
+    nif:beginIndex "97"^^xsd:nonNegativeInteger ;
+    nif:endIndex "110"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=678,842> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Kathy_Griffin> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_179_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The Ellen Show" ;
+    nif:beginIndex "120"^^xsd:nonNegativeInteger ;
+    nif:endIndex "134"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=678,842> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Ellen_DeGeneres_Show> .
+
+<http://msnbc/dataset/Ent16453733.txt#offset_0_87_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ellen DeGeneres" ;
+    nif:beginIndex "18"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Ent16453733.txt#char=598,677> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ellen_DeGeneres> .
+
+<http://msnbc/dataset/Pol16447720.txt#offset_0_112_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Churchill" ;
+    nif:beginIndex "97"^^xsd:nonNegativeInteger ;
+    nif:endIndex "106"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Pol16447720.txt#char=3631,3743> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Winston_Churchill> .
+
+<http://msnbc/dataset/Spo16417540.txt#offset_0_70_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Elon Musk" ;
+    nif:beginIndex "37"^^xsd:nonNegativeInteger ;
+    nif:endIndex "46"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Spo16417540.txt#char=3671,3740> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Elon_Musk> .
+
+<https://anonymiz.ed/domain28/> a nif:ContextCollection ;
+    nif:hasContext <http://msnbc/dataset/Bus16451112.txt#char=1804,1901>,
+        <http://msnbc/dataset/Bus16451112.txt#char=3435,3516>,
+        <http://msnbc/dataset/Bus16451112.txt#char=5106,5208>,
+        <http://msnbc/dataset/Bus3683270.txt#char=3104,3247>,
+        <http://msnbc/dataset/Ent16453733.txt#char=598,677>,
+        <http://msnbc/dataset/Ent16453733.txt#char=678,842>,
+        <http://msnbc/dataset/Pol16447720.txt#char=3631,3743>,
+        <http://msnbc/dataset/Spo16417540.txt#char=3671,3740> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/Bus16451112.txt#char=3435,3516> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "82"^^xsd:nonNegativeInteger ;
+    nif:isString "Elon Musk was appointed to the newly created position of chief operating officer. " .
+
+<http://msnbc/dataset/Bus16451112.txt#char=5106,5208> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "99"^^xsd:nonNegativeInteger ;
+    nif:isString "This action was taken to retain these directors’ experience. Walmart said the action was temporary." .
+
+<http://msnbc/dataset/Bus3683270.txt#char=3104,3247> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "146"^^xsd:nonNegativeInteger ;
+    nif:isString "“Basically, we’re still in an up market even though it’s 51 months old,” Carl Icahn said. “This is still a market that has good upside momentum.” " .
+
+<http://msnbc/dataset/Ent16453733.txt#char=598,677> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "87"^^xsd:nonNegativeInteger ;
+    nif:isString "When she returns, Ellen DeGeneres said, “We will all welcome her back with open arms.” " .
+
+<http://msnbc/dataset/Pol16447720.txt#char=3631,3743> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "112"^^xsd:nonNegativeInteger ;
+    nif:isString "“In his understated way he did his duty as a leader, not as a performer playing to the gallery,” Churchill said." .
+
+<http://msnbc/dataset/Spo16417540.txt#char=3671,3740> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "70"^^xsd:nonNegativeInteger ;
+    nif:isString "“I wish you hadn’t brought that up,” Elon Musk said with a wry smile. " .
+
+<http://msnbc/dataset/Bus16451112.txt#char=1804,1901> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "104"^^xsd:nonNegativeInteger ;
+    nif:isString "“We are very grateful to Mary Barra for his strong leadership of General Motors over the past six years." .
+
+<http://msnbc/dataset/Ent16453733.txt#char=678,842> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "179"^^xsd:nonNegativeInteger ;
+    nif:isString "Oprah Winfrey also took a moment to smooth things over with Elon Musk, who got all riled up when Kathy Griffin said on “The Ellen Show” that he had been “bankrupt so many times.” " .
+

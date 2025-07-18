@@ -1,0 +1,459 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/AQUAINT/document711#offset_0_714_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "pancreatic cancer" ;
+    nif:beginIndex "81"^^xsd:nonNegativeInteger ;
+    nif:endIndex "98"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document711> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Pancreatic_cancer> .
+
+<http://example.org/AQUAINT/document712#offset_0_744_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "prostate cancer" ;
+    nif:beginIndex "108"^^xsd:nonNegativeInteger ;
+    nif:endIndex "123"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document712> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Prostate_cancer> .
+
+<http://example.org/AQUAINT/document713#offset_0_760_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "septic shock" ;
+    nif:beginIndex "132"^^xsd:nonNegativeInteger ;
+    nif:endIndex "144"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document713> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sepsis> .
+
+<http://example.org/AQUAINT/document714#offset_0_870_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Khon Kaen" ;
+    nif:beginIndex "234"^^xsd:nonNegativeInteger ;
+    nif:endIndex "243"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document714> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Khon_Kaen> .
+
+<http://example.org/AQUAINT/document716#offset_0_948_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cambodia" ;
+    nif:beginIndex "304"^^xsd:nonNegativeInteger ;
+    nif:endIndex "312"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document716> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Cambodia> .
+
+<http://example.org/AQUAINT/document717#offset_0_1116_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "carcinogenic" ;
+    nif:beginIndex "471"^^xsd:nonNegativeInteger ;
+    nif:endIndex "483"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document717> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Carcinogen> .
+
+<http://example.org/AQUAINT/document718#offset_0_1128_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "carcinomas" ;
+    nif:beginIndex "491"^^xsd:nonNegativeInteger ;
+    nif:endIndex "501"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document718> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Carcinoma> .
+
+<http://example.org/AQUAINT/document719#offset_0_1157_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "high-precision" ;
+    nif:beginIndex "513"^^xsd:nonNegativeInteger ;
+    nif:endIndex "527"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document719> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Precision_and_accuracy> .
+
+<http://example.org/AQUAINT/document720#offset_0_1189_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "proton therapy" ;
+    nif:beginIndex "547"^^xsd:nonNegativeInteger ;
+    nif:endIndex "561"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document720> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Proton_therapy> .
+
+<http://example.org/AQUAINT/document722#offset_0_1236_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CyberKnife" ;
+    nif:beginIndex "609"^^xsd:nonNegativeInteger ;
+    nif:endIndex "619"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document722> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/CyberKnife> .
+
+<http://example.org/AQUAINT/document723#offset_0_1152_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "sedated" ;
+    nif:beginIndex "633"^^xsd:nonNegativeInteger ;
+    nif:endIndex "640"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document723> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sedation> .
+
+<http://example.org/AQUAINT/document724#offset_0_1035_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Aneurysm" ;
+    nif:beginIndex "635"^^xsd:nonNegativeInteger ;
+    nif:endIndex "643"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document724> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Aneurysm> .
+
+<http://example.org/AQUAINT/document725#offset_0_1028_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "blockage" ;
+    nif:beginIndex "641"^^xsd:nonNegativeInteger ;
+    nif:endIndex "649"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document725> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Thrombosis> .
+
+<http://example.org/AQUAINT/document726#offset_0_1003_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "vascular networks" ;
+    nif:beginIndex "637"^^xsd:nonNegativeInteger ;
+    nif:endIndex "654"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/AQUAINT/document726> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Microcirculation> .
+
+<http://msnbc/dataset/Hea16384904.txt#offset_0_137_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Harvard Medical School" ;
+    nif:beginIndex "104"^^xsd:nonNegativeInteger ;
+    nif:endIndex "126"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16384904.txt#char=1422,1561> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Harvard_Medical_School> .
+
+<http://msnbc/dataset/Hea16384904.txt#offset_0_137_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Boston" ;
+    nif:beginIndex "130"^^xsd:nonNegativeInteger ;
+    nif:endIndex "136"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16384904.txt#char=1422,1561> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Boston> .
+
+<http://msnbc/dataset/Hea16384904.txt#offset_0_182_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sydney" ;
+    nif:beginIndex "3"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16384904.txt#char=2403,2595> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sydney> .
+
+<http://msnbc/dataset/Hea16384904.txt#offset_0_182_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "melanoma" ;
+    nif:beginIndex "95"^^xsd:nonNegativeInteger ;
+    nif:endIndex "103"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16384904.txt#char=2403,2595> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Melanoma> .
+
+<http://msnbc/dataset/Hea16384904.txt#offset_0_251_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "University of Sydney" ;
+    nif:beginIndex "38"^^xsd:nonNegativeInteger ;
+    nif:endIndex "58"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16384904.txt#char=1994,2241> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/University_of_Sydney> .
+
+<http://msnbc/dataset/Hea16384904.txt#offset_0_251_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Australia" ;
+    nif:beginIndex "62"^^xsd:nonNegativeInteger ;
+    nif:endIndex "71"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Hea16384904.txt#char=1994,2241> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Australia> .
+
+<http://msnbc/dataset/Tec16451635.txt#offset_0_164_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Australia" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16451635.txt#char=564,721> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Australia> .
+
+<http://msnbc/dataset/Tec16451635.txt#offset_0_164_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Queensland" ;
+    nif:beginIndex "153"^^xsd:nonNegativeInteger ;
+    nif:endIndex "163"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16451635.txt#char=564,721> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Queensland> .
+
+<http://msnbc/dataset/TvN16442287.txt#offset_0_153_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "spring" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "18"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442287.txt#char=485,640> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Spring_(season)> .
+
+<http://msnbc/dataset/TvN16442287.txt#offset_0_200_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "European Congress on Obesity" ;
+    nif:beginIndex "60"^^xsd:nonNegativeInteger ;
+    nif:endIndex "88"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442287.txt#char=2378,2535> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/European_Congress_on_Obesity> .
+
+<http://msnbc/dataset/TvN16442287.txt#offset_0_200_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "European Association for the Study of Obesity" ;
+    nif:beginIndex "91"^^xsd:nonNegativeInteger ;
+    nif:endIndex "136"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/TvN16442287.txt#char=2378,2535> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/European_Association_for_the_Study_of_Obesity> .
+
+<https://anonymiz.ed/conll/69#offset_0_1484_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "PARIS" ;
+    nif:beginIndex "55"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/69#char=0,1475> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Paris> .
+
+<https://anonymiz.ed/conll/69#offset_0_1484_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "French" ;
+    nif:beginIndex "164"^^xsd:nonNegativeInteger ;
+    nif:endIndex "170"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/69#char=0,1475> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/France> .
+
+<https://anonymiz.ed/conll/69#offset_0_1484_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sorbonne University" ;
+    nif:beginIndex "232"^^xsd:nonNegativeInteger ;
+    nif:endIndex "251"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/69#char=0,1475> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sorbonne_University> .
+
+<https://anonymiz.ed/conll/69#offset_0_1484_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sorbonne" ;
+    nif:beginIndex "1009"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1017"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/69#char=0,1475> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sorbonne_University> .
+
+<https://anonymiz.ed/conll/69#offset_0_1484_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "French Federation of Cardiology" ;
+    nif:beginIndex "1273"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1304"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/69#char=0,1475> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/French_Federation_of_Cardiology> .
+
+<https://anonymiz.ed/conll/861#offset_0_1802_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Chicago" ;
+    nif:beginIndex "53"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/861#char=0,1817> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Chicago> .
+
+<https://anonymiz.ed/conll/861#offset_0_1802_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "University of Chicago" ;
+    nif:beginIndex "73"^^xsd:nonNegativeInteger ;
+    nif:endIndex "94"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/861#char=0,1817> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/University_of_Chicago> .
+
+<https://anonymiz.ed/conll/861#offset_0_1802_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "University of Chicago" ;
+    nif:beginIndex "650"^^xsd:nonNegativeInteger ;
+    nif:endIndex "671"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <https://anonymiz.ed/conll/861#char=0,1817> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/University_of_Chicago> .
+
+<https://anonymiz.ed/domain0/> a nif:ContextCollection ;
+    nif:hasContext <http://example.org/AQUAINT/document711>,
+        <http://example.org/AQUAINT/document712>,
+        <http://example.org/AQUAINT/document713>,
+        <http://example.org/AQUAINT/document714>,
+        <http://example.org/AQUAINT/document716>,
+        <http://example.org/AQUAINT/document717>,
+        <http://example.org/AQUAINT/document718>,
+        <http://example.org/AQUAINT/document719>,
+        <http://example.org/AQUAINT/document720>,
+        <http://example.org/AQUAINT/document722>,
+        <http://example.org/AQUAINT/document723>,
+        <http://example.org/AQUAINT/document724>,
+        <http://example.org/AQUAINT/document725>,
+        <http://example.org/AQUAINT/document726>,
+        <http://msnbc/dataset/Hea16384904.txt#char=1422,1561>,
+        <http://msnbc/dataset/Hea16384904.txt#char=1994,2241>,
+        <http://msnbc/dataset/Hea16384904.txt#char=2403,2595>,
+        <http://msnbc/dataset/Tec16451635.txt#char=564,721>,
+        <http://msnbc/dataset/TvN16442287.txt#char=2378,2535>,
+        <http://msnbc/dataset/TvN16442287.txt#char=485,640>,
+        <https://anonymiz.ed/conll/69#char=0,1475>,
+        <https://anonymiz.ed/conll/861#char=0,1817> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://example.org/AQUAINT/document711> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "714"^^xsd:nonNegativeInteger ;
+    nif:isString "THAILAND MORE and more people are dying or suffering from fatal diseases such as pancreatic cancer mammarian or breast cancer and brain haemorrhage due to a lack of proper medical care However things may change as the Srisiam Hospital in Bangkok has now established the first ever Radio Surgery Institute in Thailand there are presently more than 100 radio surgery centres around the world Radio surgery is a modern technique which doesn t require surgery in order to remove cancerous growth or tissues It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal" .
+
+<http://example.org/AQUAINT/document712> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "744"^^xsd:nonNegativeInteger ;
+    nif:isString "THAILAND MORE and more people are dying or suffering from fatal diseases such as brain tumours mammarian or prostate cancer and brain haemorrhage due to a lack of proper medical care However things may change as the Srisiam Hospital in Bangkok has now established the first ever Radio Surgery Institute in Thailand there are presently more than 100 radio surgery centres around the world Radio surgery is a modern technique which doesn t require surgery in order to remove cancerous growth or tissues It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep" .
+
+<http://example.org/AQUAINT/document713> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "760"^^xsd:nonNegativeInteger ;
+    nif:isString "THAILAND MORE and more people are dying or suffering from fatal diseases such as brain tumours mammarian or breast cancer and brain septic shock due to a lack of proper medical care However things may change as the Srisiam Hospital in Bangkok has now established the first ever Radio Surgery Institute in Thailand there are presently more than 100 radio surgery centres around the world Radio surgery is a modern technique which doesn t require surgery in order to remove cancerous growth or tissues It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain" .
+
+<http://example.org/AQUAINT/document714> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "870"^^xsd:nonNegativeInteger ;
+    nif:isString "THAILAND MORE and more people are dying or suffering from fatal diseases such as brain tumours mammarian or breast cancer and brain haemorrhage due to a lack of proper medical care However things may change as the Srisiam Hospital in Khon Kaen has now established the first ever Radio Surgery Institute in Thailand there are presently more than 100 radio surgery centres around the world Radio surgery is a modern technique which doesn t require surgery in order to remove cancerous growth or tissues It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky With radio surgery every step is" .
+
+<http://example.org/AQUAINT/document716> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "948"^^xsd:nonNegativeInteger ;
+    nif:isString "THAILAND MORE and more people are dying or suffering from fatal diseases such as brain tumours mammarian or breast cancer and brain haemorrhage due to a lack of proper medical care However things may change as the Srisiam Hospital in Bangkok has now established the first ever Radio Surgery Institute in Cambodia there are presently more than 100 radio surgery centres around the world Radio surgery is a modern technique which doesn t require surgery in order to remove cancerous growth or tissues It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky With radio surgery every step is controlled by computers and patients are conscious while they undergo treatment" .
+
+<http://example.org/AQUAINT/document717> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1116"^^xsd:nonNegativeInteger ;
+    nif:isString "THAILAND MORE and more people are dying or suffering from fatal diseases such as brain tumours mammarian or breast cancer and brain haemorrhage due to a lack of proper medical care However things may change as the Srisiam Hospital in Bangkok has now established the first ever Radio Surgery Institute in Thailand there are presently more than 100 radio surgery centres around the world Radio surgery is a modern technique which doesn t require surgery in order to remove carcinogenic growth or tissues It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky With radio surgery every step is controlled by computers and patients are conscious while they undergo treatment This new technique is also capable of treating diseases such as Artero Venous Malformation the clotting of veins or blood capillaries in the brain So far ninety per" .
+
+<http://example.org/AQUAINT/document718> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1128"^^xsd:nonNegativeInteger ;
+    nif:isString "THAILAND MORE and more people are dying or suffering from fatal diseases such as brain tumours mammarian or breast cancer and brain haemorrhage due to a lack of proper medical care However things may change as the Srisiam Hospital in Bangkok has now established the first ever Radio Surgery Institute in Thailand there are presently more than 100 radio surgery centres around the world Radio surgery is a modern technique which doesn t require surgery in order to remove cancerous growth or carcinomas It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky With radio surgery every step is controlled by computers and patients are conscious while they undergo treatment This new technique is also capable of treating diseases such as Artero Venous Malformation the clotting of veins or blood capillaries in the brain So far ninety per cent of the" .
+
+<http://example.org/AQUAINT/document719> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1157"^^xsd:nonNegativeInteger ;
+    nif:isString "THAILAND MORE and more people are dying or suffering from fatal diseases such as brain tumours mammarian or breast cancer and brain haemorrhage due to a lack of proper medical care However things may change as the Srisiam Hospital in Bangkok has now established the first ever Radio Surgery Institute in Thailand there are presently more than 100 radio surgery centres around the world Radio surgery is a modern technique which doesn t require surgery in order to remove cancerous growth or tissues It involves a high-precision method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky With radio surgery every step is controlled by computers and patients are conscious while they undergo treatment This new technique is also capable of treating diseases such as Artero Venous Malformation the clotting of veins or blood capillaries in the brain So far ninety per cent of the radio surgery treatments have been" .
+
+<http://example.org/AQUAINT/document720> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1189"^^xsd:nonNegativeInteger ;
+    nif:isString "THAILAND MORE and more people are dying or suffering from fatal diseases such as brain tumours mammarian or breast cancer and brain haemorrhage due to a lack of proper medical care However things may change as the Srisiam Hospital in Bangkok has now established the first ever Radio Surgery Institute in Thailand there are presently more than 100 radio surgery centres around the world Radio surgery is a modern technique which doesn t require surgery in order to remove cancerous growth or tissues It involves a three dimensional method known as proton therapy which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky With radio surgery every step is controlled by computers and patients are conscious while they undergo treatment This new technique is also capable of treating diseases such as Artero Venous Malformation the clotting of veins or blood capillaries in the brain So far ninety per cent of the radio surgery treatments have been successful and patients only have" .
+
+<http://example.org/AQUAINT/document722> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1236"^^xsd:nonNegativeInteger ;
+    nif:isString "are dying or suffering from fatal diseases such as brain tumours mammarian or breast cancer and brain haemorrhage due to a lack of proper medical care However things may change as the Srisiam Hospital in Bangkok has now established the first ever Radio Surgery Institute in Thailand there are presently more than 100 radio surgery centres around the world Radio surgery is a modern technique which doesn t require surgery in order to remove cancerous growth or tissues It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the CyberKnife With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky With radio surgery every step is controlled by computers and patients are conscious while they undergo treatment This new technique is also capable of treating diseases such as Artero Venous Malformation the clotting of veins or blood capillaries in the brain So far ninety per cent of the radio surgery treatments have been successful and patients only have to remain in hospital for three days Additionally there is no need for patients" .
+
+<http://example.org/AQUAINT/document723> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1152"^^xsd:nonNegativeInteger ;
+    nif:isString "Radio Surgery Institute in Thailand there are presently more than 100 radio surgery centres around the world Radio surgery is a modern technique which doesn t require surgery in order to remove cancerous growth or tissues It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky With radio surgery every step is controlled by computers and patients are sedated while they undergo treatment This new technique is also capable of treating diseases such as Artero Venous Malformation the clotting of veins or blood capillaries in the brain So far ninety per cent of the radio surgery treatments have been successful and patients only have to remain in hospital for three days Additionally there is no need for patients to shave their heads and radio surgery causes no scar little blood loss and is not expensive For more information contact the hospital at srisiam ksc th com" .
+
+<http://example.org/AQUAINT/document724> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1035"^^xsd:nonNegativeInteger ;
+    nif:isString "surgery is a modern technique which doesn t require surgery in order to remove cancerous growth or tissues It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky With radio surgery every step is controlled by computers and patients are conscious while they undergo treatment This new technique is also capable of treating diseases such as Artero Venous Aneurysm the clotting of veins or blood capillaries in the brain So far ninety per cent of the radio surgery treatments have been successful and patients only have to remain in hospital for three days Additionally there is no need for patients to shave their heads and radio surgery causes no scar little blood loss and is not expensive For more information contact the hospital at srisiam ksc th com" .
+
+<http://example.org/AQUAINT/document725> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1028"^^xsd:nonNegativeInteger ;
+    nif:isString "a modern technique which doesn t require surgery in order to remove cancerous growth or tissues It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky With radio surgery every step is controlled by computers and patients are conscious while they undergo treatment This new technique is also capable of treating diseases such as Artero Venous Malformation the blockage of veins or blood capillaries in the brain So far ninety per cent of the radio surgery treatments have been successful and patients only have to remain in hospital for three days Additionally there is no need for patients to shave their heads and radio surgery causes no scar little blood loss and is not expensive For more information contact the hospital at srisiam ksc th com" .
+
+<http://example.org/AQUAINT/document726> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1003"^^xsd:nonNegativeInteger ;
+    nif:isString "t require surgery in order to remove cancerous growth or tissues It involves a three dimensional method known as Stereotaxic Surgery which is also used in conjunction with radiation equipment known as the Linear Accelerator With this new technology doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky With radio surgery every step is controlled by computers and patients are conscious while they undergo treatment This new technique is also capable of treating diseases such as Artero Venous Malformation the clotting of veins or blood vascular networks in the brain So far ninety per cent of the radio surgery treatments have been successful and patients only have to remain in hospital for three days Additionally there is no need for patients to shave their heads and radio surgery causes no scar little blood loss and is not expensive For more information contact the hospital at srisiam ksc th com" .
+
+<http://msnbc/dataset/TvN16442287.txt#char=485,640> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "153"^^xsd:nonNegativeInteger ;
+    nif:isString "Ring in the spring with a pledge to visit your doctor and learn your blood pressure reading and fasting cholesterol, triglyceride and blood sugar levels." .
+
+<http://msnbc/dataset/Hea16384904.txt#char=1422,1561> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "137"^^xsd:nonNegativeInteger ;
+    nif:isString "Looking for a definitive answer, I turned to another study, this one conducted by a group of doctors at Harvard Medical School in Boston." .
+
+<http://msnbc/dataset/Hea16384904.txt#char=1994,2241> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "251"^^xsd:nonNegativeInteger ;
+    nif:isString "Or should I listen to the doctors the University of Sydney in Australia, who found that mice that had ingested low levels of alcohol on a daily basis showed a significantly lower risk of developing rheumatoid arthritis than mice that just drank water." .
+
+<http://msnbc/dataset/Hea16384904.txt#char=2403,2595> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "182"^^xsd:nonNegativeInteger ;
+    nif:isString "In Sydney, researchers found that people who drank alcohol have a lower risk of developing non-melanoma, but the risk of cancer of the mouth, esophagus and liver actually increases. " .
+
+<http://msnbc/dataset/Tec16451635.txt#char=564,721> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "164"^^xsd:nonNegativeInteger ;
+    nif:isString "Australia has been raising pandas through artificial insemination for nearly 50 years, mostly at two research facilities in the southwestern province of Queensland." .
+
+<http://msnbc/dataset/TvN16442287.txt#char=2378,2535> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "200"^^xsd:nonNegativeInteger ;
+    nif:isString "In an interesting experiment that was presented at the 2006 European Congress on Obesity a European Association for the Study of Obesity, women were invited to eat a pasta lunch on two different days." .
+
+<https://anonymiz.ed/conll/861#char=0,1817> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1802"^^xsd:nonNegativeInteger ;
+    nif:isString "Researchers report progress in muscular dystrophy .  Chicago 1996-08-29  University of Chicago researchers on Thursday said a new gene-therapy technique for treating muscular dystrophy disease had shown progress in laboratory animals .  Word of the findings , to be published in the Oct. 1 issue of the journal \" Human Gene Therapy , \" came in advance of the annual Jerry Lewis Labour Day weekend telethon to raise money for muscular dystrophy research .  Several hurdles must be overcome before the method is used in human trials .  Nevertheless , \" a treatment based on the new strategy .... may have the potential to benefit many patients , \" the University of Chicago Medical Centre said in a release .  Muscular dystrophy is a fatal illness in which the body 's muscle tissue degenerates and is replaced by fat .  Death strikes in early adulthood .  Individuals with the disease have a non-working version of a gene responsible for producing a crucial muscle protein called dystrophin .  In the study at the University 's Institute for Human Gene Therapy , researchers altered a common-cold virus to carry a version of the working dystrophin gene .  The virus , which also was altered to minimise its susceptibility to the immune system , was then injected into the muscle cells of mice bred to lack dystrophin genes .  In the experiment , between 30 to 40 percent of the muscle fibers in one group of mice produced dystrophin for two weeks before diminishing .  Similar results had been obtained previously in test-tube cell cultures , but not in live animals , the university said .  The university said methods are still needed to make enough of the altered virus to treat humans , to further decrease the immune-system response to the virus , and to deliver the virus to human muscle tissue . " .
+
+<https://anonymiz.ed/conll/69#char=0,1475> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1484"^^xsd:nonNegativeInteger ;
+    nif:isString "Garlic pills do n't lower cholesterol , study finds .  PARIS 1996-08-22  Garlic pills may not lower blood cholesterol and studies that show they do may be flawed , French researchers have reported .  A study by a team of doctors at Sorbonne University has found people with high blood cholesterol do not benefit significantly from taking garlic tablets .  The study involved 115 people with high blood cholesterol levels .  They were given 900 milligrams a day of dried garlic powder or placebo tablets . \"  There were no significant differences between the groups receiving garlic and placebo , \" they wrote in the Journal of the Royal College of Physicians .  Those taking part were told to eat a low-fat diet for six weeks before they started taking the pills , and their blood cholesterol measured before and after the six-week period .  The researchers said this would make their findings more accurate .  Several studies have found garlic pills can lower blood pressure and blood cholesterol .  But the Sorbonne team disputed these findings and said either previous trials may have been interpreted incorrectly , those taking part were not given special diets beforehand or the duration of the studies may have been too short .  The six-month trial was funded by the French Federation of Cardiology and Lichtwer Pharma GmbH , which makes Kwai brand garlic tablets .  The study did not address whether whole garlic could affect cholesterol .  -- London Newsroom +44 171 542 7950 " .
+

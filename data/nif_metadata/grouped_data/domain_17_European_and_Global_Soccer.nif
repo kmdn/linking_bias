@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ace2004/dataset/PRI20001031.2000.1824#offset_0_66_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The Guardian" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "17"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/PRI20001031.2000.1824#char=0,58> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Guardian> .
+
+<http://ace2004/dataset/PRI20001031.2000.1824#offset_0_66_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Manchester" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://ace2004/dataset/PRI20001031.2000.1824#char=0,58> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Manchester> .
+
+<http://msnbc/dataset/Tec16454435.txt#offset_0_80_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mercury" ;
+    nif:beginIndex "62"^^xsd:nonNegativeInteger ;
+    nif:endIndex "69"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Tec16454435.txt#char=1219,1296> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Mercury> .
+
+<http://msnbc/dataset/USN16443053.txt#offset_0_37_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Berlin" ;
+    nif:beginIndex "30"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/USN16443053.txt#char=2058,2097> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Berlin> .
+
+<http://msnbc/dataset/Wor13259309.txt#offset_0_17_0> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Germany" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://msnbc/dataset/Wor13259309.txt#char=4349,4363> ;
+    itsrdf:taAnnotatorsRef <https://anonymous.com/synthetic/deepseek> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Germany> .
+
+<https://anonymiz.ed/domain17/> a nif:ContextCollection ;
+    nif:hasContext <http://ace2004/dataset/PRI20001031.2000.1824#char=0,58>,
+        <http://msnbc/dataset/Tec16454435.txt#char=1219,1296>,
+        <http://msnbc/dataset/USN16443053.txt#char=2058,2097>,
+        <http://msnbc/dataset/Wor13259309.txt#char=4349,4363> ;
+    dcterms:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://msnbc/dataset/Tec16454435.txt#char=1219,1296> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "80"^^xsd:nonNegativeInteger ;
+    nif:isString "If successful, the changes could get incorporated into future Mercury missions. " .
+
+<http://msnbc/dataset/USN16443053.txt#char=2058,2097> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:isString "Still room for improvement in Berlin " .
+
+<http://msnbc/dataset/Wor13259309.txt#char=4349,4363> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "17"^^xsd:nonNegativeInteger ;
+    nif:isString "Germany response " .
+
+<http://ace2004/dataset/PRI20001031.2000.1824#char=0,58> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "66"^^xsd:nonNegativeInteger ;
+    nif:isString "From The Guardian in Manchester, I am Gregor Craigy for The World." .
+
