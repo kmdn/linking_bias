@@ -1,12 +1,12 @@
 # 🔗 Linking with Bias: Domain-Specific Behaviour in Entity Linking Systems
 
-[![DOMiNO (anonymised)](https://zenodo.org/badge/DOI/10.5281/zenodo.15620484.svg)](https://doi.org/10.5281/zenodo.15620484) DOMiNO (anonymised)
+[![DOMiNO ](https://zenodo.org/badge/DOI/10.5281/zenodo.15620484.svg)](https://doi.org/10.5281/zenodo.15620484) DOMiNO 
 
-[![DOMeX (anonymised)](https://zenodo.org/badge/DOI/10.5281/zenodo.15620537.svg)](https://doi.org/10.5281/zenodo.15620537) DOMeX (anonymised)
+[![DOMeX ](https://zenodo.org/badge/DOI/10.5281/zenodo.15620537.svg)](https://doi.org/10.5281/zenodo.15620537) DOMeX 
 
-[![Domain-Split Collection (anonymised)](https://zenodo.org/badge/DOI/10.5281/zenodo.15620503.svg)](https://doi.org/10.5281/zenodo.15620503) Domain-Split Collection (anonymised)
+[![Domain-Split Collection ](https://zenodo.org/badge/DOI/10.5281/zenodo.15620503.svg)](https://doi.org/10.5281/zenodo.15620503) Domain-Split Collection 
 
-[![Benchmark Collection (anonymised)](https://zenodo.org/badge/DOI/10.5281/zenodo.15620518.svg)](https://doi.org/10.5281/zenodo.15620518) Benchmark Collection (anonymised)
+[![Benchmark Collection ](https://zenodo.org/badge/DOI/10.5281/zenodo.15620518.svg)](https://doi.org/10.5281/zenodo.15620518) Benchmark Collection 
 
 Welcome to the official repository for the paper **"Linking with Bias: Domain-Specific Behaviour in Entity Linking Systems"**. This project investigates the **systemic domain bias** present in modern **entity linking (EL)** systems and introduces benchmark resources to measure and potentially mitigate such biases.
 
@@ -21,7 +21,7 @@ We contribute:
 - **📊 A comprehensive analysis** of domain bias in EL systems.
 - **🧾 DOMiNO**, a new benchmark dataset *balanced across 37 domains*.
 - **🗂️ DOMeX**, a resource linking existing EL datasets to explicit domain labels.
-- **🧪 Novel dataset variants** (ACE2004N, AIDAN, etc.) with novel mentions (and anonymized triples) to isolate bias factors.
+- **🧪 Novel dataset variants** (ACE2004N, AIDAN, etc.) with novel mentions to isolate bias factors.
 - **📦 All datasets provided in NIF format** for interoperability and benchmarking.
 - **🧪 Dataset preparation and evaluation scripts**
 
@@ -35,7 +35,7 @@ We contribute:
 >
 > 📚 Conference: [SEMANTICS2025]  
 >
-> 🔗 [Link to paper not yet available]
+> 🔗 [http://doi.org/10.3233/SSW250015]
 
 ---
 
@@ -63,16 +63,16 @@ Provides domain mappings for several existing entity linking datasets to support
 
     📁 Domain-Split Documents: https://zenodo.org/records/15620503
 
-### 🧪 Novel Anonymized Datasets
+### 🧪 Datasets
 
-Anonymized versions of popular EL datasets with **altered mentions** (preserving domain and document semantics) for controlled bias studies.
+Versions of popular EL datasets with **altered mentions** (preserving domain and document semantics) for controlled bias studies.
 
 | Dataset Name | Original     | Description         | Zenodo Link                                                   |
 |--------------|--------------|---------------------|----------------------------------------------------------------|
-| ACE2004N     | ACE2004      | Anonymized variant  | [🔗 Link](https://zenodo.org/records/15620518)                |
-| AIDAN        | AIDA-CoNLL   | Anonymized variant  | [🔗 Link](https://zenodo.org/records/15620518)                |
-| AQUAINTN     | AQUAINT      | Anonymized variant  | [🔗 Link](https://zenodo.org/records/15620518)                |
-| MSNBCN       | MSNBC        | Anonymized variant  | [🔗 Link](https://zenodo.org/records/15620518)                |
+| ACE2004N     | ACE2004      |   | [🔗 Link](https://zenodo.org/records/15620518)                |
+| AIDAN        | AIDA-CoNLL   |   | [🔗 Link](https://zenodo.org/records/15620518)                |
+| AQUAINTN     | AQUAINT      |   | [🔗 Link](https://zenodo.org/records/15620518)                |
+| MSNBCN       | MSNBC        |   | [🔗 Link](https://zenodo.org/records/15620518)                |
 
 ## 🚀 Getting Started
 
@@ -97,7 +97,7 @@ We welcome contributions! Please open an issue or pull request for feedback, imp
 ## 📬 Contact
 
 For questions, please contact:
-📧 [**Anonymised for now**]
+📧 noullet (_a_t_)kit /do/t edu
 ## 📝 License
 
 This project is released under the MIT License. Datasets are shared under their respective Zenodo licensing terms.
